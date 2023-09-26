@@ -1,0 +1,65 @@
+.buildARoyal,
+.imageIcon {
+  position: absolute;
+  left: 48px;
+}
+.imageIcon {
+  top: 80px;
+  width: 105px;
+  height: 9px;
+  overflow: hidden;
+}
+.buildARoyal {
+  top: 110px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  width: 453px;
+}
+.groupContainer,
+.groupParent {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.groupParent {
+  top: 429px;
+  left: calc(50% - 592px);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-inverse);
+}
+.groupContainer {
+  top: 902px;
+  left: calc(50% - 390px);
+}
+.inTitanSaga {
+  margin: 0;
+}
+.inTitanSagaContainer {
+  position: absolute;
+  top: 192px;
+  left: 48px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.03em;
+  line-height: 27px;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  width: 1184px;
+}
+.imageParent {
+  position: absolute;
+  top: 583px;
+  left: calc(50% - 640px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-300);
+  width: 1280px;
+  height: 1407px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--text-1);
+  font-family: var(--font-libre-baskerville);
+}

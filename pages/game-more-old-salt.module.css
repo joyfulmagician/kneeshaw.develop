@@ -1,0 +1,586 @@
+.oldSalt {
+  position: absolute;
+  top: 256px;
+  left: 630px;
+  letter-spacing: 0.03em;
+}
+.imageIcon {
+  position: absolute;
+  top: 362px;
+  left: 670px;
+  width: 100px;
+  height: 9px;
+  overflow: hidden;
+}
+.multiplayerNavalStrategy {
+  position: absolute;
+  top: 429px;
+  left: 237px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.03em;
+  line-height: 27px;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  width: 966px;
+}
+.imageIcon1 {
+  position: absolute;
+  top: 80px;
+  left: 48px;
+  width: 100px;
+  height: 9px;
+  overflow: hidden;
+}
+.bringUniqueFaction {
+  position: absolute;
+  top: 110px;
+  left: 48px;
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.03em;
+}
+.rectangle {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.09);
+  width: 373px;
+  height: 275px;
+}
+.bootleggers {
+  position: absolute;
+  top: 328px;
+  left: 111px;
+  letter-spacing: 0.03em;
+}
+.image15Icon {
+  position: absolute;
+  top: 0;
+  left: 37px;
+  width: 300px;
+  height: 316px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: relative;
+  width: 373px;
+  height: 425px;
+}
+.barbarians,
+.elite {
+  position: absolute;
+  top: 328px;
+  letter-spacing: 0.03em;
+}
+.barbarians {
+  left: 120px;
+  display: inline-block;
+  width: 135px;
+  height: 34px;
+}
+.elite {
+  left: 157px;
+}
+.groupParent {
+  position: absolute;
+  top: 899px;
+  left: calc(50% - 592px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  text-align: center;
+  color: var(--primary-inverse);
+}
+.eternal,
+.forgotten {
+  position: absolute;
+  top: 328px;
+  left: 124px;
+  letter-spacing: 0.03em;
+}
+.eternal {
+  left: 140px;
+}
+.groupContainer {
+  position: absolute;
+  top: 426px;
+  left: calc(50% - 592px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  text-align: center;
+  color: var(--primary-inverse);
+}
+.embarkOnA {
+  margin: 0;
+}
+.embarkOnAContainer {
+  position: absolute;
+  top: 181px;
+  left: 48px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.03em;
+  line-height: 27px;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  width: 1194px;
+}
+.imageParent {
+  position: absolute;
+  top: 583px;
+  left: calc(50% - 645px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-300);
+  width: 1290px;
+  height: 1404px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.features {
+  position: absolute;
+  top: 2107px;
+  left: calc(50% - 643px);
+  letter-spacing: 0.03em;
+}
+.frameParent,
+.imageIcon2 {
+  position: absolute;
+  left: calc(50% - 640px);
+}
+.imageIcon2 {
+  top: 2178px;
+  width: 100px;
+  height: 9px;
+  overflow: hidden;
+}
+.frameParent {
+  top: 2243px;
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exploreOldSalt {
+  position: absolute;
+  top: 2878px;
+  left: calc(50% - 254px);
+  letter-spacing: 0.03em;
+}
+.imageIcon3 {
+  position: absolute;
+  top: 2949px;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 9px;
+  overflow: hidden;
+}
+.skillSystemIcon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 1280px;
+  height: 724px;
+  object-fit: cover;
+}
+.tintOverlayIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.pauseIcon,
+.playIcon {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 38px);
+  width: 76px;
+  height: 81px;
+}
+.pauseIcon {
+  left: calc(50% - 31px);
+  width: 63px;
+  display: none;
+}
+.gameName {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 2px;
+}
+.text,
+.video {
+  position: absolute;
+}
+.text {
+  width: 99.07%;
+  top: 0;
+  right: 0.93%;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+}
+.video {
+  top: 3283px;
+  left: calc(50% - 640px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-300);
+  width: 1280px;
+  height: 724px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--primary-inverse);
+}
+.oldSaltFeaturesContainer {
+  position: absolute;
+  top: 3014px;
+  left: calc(50% - 592px);
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.03em;
+  line-height: 27px;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  width: 1184px;
+}
+.footerChild,
+.footerItem {
+  position: absolute;
+  top: -0.15px;
+  left: -0.15px;
+  border-top: 0.3px solid var(--text-1);
+  box-sizing: border-box;
+  width: 1440.3px;
+  height: 0.3px;
+}
+.footerItem {
+  top: 341.9px;
+  left: 347.9px;
+  border-top: 0.2px solid var(--text-1);
+  width: 744.2px;
+  height: 0.2px;
+  display: none;
+}
+.kneeshawDevelomentAll {
+  position: absolute;
+  top: 346px;
+  left: 536px;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.03em;
+  font-weight: 300;
+  opacity: 0.66;
+}
+.logoWhite1 {
+  position: absolute;
+  top: 20px;
+  left: 89px;
+  width: 150px;
+  height: 67px;
+  object-fit: cover;
+}
+.akarIconslinkedinFill {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons {
+  position: absolute;
+  top: 117px;
+  left: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.joinOurNewsletter {
+  position: absolute;
+  top: 35px;
+  left: 1110px;
+  letter-spacing: 0.06em;
+  font-family: var(--font-libre-baskerville);
+  color: var(--primary-inverse);
+  opacity: 0.7;
+}
+.subscribeChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-silver-300);
+  width: 415px;
+  height: 54px;
+  opacity: 0.15;
+}
+.subscribeItem {
+  position: absolute;
+  top: 7px;
+  left: 274px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-darkkhaki-200);
+  width: 134px;
+  height: 40px;
+}
+.subscribe1 {
+  position: absolute;
+  top: 13px;
+  left: 293px;
+  letter-spacing: 0.11em;
+  line-height: 28px;
+  font-weight: 600;
+}
+.yourEmail {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  font-size: var(--label-s-semibold-size);
+  letter-spacing: 0.13em;
+  color: var(--primary-inverse);
+  text-align: left;
+  opacity: 0.65;
+}
+.subscribe {
+  position: absolute;
+  top: 75px;
+  left: 985px;
+  width: 415px;
+  height: 54px;
+  text-align: center;
+}
+.terms {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.privacy {
+  position: absolute;
+  top: 35px;
+  left: 646px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.games {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.footer,
+.menu {
+  position: absolute;
+}
+.menu {
+  top: 35px;
+  left: 404px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.footer {
+  top: 4651px;
+  left: 0;
+  width: 1440px;
+  height: 364px;
+  text-align: left;
+  font-size: var(--label-m-semibold-size);
+  font-family: var(--font-montserrat);
+}
+.logoWhite11 {
+  position: relative;
+  width: 192px;
+  height: 86px;
+  object-fit: cover;
+  z-index: 0;
+}
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+  z-index: 1;
+}
+.shoppingBagIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  z-index: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 150%;
+}
+.badge,
+.shoppingBagParent {
+  display: flex;
+  align-items: center;
+}
+.badge {
+  margin: 0 !important;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkkhaki-200);
+  width: 16px;
+  height: 16px;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.shoppingBagParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.signIn1 {
+  position: absolute;
+  top: 19px;
+  left: 0;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+}
+.signInChild {
+  position: absolute;
+  top: 0;
+  left: 84px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-darkkhaki-200);
+  width: 150px;
+  height: 60px;
+}
+.signUp {
+  position: absolute;
+  top: 19px;
+  left: 123px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.signIn {
+  position: relative;
+  width: 234px;
+  height: 60px;
+  display: none;
+  color: var(--color-darkkhaki-200);
+}
+.bg,
+.es {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-darkkhaki-200);
+  width: 48px;
+  height: 48px;
+}
+.es {
+  top: calc(50% - 11px);
+  left: calc(50% - 12px);
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.avatar {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.emeryStanton {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  display: none;
+}
+.icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameGroup,
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile {
+  height: 68px;
+  gap: var(--gap-5xs);
+}
+.frameGroup {
+  gap: var(--gap-5xl);
+  z-index: 2;
+}
+.headerChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 61px;
+  left: 397px;
+  border-top: 2px solid var(--color-darkkhaki-200);
+  box-sizing: border-box;
+  width: 67px;
+  height: 2px;
+  z-index: 3;
+}
+.header,
+.header1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header1 {
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  width: 1440px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-montserrat);
+}
+.gameMoreOldSalt {
+  position: relative;
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 5039px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--text-1);
+  font-family: var(--font-libre-baskerville);
+}

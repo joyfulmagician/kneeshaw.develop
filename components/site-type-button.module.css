@@ -1,0 +1,48 @@
+.typesChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 350px);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-silver-300);
+  width: 700px;
+  height: 90px;
+  opacity: 0.23;
+}
+.typesItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-darkkhaki-200);
+  position: absolute;
+  top: 10px;
+  left: 355px;
+  border-radius: var(--br-base);
+  width: 335px;
+  height: 70px;
+}
+.createWithUs,
+.playWithUs {
+  position: absolute;
+  top: 31px;
+  letter-spacing: 0.04em;
+}
+.createWithUs {
+  left: 432px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.playWithUs {
+  left: 102px;
+  font-weight: 600;
+  color: var(--color-gray-1000);
+}
+.types {
+  position: absolute;
+  top: 352px;
+  left: 712px;
+  width: 700px;
+  height: 90px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--text-1);
+  font-family: var(--font-montserrat);
+}

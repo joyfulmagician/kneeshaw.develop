@@ -1,0 +1,37 @@
+.ringIcon {
+  position: absolute;
+  height: calc(100% + 76.64px);
+  width: calc(100% - 0.73px);
+  top: 0.36px;
+  right: 0.36px;
+  bottom: -77px;
+  left: 0.36px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.label,
+.number {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 50.5px);
+  letter-spacing: 0.02em;
+}
+.number {
+  top: calc(50% + 24px);
+  left: calc(50% - 30.5px);
+  font-size: var(--font-size-10xl);
+  line-height: 38px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkkhaki-200);
+}
+.progressCircle {
+  position: relative;
+  width: 193px;
+  height: 106px;
+  text-align: center;
+  font-size: var(--label-s-semibold-size);
+  color: var(--gray-500);
+  font-family: var(--font-libre-baskerville);
+}

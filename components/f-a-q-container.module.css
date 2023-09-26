@@ -1,0 +1,75 @@
+.frequentlyAskedQuestions {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.18em;
+  font-family: var(--font-libre-baskerville);
+}
+.q3Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  width: 880px;
+  height: 146px;
+  opacity: 0.1;
+}
+.whatIsGame {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+.designIcon,
+.vuesaxlineararrowUpIcon {
+  position: absolute;
+  top: 26px;
+  left: 840px;
+  width: 20px;
+  height: 20px;
+}
+.designIcon {
+  top: 29px;
+  left: 20px;
+  width: 14px;
+  height: 14px;
+}
+.gameDevelopmentIs {
+  position: absolute;
+  top: 67px;
+  left: 54px;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  width: 764px;
+}
+.faq,
+.q3,
+.q3Item {
+  position: absolute;
+  top: 66.5px;
+  left: 26.5px;
+  width: 1px;
+  height: 55px;
+}
+.faq,
+.q3 {
+  top: 334px;
+  left: 4px;
+  width: 880px;
+  height: 146px;
+}
+.faq {
+  top: 3825px;
+  left: 278px;
+  width: 884px;
+  height: 756px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--text-xs-medium);
+}

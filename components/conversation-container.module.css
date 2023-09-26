@@ -1,0 +1,328 @@
+.avatarOnlineIndicator {
+  position: absolute;
+  right: -1.5px;
+  bottom: -1.5px;
+  border-radius: var(--br-8xs);
+  background-color: var(--success-500);
+  border: 1.5px solid var(--primary-inverse);
+  box-sizing: border-box;
+  width: 13px;
+  height: 13px;
+  overflow: hidden;
+}
+.avatar {
+  position: relative;
+  border-radius: var(--br-181xl);
+  width: 40px;
+  height: 40px;
+  background-image: url(/avatar2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.yesterday {
+  font-weight: 500;
+}
+.sendTime {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.07px;
+  line-height: 13px;
+}
+.fileUploadIcon {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+.supportingText,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.supportingText {
+  color: var(--gray-500);
+}
+.textAndSupportingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content1,
+.content2 {
+  flex: 1;
+  align-items: flex-start;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content1 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.content,
+.content1,
+.input,
+.message1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.input {
+  align-self: stretch;
+  border-radius: 0 var(--br-lg) var(--br-lg) var(--br-lg);
+  background-color: var(--primary-inverse);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-whitesmoke-300);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-sm);
+  text-align: left;
+  font-size: var(--label-s-semibold-size);
+  color: var(--color-darkslategray-100);
+}
+.content,
+.message1 {
+  align-items: flex-start;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.message1 {
+  width: 360px;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  z-index: 0;
+}
+.avatar1,
+.text1 {
+  position: relative;
+}
+.avatar1 {
+  border-radius: var(--br-181xl);
+  width: 40px;
+  height: 40px;
+  background-image: url(/avatar11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.text1 {
+  align-self: stretch;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+}
+.content4,
+.input1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.content4 {
+  flex: 1;
+  align-items: flex-start;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.input1 {
+  align-self: stretch;
+  border-radius: 0 var(--br-lg) var(--br-lg) var(--br-lg);
+  background-color: var(--primary-inverse);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-whitesmoke-300);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-sm);
+}
+.content3,
+.message2,
+.messageSendTime {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content3 {
+  width: 451px;
+  flex-direction: column;
+}
+.message2,
+.messageSendTime {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.message2 {
+  flex-direction: row;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+}
+.messageSendTime {
+  flex-direction: column;
+}
+.messagebubble,
+.messagebubbleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.messagebubble {
+  width: 399px;
+  justify-content: flex-end;
+}
+.messagebubbleWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.content7 {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.content6,
+.content7,
+.input2,
+.message3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.input2 {
+  align-self: stretch;
+  border-radius: 0 var(--br-lg) var(--br-lg) var(--br-lg);
+  background-color: var(--primary-inverse);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-whitesmoke-300);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-sm);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+}
+.content6,
+.message3 {
+  width: 450px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.message3 {
+  width: 360px;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  z-index: 2;
+}
+.loadingDot {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray-500);
+  width: 4px;
+  height: 4px;
+}
+.loadingDotFrame {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.loadingDot1 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray-400);
+  width: 4px;
+  height: 4px;
+}
+.loadingDotFrame1,
+.loadingDotFrame2 {
+  height: 8px;
+  overflow: hidden;
+  flex-direction: row;
+}
+.loadingDotFrame1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.loadingDotFrame2 {
+  align-items: flex-end;
+}
+.content9,
+.input3,
+.loadingDotFrame2 {
+  display: flex;
+  justify-content: center;
+}
+.input3 {
+  border-radius: 0 var(--br-5xs) var(--br-5xs) var(--br-5xs);
+  background-color: var(--gray-100);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-9xs);
+}
+.content9 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.message4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  z-index: 3;
+}
+.slider {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-gray-1300);
+  box-shadow: 0 0 2px #fff;
+}
+.dScrollbar {
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  left: 1246px;
+  width: 4px;
+  height: 60px;
+  z-index: 4;
+}
+.message {
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  background-color: var(--color-darkslategray-300);
+  width: 1260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-13xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-montserrat);
+}
