@@ -1,0 +1,105 @@
+.text {
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  display: inline-block;
+  width: 154px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.iIconmicrophoneSwap {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.add,
+.dIconButton,
+.dIconButton1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.dIconButton {
+  border-radius: var(--br-980xl);
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.add,
+.dIconButton1 {
+  align-items: center;
+}
+.dIconButton1 {
+  border-radius: var(--br-980xl);
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.add {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.text1 {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  font-weight: 600;
+}
+.button,
+.buttonBase {
+  display: flex;
+  flex-direction: row;
+}
+.buttonBase {
+  border-radius: var(--br-7xs);
+  box-shadow: var(--shadow-xs);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-lg);
+}
+.button {
+  border-radius: var(--br-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer,
+.formbox,
+.formboxwrapper {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer {
+  align-self: stretch;
+  height: 42px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkkhaki-200);
+}
+.formbox,
+.formboxwrapper {
+  border-radius: 0 0 var(--br-base) var(--br-base);
+}
+.formbox {
+  flex: 1;
+  background-color: var(--color-darkslategray-300);
+  height: 142px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-5xl) 0;
+  gap: var(--gap-xl);
+}
+.formboxwrapper {
+  border-top: 1px solid var(--color-thistle);
+  width: 1260px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--primary-inverse);
+  font-family: var(--font-montserrat);
+}

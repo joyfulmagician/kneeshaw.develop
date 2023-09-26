@@ -1,0 +1,270 @@
+.div,
+.yourCart {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 150%;
+}
+.div {
+  font-size: var(--label-m-semibold-size);
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  color: var(--neutral-200);
+}
+.top {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-silver-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-5xl);
+}
+.imageIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.image {
+  border-radius: var(--br-7xs);
+  background-color: var(--text-1);
+  border: 1px solid var(--text-1);
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.titanSagaChains {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 150%;
+  font-weight: 500;
+}
+.minusIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.label {
+  border-radius: var(--br-9xs);
+  background-color: var(--text-1);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.div1 {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.label1,
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+.label1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--text-1);
+  border: 1px solid var(--text-1);
+  box-sizing: border-box;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+}
+.row2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--text-xs-medium-size);
+  color: var(--color-darkkhaki-200);
+}
+.div2 {
+  position: relative;
+  font-size: var(--label-s-semibold-size);
+  letter-spacing: 3px;
+  line-height: 150%;
+  text-align: right;
+  display: inline-block;
+  width: 64px;
+  flex-shrink: 0;
+}
+.box,
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.row1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.box {
+  flex: 1;
+  height: 36px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list1,
+.row {
+  align-self: stretch;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-base);
+}
+.list1 {
+  color: var(--text-1);
+  font-family: var(--font-montserrat);
+}
+.list,
+.list1,
+.list3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  flex: 1;
+  gap: var(--gap-5xl);
+}
+.list3 {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.checkout {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.buttonChild {
+  position: relative;
+  border-right: 2px solid var(--text-1);
+  box-sizing: border-box;
+  width: 2px;
+  height: 14px;
+}
+.button,
+.line {
+  align-self: stretch;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkkhaki-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-21xl);
+  gap: var(--gap-base);
+  font-size: var(--font-size-lg);
+}
+.line {
+  position: relative;
+  border-top: 1px solid var(--text-1);
+  box-sizing: border-box;
+  height: 1px;
+}
+.securePaymentsProvided {
+  position: relative;
+  letter-spacing: 4px;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.mastercardChild {
+  position: relative;
+  width: 30px;
+  height: 18px;
+}
+.mastercard {
+  border-radius: var(--br-7xs);
+  background-color: var(--text-1);
+  border: 1px solid var(--text-1);
+  box-sizing: border-box;
+  width: 56px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logosamexIcon,
+.visaIcon {
+  position: relative;
+  width: 37px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logosamexIcon {
+  width: 24px;
+  height: 24px;
+}
+.row7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.row6,
+.row7 {
+  flex-direction: row;
+}
+.content,
+.list2,
+.quantity,
+.row6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quantity {
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--text-xs-medium-size);
+}
+.content,
+.list2 {
+  box-sizing: border-box;
+}
+.list2 {
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslategray-300);
+  width: 420px;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  gap: var(--gap-xl);
+  font-size: var(--label-s-semibold-size);
+  color: var(--text-1);
+  font-family: var(--font-montserrat);
+}
+.content {
+  position: absolute;
+  top: 222px;
+  left: calc(50% - 719px);
+  background-color: var(--color-gray-600);
+  width: 1440px;
+  flex-direction: row;
+  padding: var(--padding-29xl) var(--padding-116xl);
+  gap: var(--gap-45xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkkhaki-200);
+  font-family: var(--font-libre-baskerville);
+}

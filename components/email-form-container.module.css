@@ -1,0 +1,33 @@
+.emailAddress {
+  position: relative;
+  letter-spacing: 0.03em;
+}
+.emerystantongmailcom {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 28px;
+}
+.emailAddressParent,
+.input {
+  display: flex;
+  justify-content: flex-start;
+}
+.input {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--text-1);
+  box-sizing: border-box;
+  width: 686px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.emailAddressParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,151 @@
+.footerChild,
+.footerItem {
+  position: absolute;
+  top: -0.15px;
+  left: -0.15px;
+  border-top: 0.3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1440.3px;
+  height: 0.3px;
+}
+.footerItem {
+  top: 341.9px;
+  left: 347.9px;
+  border-top: 0.2px solid var(--text-1);
+  width: 744.2px;
+  height: 0.2px;
+  display: none;
+}
+.kneeshawDevelomentAll {
+  position: absolute;
+  top: 346px;
+  left: 536px;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.02em;
+  font-weight: 300;
+  opacity: 0.66;
+}
+.logo1Icon {
+  position: absolute;
+  top: 21px;
+  left: 67px;
+  width: 192px;
+  height: 86px;
+  object-fit: cover;
+}
+.akarIconslinkedinFill {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons {
+  position: absolute;
+  top: 117px;
+  left: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.joinOurNewsletter {
+  position: absolute;
+  top: 35px;
+  left: 1110px;
+  letter-spacing: 0.05em;
+  font-family: var(--font-libre-baskerville);
+  opacity: 0.7;
+}
+.subscribeChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-silver-300);
+  width: 415px;
+  height: 54px;
+  opacity: 0.15;
+}
+.subscribeItem {
+  position: absolute;
+  top: 7px;
+  left: 274px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-darkkhaki-200);
+  width: 134px;
+  height: 40px;
+}
+.subscribe1 {
+  position: absolute;
+  top: 13px;
+  left: 294px;
+  letter-spacing: 0.1em;
+  line-height: 28px;
+  font-weight: 600;
+}
+.yourEmail {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  font-size: var(--label-s-semibold-size);
+  letter-spacing: 0.12em;
+  color: var(--color-black);
+  text-align: left;
+  opacity: 0.65;
+}
+.subscribe {
+  position: absolute;
+  top: 75px;
+  left: 985px;
+  width: 415px;
+  height: 54px;
+  text-align: center;
+  color: var(--text-1);
+}
+.terms {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+.privacy {
+  position: absolute;
+  top: 35px;
+  left: 646px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-xl);
+}
+.games {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.footer,
+.menu {
+  position: absolute;
+}
+.menu {
+  top: 35px;
+  left: 404px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-xl);
+}
+.footer {
+  top: 3753px;
+  left: 0;
+  width: 1440px;
+  height: 364px;
+  text-align: left;
+  font-size: var(--label-m-semibold-size);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

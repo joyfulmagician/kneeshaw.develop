@@ -1,0 +1,249 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-xs) 0 0 var(--br-xs);
+  background: linear-gradient(
+    148.73deg,
+    rgba(175, 210, 117, 0.9) 4.11%,
+    rgba(175, 210, 117, 0),
+    rgba(175, 210, 117, 0.6)
+  );
+  width: 535px;
+  height: 763px;
+  z-index: 0;
+}
+.clarityclockLineIcon,
+.galafileDocumentIcon,
+.octiconpeople24,
+.psworkCaseIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 527px;
+  left: 314px;
+  width: 200.63px;
+  height: 196.95px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.38;
+  z-index: 2;
+}
+.clarityclockLineIcon,
+.galafileDocumentIcon,
+.octiconpeople24 {
+  top: 39px;
+  left: 44px;
+  width: 204.33px;
+  height: 204.33px;
+  z-index: 3;
+}
+.clarityclockLineIcon,
+.galafileDocumentIcon {
+  top: 172px;
+  left: 314px;
+  width: 194.71px;
+  height: 194.71px;
+  z-index: 4;
+}
+.clarityclockLineIcon {
+  top: 412px;
+  left: 20px;
+  width: 206.21px;
+  height: 206.21px;
+  z-index: 5;
+}
+.rectangleParent {
+  position: absolute;
+  width: calc(100% - 180px);
+  top: 171px;
+  right: 90px;
+  left: 90px;
+  border-radius: var(--br-base);
+  background: linear-gradient(180deg, #35322f, rgba(53, 50, 47, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+}
+.logoWhite1 {
+  position: relative;
+  width: 192px;
+  height: 86px;
+  object-fit: cover;
+  z-index: 0;
+}
+.games {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+  z-index: 1;
+}
+.shoppingBagIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  z-index: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 150%;
+}
+.badge,
+.shoppingBagParent {
+  display: flex;
+  align-items: center;
+}
+.badge {
+  margin: 0 !important;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkkhaki-200);
+  width: 16px;
+  height: 16px;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.shoppingBagParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.signIn1 {
+  position: absolute;
+  top: 19px;
+  left: 0;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+}
+.signInChild {
+  position: absolute;
+  top: 0;
+  left: 84px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-darkkhaki-200);
+  width: 150px;
+  height: 60px;
+}
+.signUp {
+  position: absolute;
+  top: 19px;
+  left: 123px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.signIn {
+  position: relative;
+  width: 234px;
+  height: 60px;
+  display: none;
+  color: var(--color-darkkhaki-200);
+}
+.bg,
+.es {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-darkkhaki-200);
+  width: 48px;
+  height: 48px;
+}
+.es {
+  top: calc(50% - 11px);
+  left: calc(50% - 12px);
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.avatar {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.emeryStanton {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  display: none;
+}
+.icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent,
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile {
+  height: 68px;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  gap: var(--gap-5xl);
+  z-index: 2;
+}
+.headerChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 61px;
+  left: 767px;
+  border-top: 2px solid var(--color-darkkhaki-200);
+  box-sizing: border-box;
+  width: 90px;
+  height: 2px;
+  z-index: 3;
+}
+.header,
+.header1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header1 {
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  width: 1440px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+}
+.job4 {
+  position: relative;
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,59 @@
+.subtractIcon {
+  position: relative;
+  width: 375px;
+  height: 110px;
+}
+.couponChild {
+  position: absolute;
+  top: 8.55px;
+  left: 123px;
+  width: 2px;
+  height: 85px;
+}
+.div,
+.redeemCoupon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.redeemCoupon {
+  top: 29px;
+  font-size: var(--label-m-semibold-size);
+  font-weight: 500;
+}
+.parent,
+.validUntil1 {
+  position: absolute;
+  left: 140px;
+}
+.parent {
+  top: 16.55px;
+  width: 138px;
+  height: 49px;
+}
+.validUntil1 {
+  top: 81.55px;
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+  color: var(--color-gray-1500);
+}
+.qrImg1Icon {
+  position: absolute;
+  top: 21px;
+  left: calc(50% - 148.5px);
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.coupon {
+  position: absolute;
+  top: 554px;
+  left: 453px;
+  width: 369px;
+  height: 104px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

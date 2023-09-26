@@ -1,0 +1,43 @@
+.nameOnThe {
+  position: relative;
+  letter-spacing: 0.03em;
+}
+.emeryStanton {
+  text-transform: uppercase;
+}
+.exEmeryStantonContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 28px;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--text-1);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-3xs);
+}
+.frameParent,
+.input,
+.nameOnTheCardParent {
+  display: flex;
+  align-items: flex-start;
+}
+.nameOnTheCardParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  width: 686px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-montserrat);
+}

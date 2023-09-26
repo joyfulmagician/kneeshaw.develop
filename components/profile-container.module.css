@@ -1,0 +1,71 @@
+.vuesaxlinearhomeIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.myProfile {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+.vuesaxlinearhomeParent {
+  gap: var(--gap-xs);
+}
+.shoppingBagWrapper,
+.vuesaxlinearhomeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 150%;
+}
+.badge {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkkhaki-200);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--text-xs-medium-size);
+}
+.vuesaxoutlinesetting2Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--color-darkkhaki-200);
+}
+.frameParent,
+.settingsInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 250px;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-5xl);
+}
+.settingsInner {
+  position: absolute;
+  top: 160px;
+  left: 90px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-300);
+  height: 203px;
+  padding: var(--padding-base);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-montserrat);
+}

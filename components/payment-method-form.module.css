@@ -1,0 +1,216 @@
+.featuredIcon {
+  position: relative;
+  border-radius: var(--br-9xl);
+  width: 56px;
+  height: 56px;
+}
+.supportingText,
+.text {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+}
+.text {
+  line-height: 28px;
+  font-weight: 500;
+}
+.supportingText {
+  font-size: var(--label-s-semibold-size);
+  line-height: 20px;
+  color: var(--gray-500);
+}
+.textAndSupportingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.label {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.mailIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.span {
+  color: var(--color-lightgray-100);
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+}
+.content1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.helpIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.hintText,
+.input {
+  align-self: stretch;
+}
+.input {
+  border-radius: var(--br-7xs);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--color-lightgray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-sm);
+  gap: var(--gap-5xs);
+  font-size: var(--label-m-semibold-size);
+}
+.hintText {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  font-family: var(--text-xs-medium);
+  color: var(--gray-500);
+  display: none;
+}
+.inputFieldBase {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.inputField,
+.inputFieldBase,
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField {
+  width: 112px;
+  height: 70px;
+  flex-direction: column;
+}
+.row {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.paymentMethodIcon {
+  position: relative;
+  border-radius: var(--br-9xs);
+  width: 34px;
+  height: 24px;
+}
+.form,
+.input1,
+.inputField1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.input1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--color-lightgray-100);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-sm) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-5xs);
+  font-size: var(--label-m-semibold-size);
+}
+.form,
+.inputField1 {
+  flex-direction: column;
+}
+.inputField1 {
+  flex: 1;
+  align-items: flex-start;
+}
+.form {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-base);
+  font-size: var(--label-s-semibold-size);
+}
+.text3 {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  font-weight: 500;
+}
+.button,
+.buttonBase,
+.buttonBase1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.buttonBase {
+  border-radius: var(--br-5xs);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--color-darkkhaki-200);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-lg);
+}
+.button,
+.buttonBase1 {
+  border-radius: var(--br-7xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonBase1 {
+  background-color: var(--color-darkkhaki-200);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--color-darkkhaki-200);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-lg);
+}
+.button1,
+.content,
+.modalActions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  color: var(--text-1);
+}
+.content,
+.modalActions {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  color: var(--color-darkkhaki-200);
+}
+.content {
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-montserrat);
+}
