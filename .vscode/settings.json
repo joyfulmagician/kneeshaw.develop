@@ -1,0 +1,13 @@
+{
+  "cSpell.words": [
+    "aboutus",
+    "clsx",
+    "kneeshaw",
+    "signin",
+    "signup",
+    "tailwindcss"
+  ],
+  "prettier.configPath": ".prettierrc",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}
