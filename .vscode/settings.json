@@ -6,6 +6,7 @@
     "kneeshaw",
     "signin",
     "signup",
+    "smallview",
     "tailwindcss"
   ],
   "prettier.configPath": ".prettierrc",
