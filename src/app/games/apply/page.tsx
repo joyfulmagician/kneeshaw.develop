@@ -9,26 +9,12 @@ export const metadata: Metadata = {
   description: `${SITE_TITLE} - Games`,
 };
 
-export default function games() {
+export default function ApplyPage() {
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
       <Header />
 
-      <section className="mt-[146px] flex justify-center">
-        <h1 className="text-[66px] font-bold">All Games</h1>
-      </section>
-
-      <section className="mt-[153px] flex justify-center text-center">
-        <h3 className="w-[966px] text-[20px]">
-          Enjoy exploring the diverse collection of games on the Kneeshaw Games,
-          and may you find exciting experiences that match your interests and
-          preferences.
-        </h3>
-      </section>
-
-      <section className="mt-[99px] flex flex-col justify-center text-center"></section>
-
-      <section className="mt-[150px]">
+      <section className="mt-[76px]">
         <h1 className="text-[40px]">Popular Games</h1>
       </section>
 
