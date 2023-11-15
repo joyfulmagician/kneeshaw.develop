@@ -24,36 +24,42 @@ export default function JobWizard() {
           onBack={() => setStep((prev) => prev - 1)}
         />
       )}
+
       {step === 3 && (
         <Step3
           onNext={() => setStep((prev) => prev + 1)}
           onBack={() => setStep((prev) => prev - 1)}
         />
       )}
+
       {step === 4 && (
         <Step4
           onNext={() => setStep((prev) => prev + 1)}
           onBack={() => setStep((prev) => prev - 1)}
         />
       )}
+
       {step === 5 && (
         <Step5
           onNext={() => setStep((prev) => prev + 1)}
           onBack={() => setStep((prev) => prev - 1)}
         />
       )}
+
       {step === 6 && (
         <Step6
           onNext={() => setStep((prev) => prev + 1)}
           onBack={() => setStep((prev) => prev - 1)}
         />
       )}
+
       {step === 7 && (
         <Step7
           onNext={() => setStep((prev) => prev + 1)}
           onBack={() => setStep((prev) => prev - 1)}
         />
       )}
+
       {step === 8 && (
         <Step8
           onNext={() => setStep((prev) => prev + 1)}
