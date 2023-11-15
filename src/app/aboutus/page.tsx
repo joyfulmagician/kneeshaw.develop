@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function AboutUs() {
   return (
-    <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
+    <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
       <section className="mt-[146px] flex flex-col items-center">

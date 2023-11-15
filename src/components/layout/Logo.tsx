@@ -10,7 +10,7 @@ export default function Logo() {
   return (
     <Link href="/">
       <img
-        className="h-[86px]"
+        className="min-h-[86px] min-w-[192px]"
         src={
           role === ROLES.PLAYER
             ? "/logo/logo-white.png"
