@@ -1,51 +1,168 @@
 "use client";
 
 import Link from "next/link";
-import Logo from "./Logo";
-import { useRole } from "@/contexts/RoleContext";
+import { useState } from "react";
+
 import clsx from "clsx";
+import { HiOutlineShoppingBag, HiBars3 } from "react-icons/hi2";
+import { IoMdClose } from "react-icons/io";
+
+import { useRole } from "@/contexts/RoleContext";
 import { ROLES } from "@/utils/constants";
-import { HiOutlineShoppingBag } from "react-icons/hi2";
+import Logo from "./Logo";
 
 export default function Header() {
   const { role } = useRole();
 
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const handleMenuClick = () => {
+    setOpenMenu((prev) => !prev);
+  };
+
   return (
-    <div className="flex h-[134px] flex-row justify-between px-[60px] py-[24px]">
-      <Logo />
+    <>
+      <div className="flex h-[134px] flex-row items-center justify-between px-[30px] md:px-[60px] md:py-[24px]">
+        <Logo />
 
-      <div
-        className={clsx(
-          "flex flex-row items-center gap-[70px] text-[18px] font-semibold",
-          role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
-        )}
-      >
-        <Link href="/games">Games</Link>
-        <Link href="/blog">Blog</Link>
-        <Link href="/services">Services</Link>
-        <Link href="/job">Job</Link>
-        <Link href="/aboutus">About Us</Link>
-      </div>
-
-      <div
-        className={clsx(
-          "flex flex-row items-center gap-[24px]",
-          role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
-        )}
-      >
-        <HiOutlineShoppingBag
+        <div
           className={clsx(
-            "text-[24px]",
+            "hidden flex-row items-center text-[18px] font-semibold lg:flex lg:gap-[35px] xl:gap-[70px]",
             role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
           )}
-        />
-        <Link className="text-[#AFD275]" href="/signin">
-          Sign In
-        </Link>
-        <Link className="text-[#AFD275]" href="/signup">
-          Sign Up
-        </Link>
+        >
+          <Link href="/games">Games</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/job">Job</Link>
+          <Link href="/aboutus">About Us</Link>
+        </div>
+
+        <div
+          className={clsx(
+            "flex flex-row items-center gap-[24px]",
+            role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
+          )}
+        >
+          <div className="relative cursor-pointer">
+            <HiOutlineShoppingBag
+              className={clsx(
+                "text-[24px]",
+                role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
+              )}
+            />
+            <div className="absolute bottom-[-5px] right-[-5px] h-[16px] w-[16px] rounded-[100%] bg-[#AFD275] text-center text-[12px] leading-[15px]">
+              0
+            </div>
+          </div>
+
+          <Link
+            className="hidden text-[18px] font-semibold text-[#AFD275] sm:block"
+            href="/signin"
+          >
+            Sign In
+          </Link>
+
+          <Link
+            className="hidden rounded-[18px] bg-[#AFD275] px-[24px] py-[8px] text-[18px] font-semibold text-[#EDF1F3] sm:block"
+            href="/signup"
+          >
+            Sign Up
+          </Link>
+
+          <HiBars3
+            className={clsx(
+              "block cursor-pointer text-[24px] lg:hidden",
+              role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
+            )}
+            onClick={handleMenuClick}
+          />
+        </div>
       </div>
-    </div>
+
+      {openMenu && (
+        <div className="fixed z-[1000] flex h-[100vh] w-full flex-col backdrop-blur-xl">
+          <div className="flex h-[134px] flex-row items-center justify-between px-[30px] md:px-[60px] md:py-[24px]">
+            <Logo />
+
+            <div
+              className={clsx(
+                "hidden flex-row items-center text-[18px] font-semibold lg:flex lg:gap-[35px] xl:gap-[70px]",
+                role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
+              )}
+            >
+              <Link href="/games">Games</Link>
+              <Link href="/blog">Blog</Link>
+              <Link href="/services">Services</Link>
+              <Link href="/job">Job</Link>
+              <Link href="/aboutus">About Us</Link>
+            </div>
+
+            <div
+              className={clsx(
+                "flex flex-row items-center gap-[24px]",
+                role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
+              )}
+            >
+              <div className="relative cursor-pointer">
+                <HiOutlineShoppingBag
+                  className={clsx(
+                    "text-[24px]",
+                    role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
+                  )}
+                />
+                <div className="absolute bottom-[-5px] right-[-5px] h-[16px] w-[16px] rounded-[100%] bg-[#AFD275] text-center text-[12px] leading-[15px]">
+                  0
+                </div>
+              </div>
+
+              <Link
+                className="hidden text-[18px] font-semibold text-[#AFD275] sm:block"
+                href="/signin"
+              >
+                Sign In
+              </Link>
+
+              <Link
+                className="hidden rounded-[18px] bg-[#AFD275] px-[24px] py-[8px] text-[18px] font-semibold text-[#EDF1F3] sm:block"
+                href="/signup"
+              >
+                Sign Up
+              </Link>
+
+              <div
+                className={clsx(
+                  "block cursor-pointer text-[24px] lg:hidden",
+                  role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
+                )}
+                onClick={handleMenuClick}
+              >
+                {openMenu ? <IoMdClose /> : <HiBars3 />}
+              </div>
+            </div>
+          </div>
+
+          <div
+            className={clsx(
+              "flex flex-col gap-[24px] px-[32px] text-[18px] font-semibold",
+              role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
+            )}
+          >
+            <Link href="/games">Games</Link>
+            <Link href="/blog">Blog</Link>
+            <Link href="/services">Services</Link>
+            <Link href="/job">Job</Link>
+            <Link href="/aboutus">About Us</Link>
+            <div className="block border sm:hidden"></div>
+            <Link className="block sm:hidden" href="/signin">
+              Sign In
+            </Link>
+            <Link className="block sm:hidden" href="/signup">
+              Sign Up
+            </Link>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
