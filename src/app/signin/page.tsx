@@ -13,7 +13,7 @@ export default function Marketplace() {
   return (
     <main className="flex min-h-screen w-full flex-col">
       <Header />
-
+      <section className="bg-[#35322F]"></section>
       <Footer />
     </main>
   );
