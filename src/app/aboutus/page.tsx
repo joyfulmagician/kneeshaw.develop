@@ -33,7 +33,11 @@ export default function AboutUs() {
 
       <section className="mx-[80px] mt-[160px] flex flex-col 2xl:flex-row">
         <div className="w-full 2xl:w-1/2 ">
-          <img src="/images/aboutus_line_image_02.svg" className="w-[100px]" />
+          <div className="flex items-center">
+            <div className="w-[100px]  border border-[#AFD275]">
+              <div className="ml-0 w-[30px] border border-[#AFD275]" />
+            </div>
+          </div>
           <h1 className="mt-[19px] text-center text-[40px] font-[700] text-[#EDF1F3] 2xl:text-left">
             What we're <br />
             creating
@@ -69,10 +73,12 @@ export default function AboutUs() {
           <br />
           your game development?
         </h1>
-        <img
-          src="/images/aboutus_line_image_01.svg"
-          className="mt-[21px] w-[100px]"
-        />
+      </section>
+
+      <section className="mx-[80px] mt-[21px] flex items-center justify-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        </div>
       </section>
 
       <section className="mx-[80px] mt-[120px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3]">
@@ -143,10 +149,11 @@ export default function AboutUs() {
           />
         </div>
         <div className="w-full text-[#EDF1F3] lg:w-1/2">
-          <img
-            src="/images/aboutus_line_image_03.svg"
-            className="ml-auto object-right"
-          />
+          <div className="flex items-center justify-end">
+            <div className="w-[100px]  border border-[#AFD275]">
+              <div className="ml-[70px] w-[30px] border border-[#AFD275]" />
+            </div>
+          </div>
           <h1 className="mt-[21px] text-center text-[40px] font-[700] lg:text-right">
             Our mission
           </h1>
@@ -170,10 +177,12 @@ export default function AboutUs() {
 
       <section className="mx-[80px] mt-[150px] flex flex-col items-center text-[40px] font-[700] text-[#EDF1F3]">
         Our Team
-        <img
-          src="/images/aboutus_line_image_01.svg"
-          className="mt-[21px] w-[100px]"
-        />
+      </section>
+
+      <section className="mx-[80px] mt-[21px] flex items-center justify-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        </div>
       </section>
 
       <section className="mx-[80px] mt-[108px] w-full text-center text-[40px] font-[400] text-[#EDF1F3] xl:w-1/2">
@@ -221,10 +230,11 @@ export default function AboutUs() {
 
       <section className="mx-[80px] mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
-          <img
-            src="/images/aboutus_line_image_02.svg"
-            className="mt-[-30px] w-[100px]"
-          />
+          <div className="mt-[-30px] flex items-center">
+            <div className="w-[100px]  border border-[#AFD275]">
+              <div className="ml-0 w-[30px] border border-[#AFD275]" />
+            </div>
+          </div>
           <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
             Contact Us
           </h1>
