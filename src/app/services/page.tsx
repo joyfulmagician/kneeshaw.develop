@@ -9,11 +9,247 @@ export const metadata: Metadata = {
   description: `${SITE_TITLE} - Services`,
 };
 
-export default function Marketplace() {
+export default function Services() {
   return (
-    <main className="flex min-h-screen w-full flex-col">
+    <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
       <Header />
 
+      <section className="mt-[146px] flex flex-col items-center">
+        <h1 className="text-[40px] font-bold">Our Services</h1>
+        <img
+          src="/images/aboutus_lineimage_01.svg"
+          className="mt-[56px] w-[100px]"
+        />
+      </section>
+
+      <section className="mt-[91px] flex justify-center text-center">
+        <h3 className="w-[966px] text-[20px]">
+          At Kneeshaw Development, we are passionate about delivering
+          high-quality, innovative, and immersive gaming experiences.
+        </h3>
+      </section>
+
+      <section className="mt-[150px] flex h-[335px] justify-center gap-[30px]">
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_01.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Mobile Game <br /> Development
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Specialized in creating captivating and immersive games
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_02.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Unity 2D <br /> Games
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Tailoring mechanics, graphics, and animations to suit your vision
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_03.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Unity 3D <br /> Games
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Creating realistic environments, lifelike characters, and dynamic
+              gameplay
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_04.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Unreal Game <br /> Development
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Transforming your ideas into a polished and thrilling game
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-[60px] flex h-[335px] justify-center gap-[30px]">
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_06.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Godot Game <br /> Development
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Developing high-quality games that run smoothly across various
+              platforms
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_07.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              HTML5 Game <br /> Development
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Interactive games that are compatible with desktops, laptops, and
+              mobile devices
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_08.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Web3 Game <br /> Development
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Creating innovative and immersive gaming experiences
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_05.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Daaps Game <br /> Development
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              We leverage our expertise to build secure and user-friendly dApps
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-[60px] flex h-[335px] justify-center gap-[30px]">
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_09.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Blcokchain <br /> Integration
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Specialized in creating captivating and immersive games
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_10.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              Bug <br /> Fixing
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Tailoring mechanics, graphics, and animations to suit your vision
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_11.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              System <br /> Design
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Creating realistic environments, lifelike characters, and dynamic
+              gameplay
+            </p>
+          </div>
+        </div>
+        <div className="flex h-[335px] w-1/5 flex-col">
+          <img
+            src="/images/service_image_12.svg"
+            className="z-0 h-1/3 object-fill"
+          />
+          <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
+            <p className="mt-[50px] text-[24px] font-bold">
+              API <br /> Creation
+            </p>
+            <p className="mt-[15px] text-[18px]">
+              Creating realistic environments, lifelike characters, and dynamic
+              gameplay
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-[180px] flex flex-row justify-center px-[30px]">
+        <div className="w-1/2">
+          <img
+            src="/images/aboutus_lineimage_02.svg"
+            className="mt-[-30px] w-[100px]"
+          />
+          <h1 className="mt-[21px] text-[40px] font-bold">Contact Us</h1>
+          <p className="mt-[80px] text-left text-[30px]">
+            Turning Your Ideas and
+            <br /> Fantasies Into Playable Games
+          </p>
+        </div>
+        <div className="flex w-1/2 flex-col gap-[20px] bg-[#292929] p-[35px]">
+          <p className="text-[20px]">Let us know about your project</p>
+          <input
+            className="h-[52px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px]"
+            placeholder="Full name*"
+          />
+          <input
+            className="h-[52px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px]"
+            placeholder="Email Address*"
+          />
+          <input
+            className="h-[165px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px]"
+            placeholder="Write your message"
+          />
+          <button className="h-[52px] bg-[#AFD275]">Send Message</button>
+        </div>
+      </section>
+      <section className="mt-[38px] text-[20px]">Stalk us</section>
+      <section className="felx-row mb-[20px] mt-[32px] flex gap-[20px]">
+        <i className="fa-brands fa-xl fa-youtube" />
+        <i className="fa-brands fa-xl fa-steam" />
+        <i className="fa-brands fa-xl fa-reddit" />
+        <i className="fa-solid fa-xl fa-bolt-lightning" />
+        <i className="fa-brands fa-xl fa-discord" />
+        <i className="fa-brands fa-xl fa-twitch" />
+        <i className="fa-brands fa-xl fa-twitter" />
+      </section>
       <Footer />
     </main>
   );
