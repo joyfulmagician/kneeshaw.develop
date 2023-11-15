@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description: `${SITE_TITLE} - Games`,
 };
 
-export default function Game1_getPage() {
+export default function PageGet({ params }: { params: { slug: "get" } }) {
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
@@ -49,7 +49,7 @@ export default function Game1_getPage() {
             <p className="mt-[10px] text-[#EDF1F3]">$ 123.00 USD</p>
           </div>
           <div className="text-center text-[18px] 2xl:text-left">
-            <p className="font-[700] text-[#AFD275]">Quanlity</p>
+            <p className="font-[700] text-[#AFD275]">Quality</p>
             <Select>
               <SelectTrigger className="mt-[10px] h-[44px] w-[74px] text-white">
                 <SelectValue placeholder="1" />
@@ -80,7 +80,7 @@ export default function Game1_getPage() {
                     </p>
                     <div className="mt-0 flex flex-col">
                       <div className="ml-auto">
-                        <i className="fa-regular fa-circle-xmark fa-xl text-white" />
+                        <i className="fa-regular fa-circle-mark fa-xl text-white" />
                       </div>
                       <p className="text-[14px] font-[400] text-[#EDF1F3] text-white">
                         $123.00

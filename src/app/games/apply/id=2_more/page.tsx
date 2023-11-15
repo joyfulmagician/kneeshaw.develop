@@ -17,7 +17,7 @@ export default function Game1_morePage() {
       <section className="mx-[80px] mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-bold">Old Salt</h1>
         <img
-          src="/images/aboutus_lineimage_01.svg"
+          src="/images/aboutus_line_image_01.svg"
           className="mt-[56px] w-[100px]"
         />
       </section>
@@ -29,7 +29,7 @@ export default function Game1_morePage() {
       </section>
 
       <section className="mx-[80px] mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
-        <img src="/images/aboutus_lineimage_02.svg" className="w-[100px]" />
+        <img src="/images/aboutus_line_image_02.svg" className="w-[100px]" />
         <h1 className="mt-[21px] text-[40px]">Build a Royal House</h1>
         <div className="text-[20px]">
           <p>
@@ -115,7 +115,7 @@ export default function Game1_morePage() {
       <section className="mx-[80px] mt-[120px] text-[40px]">
         Features
         <img
-          src="/images/aboutus_lineimage_02.svg"
+          src="/images/aboutus_line_image_02.svg"
           className="mt-[21px] w-[100px]"
         />
       </section>
@@ -171,7 +171,7 @@ export default function Game1_morePage() {
       <section className="mx-[80px] mt-[160px] flex flex-col items-center text-[40px]">
         Explore Old Salt’ Story
         <img
-          src="/images/aboutus_lineimage_01.svg"
+          src="/images/aboutus_line_image_01.svg"
           className="mt-[56px] w-[100px]"
         />
       </section>

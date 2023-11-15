@@ -17,7 +17,7 @@ export default function Services() {
       <section className="mx-[80px] mt-[146px] flex flex-col items-center text-[#EDF1F3]">
         <h1 className="text-[40px] font-[700]">Our Services</h1>
         <img
-          src="/images/aboutus_lineimage_01.svg"
+          src="/images/aboutus_line_image_01.svg"
           className="mt-[56px] w-[100px]"
         />
       </section>
@@ -152,7 +152,7 @@ export default function Services() {
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
             <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
-              Blcokchain <br /> Integration
+              Blockchain <br /> Integration
             </p>
             <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Specialized in creating captivating and immersive games
@@ -208,7 +208,7 @@ export default function Services() {
       <section className="mx-[80px] mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
           <img
-            src="/images/aboutus_lineimage_02.svg"
+            src="/images/aboutus_line_image_02.svg"
             className="mt-[-30px] w-[100px]"
           />
           <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function Games() {
-  const newLocal = "/images/aboutus_lineimage_01.svg";
+  const newLocal = "/images/aboutus_line_image_01.svg";
 
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
@@ -35,7 +35,7 @@ export default function Games() {
           <select
             id="category"
             name="category"
-            className="h-[44px] w-[317px] w-full rounded-md border-[1px] border-[#EDF1F3] bg-transparent py-0  pl-2 pr-[20px]"
+            className="h-[44px] w-[317px] rounded-md border-[1px] border-[#EDF1F3] bg-transparent py-0  pl-2 pr-[20px]"
           >
             <option value="">All categories</option>
             <option value="">First Category</option>
@@ -46,7 +46,7 @@ export default function Games() {
           <select
             id="platform"
             name="platform"
-            className="h-[44px] w-[317px] w-full rounded-md border-[1px] border-[#EDF1F3] bg-transparent py-0  pl-2 pr-[20px]"
+            className="h-[44px] w-[317px] rounded-md border-[1px] border-[#EDF1F3] bg-transparent py-0  pl-2 pr-[20px]"
           >
             <option value="">All Platforms</option>
             <option value="">First Platform</option>
@@ -63,7 +63,7 @@ export default function Games() {
       </section>
 
       <section className="mx-[80px] mt-[120px]">
-        <img src="/images/aboutus_lineimage_02.svg" className="w-[100px]" />
+        <img src="/images/aboutus_line_image_02.svg" className="w-[100px]" />
         <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
           Popular Games
         </h1>
