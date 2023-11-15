@@ -36,12 +36,13 @@ export default function Home() {
       <div className="m-[10px] flex flex-row-reverse font-light text-[#EDF1F3]">
         <i className="fa-solid fa-magnifying-glass rounded-[9px] bg-[#4E3D38] p-[15px]"></i>
       </div>
+
       <section className="mt-[54px] flex flex-col gap-[40px] text-center">
         <h3 className="text-[40px] font-light text-[#EDF1F3]">
           Crafting innovation gameplay experiences through
         </h3>
 
-        <div>
+        {/* <div>
           <h1 className="text-[56px] font-bold leading-[70px] tracking-[0.18em] text-[#AFD275]">
             Kneeshaw
           </h1>
@@ -49,9 +50,10 @@ export default function Home() {
           <h1 className="text-[56px] font-bold leading-[70px] tracking-[0.18em] text-[#AFD275]">
             Developments
           </h1>
-        </div>
+        </div> */}
       </section>
-      <section className="mt-[100px] flex justify-center rounded-[16px] px-[15px] py-[10px]">
+
+      {/* <section className="mt-[100px] flex justify-center rounded-[16px] px-[15px] py-[10px]">
         <Tabs defaultValue="account">
           <TabsList className="flex h-[90px] w-[700px] flex-row gap-[10px] rounded-[16px] bg-[#39352F]">
             <TabsTrigger
@@ -68,7 +70,8 @@ export default function Home() {
             </TabsTrigger>
           </TabsList>
         </Tabs>
-      </section>
+      </section> */}
+
       <section className="mt-[97px] flex flex-col gap-[74px] text-[20px] font-light text-white">
         <div className="grid grid-cols-12">
           <div className="col-span-9 border-[1px] border-[#E7717D]" />

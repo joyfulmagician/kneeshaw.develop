@@ -26,7 +26,8 @@ export default function RootLayout({
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={montserrat.className}>
+
+      <body className={montserrat.className} style={{ minWidth: 400 }}>
         <RoleProvider>{children}</RoleProvider>
       </body>
     </html>
