@@ -15,7 +15,7 @@ export default function JobWizard() {
   const [step, setStep] = useState(1);
 
   return (
-    <section className="mx-[90px] mb-[90px] mt-[61px] flex h-auto w-auto flex-row rounded-[16px] lg:max-h-[949px]">
+    <section className="mx-[90px] mb-[90px] mt-[61px] flex h-auto w-auto flex-row rounded-[16px]">
       {step === 1 && <Step1 onNext={() => setStep((prev) => prev + 1)} />}
 
       {step === 2 && (

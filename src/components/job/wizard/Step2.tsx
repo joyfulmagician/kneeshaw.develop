@@ -1,5 +1,12 @@
 "use client";
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
 interface Props {
   onBack: () => void;
   onNext: () => void;
@@ -125,9 +132,70 @@ export default function Step2({ onBack, onNext }: Props) {
           </div>
         </div>
 
-        <div className="mb-[10px] h-[125px] text-[18px] font-light">
-          <p>full stack development skills</p>
-          <p>full stack development skills</p>
+        <div className="mb-[10px] flex flex-col gap-[15px] text-[18px] font-light">
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="text-[18px] font-light hover:no-underline">
+                Full Stack Development Skills
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] border-[#AFD275] px-[10px]">
+                  <div className="text-[18px] font-light text-[#AFD275]">
+                    2D
+                  </div>
+                  <i className="fa-solid fa-check fa-lg text-[#AFD275]"></i>
+                </div>
+
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
+                  <div className="text-[18px] font-light">3D</div>
+                </div>
+
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
+                  <div className="text-[18px] font-light">Shaders</div>
+                </div>
+
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
+                  <div className="text-[18px] font-light">Environment</div>
+                </div>
+
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
+                  <div className="text-[18px] font-light">System</div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="text-[18px] font-light hover:no-underline">
+                Databases
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] border-[#AFD275] px-[10px]">
+                  <div className="text-[18px] font-light text-[#AFD275]">
+                    2D
+                  </div>
+                  <i className="fa-solid fa-check fa-lg text-[#AFD275]"></i>
+                </div>
+
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
+                  <div className="text-[18px] font-light">3D</div>
+                </div>
+
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
+                  <div className="text-[18px] font-light">Shaders</div>
+                </div>
+
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
+                  <div className="text-[18px] font-light">Environment</div>
+                </div>
+
+                <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
+                  <div className="text-[18px] font-light">System</div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
 
         <div className="flex flex-col items-center justify-between gap-[20px] md:flex-row">
