@@ -19,11 +19,12 @@ export default function Services() {
       </section>
 
       <section className="mx-[80px] mt-[56px] flex items-center justify-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        <div className="flex w-[100px] flex-row">
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
         </div>
       </section>
-
       <section className="mx-[80px] mt-[91px] flex justify-center text-center text-[#EDF1F3]">
         <h3 className="w-[966px] text-[20px] font-[400]">
           At Kneeshaw Development, we are passionate about delivering

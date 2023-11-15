@@ -19,8 +19,10 @@ export default function AboutUs() {
       </section>
 
       <section className="mx-[80px] mt-[56px] flex items-center justify-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        <div className="flex w-[100px] flex-row">
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
         </div>
       </section>
 
@@ -33,10 +35,10 @@ export default function AboutUs() {
 
       <section className="mx-[80px] mt-[160px] flex flex-col 2xl:flex-row">
         <div className="w-full 2xl:w-1/2 ">
-          <div className="flex items-center">
-            <div className="w-[100px]  border border-[#AFD275]">
-              <div className="ml-0 w-[30px] border border-[#AFD275]" />
-            </div>
+          <div className="flex w-[100px] flex-row">
+            <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
           </div>
           <h1 className="mt-[19px] text-center text-[40px] font-[700] text-[#EDF1F3] 2xl:text-left">
             What we're <br />
@@ -76,8 +78,10 @@ export default function AboutUs() {
       </section>
 
       <section className="mx-[80px] mt-[21px] flex items-center justify-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        <div className="flex w-[100px] flex-row">
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
         </div>
       </section>
 
@@ -149,9 +153,11 @@ export default function AboutUs() {
           />
         </div>
         <div className="w-full text-[#EDF1F3] lg:w-1/2">
-          <div className="flex items-center justify-end">
-            <div className="w-[100px]  border border-[#AFD275]">
-              <div className="ml-[70px] w-[30px] border border-[#AFD275]" />
+          <div className="flex justify-end">
+            <div className="flex w-[100px] flex-row">
+              <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+              <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+              <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
             </div>
           </div>
           <h1 className="mt-[21px] text-center text-[40px] font-[700] lg:text-right">
@@ -180,8 +186,10 @@ export default function AboutUs() {
       </section>
 
       <section className="mx-[80px] mt-[21px] flex items-center justify-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        <div className="flex w-[100px] flex-row">
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
         </div>
       </section>
 
@@ -231,8 +239,10 @@ export default function AboutUs() {
       <section className="mx-[80px] mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
           <div className="mt-[-30px] flex items-center">
-            <div className="w-[100px]  border border-[#AFD275]">
-              <div className="ml-0 w-[30px] border border-[#AFD275]" />
+            <div className="flex w-[100px] flex-row">
+              <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+              <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+              <div className="h-[1px] w-1/3 border border-[#677746]"></div>
             </div>
           </div>
           <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
