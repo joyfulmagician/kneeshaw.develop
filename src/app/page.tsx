@@ -31,12 +31,11 @@ export default function Home() {
     >
       <Header />
 
-      <div className="mt-[26px] border-[0.1px] border-[#C2B9B0]" />
+      <div className=" border border-[#EDF1F3]" />
 
       <div className="m-[10px] flex flex-row-reverse font-light text-[#EDF1F3]">
         <i className="fa-solid fa-magnifying-glass rounded-[9px] bg-[#4E3D38] p-[15px]"></i>
       </div>
-
       <section className="mt-[54px] flex flex-col gap-[40px] text-center">
         <h3 className="text-[40px] font-light text-[#EDF1F3]">
           Crafting innovation gameplay experiences through
@@ -52,7 +51,6 @@ export default function Home() {
           </h1>
         </div>
       </section>
-
       <section className="mt-[100px] flex justify-center rounded-[16px] px-[15px] py-[10px]">
         <Tabs defaultValue="account">
           <TabsList className="flex h-[90px] w-[700px] flex-row gap-[10px] rounded-[16px] bg-[#39352F]">
@@ -71,7 +69,6 @@ export default function Home() {
           </TabsList>
         </Tabs>
       </section>
-
       <section className="mt-[97px] flex flex-col gap-[74px] text-[20px] font-light text-white">
         <div className="grid grid-cols-12">
           <div className="col-span-9 border-[1px] border-[#E7717D]" />
@@ -97,7 +94,6 @@ export default function Home() {
           <div className="col-span-5 col-end-13 border-[1px] border-[#E7717D]" />
         </div>
       </section>
-
       <section className="mt-[150px] flex flex-col items-center gap-[99px]">
         <h2 className="text-[40px] font-light text-[#EDF1F3]">
           Enjoy our library of games
@@ -140,7 +136,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section className="mt-[40px]">
         <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
           <img
@@ -190,7 +185,6 @@ export default function Home() {
           <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
         </div>
       </section>
-
       <section className="mt-[200px]">
         <h2 className="mb-[100px] text-center text-[40px] font-light text-[#EDF1F3]">
           Stay up to date with the latest gaming news and updates
@@ -392,7 +386,6 @@ export default function Home() {
           </Accordion>
         </div>
       </section>
-
       <Footer />
     </main>
   );
