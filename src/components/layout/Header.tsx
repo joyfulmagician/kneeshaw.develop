@@ -1,11 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+
+import { useEffect, useState } from "react";
 
 import clsx from "clsx";
 import { HiOutlineShoppingBag, HiBars3 } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io";
+import { useMediaQuery } from "react-responsive";
 
 import { useRole } from "@/contexts/RoleContext";
 import { ROLES } from "@/utils/constants";
@@ -13,14 +16,26 @@ import Logo from "./Logo";
 import { useShop } from "@/contexts/ShopContext";
 
 export default function Header() {
+  const pathName = usePathname();
+
   const { role } = useRole();
   const { cartCount } = useShop();
+
+  const isLg = useMediaQuery({
+    query: "(min-width: 1024px)",
+  });
 
   const [openMenu, setOpenMenu] = useState(false);
 
   const handleMenuClick = () => {
     setOpenMenu((prev) => !prev);
   };
+
+  useEffect(() => {
+    if (isLg && openMenu) {
+      setOpenMenu(false);
+    }
+  }, [isLg]);
 
   return (
     <>
@@ -29,15 +44,58 @@ export default function Header() {
 
         <div
           className={clsx(
-            "hidden flex-row items-center text-[18px] font-semibold lg:flex lg:gap-[24px] xl:gap-[70px]",
+            "hidden flex-row items-center text-[18px] font-semibold leading-[36px] lg:flex lg:gap-[24px] xl:gap-[70px]",
             role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
           )}
         >
-          <Link href="/games">Games</Link>
-          <Link href="/blog">Blog</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/job">Job</Link>
-          <Link href="/aboutus">About Us</Link>
+          <Link
+            href="/games"
+            className={
+              pathName.includes("/games")
+                ? "border-b-[2px] border-[#AFD275]"
+                : ""
+            }
+          >
+            Games
+          </Link>
+          <Link
+            href="/blog"
+            className={
+              pathName.includes("/blog")
+                ? "border-b-[2px] border-[#AFD275]"
+                : ""
+            }
+          >
+            Blog
+          </Link>
+          <Link
+            href="/services"
+            className={
+              pathName.includes("/services")
+                ? "border-b-[2px] border-[#AFD275]"
+                : ""
+            }
+          >
+            Services
+          </Link>
+          <Link
+            href="/job"
+            className={
+              pathName.includes("/job") ? "border-b-[2px] border-[#AFD275]" : ""
+            }
+          >
+            Job
+          </Link>
+          <Link
+            href="/aboutus"
+            className={
+              pathName.includes("/aboutus")
+                ? "border-b-[2px] border-[#AFD275]"
+                : ""
+            }
+          >
+            About Us
+          </Link>
         </div>
 
         <div
@@ -89,15 +147,60 @@ export default function Header() {
 
             <div
               className={clsx(
-                "hidden flex-row items-center text-[18px] font-semibold lg:flex lg:gap-[24px] xl:gap-[70px]",
+                "hidden flex-row items-center text-[18px] font-semibold leading-[36px] lg:flex lg:gap-[24px] xl:gap-[70px]",
                 role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
               )}
             >
-              <Link href="/games">Games</Link>
-              <Link href="/blog">Blog</Link>
-              <Link href="/services">Services</Link>
-              <Link href="/job">Job</Link>
-              <Link href="/aboutus">About Us</Link>
+              <Link
+                href="/games"
+                className={
+                  pathName.includes("/games")
+                    ? "border-b-[2px] border-[#AFD275]"
+                    : ""
+                }
+              >
+                Games
+              </Link>
+              <Link
+                href="/blog"
+                className={
+                  pathName.includes("/blog")
+                    ? "border-b-[2px] border-[#AFD275]"
+                    : ""
+                }
+              >
+                Blog
+              </Link>
+              <Link
+                href="/services"
+                className={
+                  pathName.includes("/services")
+                    ? "border-b-[2px] border-[#AFD275]"
+                    : ""
+                }
+              >
+                Services
+              </Link>
+              <Link
+                href="/job"
+                className={
+                  pathName.includes("/job")
+                    ? "border-b-[2px] border-[#AFD275]"
+                    : ""
+                }
+              >
+                Job
+              </Link>
+              <Link
+                href="/aboutus"
+                className={
+                  pathName.includes("/aboutus")
+                    ? "border-b-[2px] border-[#AFD275]"
+                    : ""
+                }
+              >
+                About Us
+              </Link>
             </div>
 
             <div
@@ -150,11 +253,36 @@ export default function Header() {
               role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
             )}
           >
-            <Link href="/games">Games</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/services">Services</Link>
-            <Link href="/job">Job</Link>
-            <Link href="/aboutus">About Us</Link>
+            <Link
+              href="/games"
+              className={pathName.includes("/games") ? "text-[#AFD275]" : ""}
+            >
+              Games
+            </Link>
+            <Link
+              href="/blog"
+              className={pathName.includes("/blog") ? "text-[#AFD275]" : ""}
+            >
+              Blog
+            </Link>
+            <Link
+              href="/services"
+              className={pathName.includes("/services") ? "text-[#AFD275]" : ""}
+            >
+              Services
+            </Link>
+            <Link
+              href="/job"
+              className={pathName.includes("/job") ? "text-[#AFD275]" : ""}
+            >
+              Job
+            </Link>
+            <Link
+              href="/aboutus"
+              className={pathName.includes("/aboutus") ? "text-[#AFD275]" : ""}
+            >
+              About Us
+            </Link>
             <div className="block border sm:hidden"></div>
             <Link className="block sm:hidden" href="/signin">
               Sign In
