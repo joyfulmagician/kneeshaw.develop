@@ -5,16 +5,16 @@ import Footer from "@/components/layout/Footer";
 import { SITE_TITLE } from "@/utils/constants";
 
 export const metadata: Metadata = {
-  title: `${SITE_TITLE} - Aboutus`,
-  description: `${SITE_TITLE} - Aboutus`,
+  title: `${SITE_TITLE} - Cookies`,
+  description: `${SITE_TITLE} - Cookies`,
 };
 
-export default function AboutUs() {
+export default function Cookies() {
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
-      <section className="mx-[80px] mt-[146px] flex flex-col items-center">
+      <section className="mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-[700] text-[#EDF1F3]">About Us</h1>
         <img
           src="/images/aboutus_lineimage_01.svg"
@@ -22,14 +22,14 @@ export default function AboutUs() {
         />
       </section>
 
-      <section className="mx-[80px] mt-[91px] flex justify-center text-center">
+      <section className="mt-[91px] flex justify-center text-center">
         <h3 className="w-[966px] text-[20px] font-[400] text-[#EDF1F3]">
           Crafting unforgettable gaming experiences with innovative design and
           cutting-edge technology
         </h3>
       </section>
 
-      <section className="mx-[80px] mt-[160px] flex flex-col 2xl:flex-row">
+      <section className="mt-[160px] flex flex-col 2xl:flex-row">
         <div className="w-full 2xl:w-1/2 ">
           <img src="/images/aboutus_lineimage_02.svg" className="w-[100px]" />
           <h1 className="mt-[19px] text-center text-[40px] font-[700] text-[#EDF1F3] 2xl:text-left">
@@ -61,7 +61,7 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="mx-[80px] mt-[150px] flex flex-col items-center">
+      <section className="mt-[150px] flex flex-col items-center">
         <h1 className="text-center text-[40px] font-[700] text-[#EDF1F3]">
           Why choose us in
           <br />
@@ -73,7 +73,7 @@ export default function AboutUs() {
         />
       </section>
 
-      <section className="mx-[80px] mt-[120px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3]">
+      <section className="mt-[120px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
             src="/images/aboutus_icon_1.PNG"
@@ -108,7 +108,7 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="mx-[80px] mt-[160px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3] lg:mt-[84px]">
+      <section className="mt-[160px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3] lg:mt-[84px]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
             src="/images/aboutus_icon_4.PNG"
@@ -133,7 +133,7 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="mx-[80px] mt-[126px] flex flex-col lg:flex-row">
+      <section className="mt-[126px] flex flex-col lg:flex-row">
         <div className="w-1/2">
           <img
             src="/images/aboutus_image_03.svg"
@@ -166,7 +166,7 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="mx-[80px] mt-[150px] flex flex-col items-center text-[40px] font-[700] text-[#EDF1F3]">
+      <section className="mt-[150px] flex flex-col items-center text-[40px] font-[700] text-[#EDF1F3]">
         Our Team
         <img
           src="/images/aboutus_lineimage_01.svg"
@@ -174,11 +174,11 @@ export default function AboutUs() {
         />
       </section>
 
-      <section className="mx-[80px] mt-[108px] w-full text-center text-[40px] font-[400] text-[#EDF1F3] xl:w-1/2">
+      <section className="mt-[108px] w-full text-center text-[40px] font-[400] text-[#EDF1F3] xl:w-1/2">
         Kneeshaw Developments Team
       </section>
 
-      <section className="mx-[80px] mt-[40px] flex flex-col text-center font-[400] text-[#EDF1F3] xl:flex-row">
+      <section className="mt-[40px] flex flex-col text-center font-[400] text-[#EDF1F3] xl:flex-row">
         <div className="flex w-full flex-col xl:w-1/2">
           <p className="text-[20px]">
             Kneeshaw Game Development is home to a team of experienced and
@@ -217,7 +217,7 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="mx-[80px] mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
+      <section className="mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
           <img
             src="/images/aboutus_lineimage_02.svg"
@@ -253,11 +253,9 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="mx-[80px] my-[38px] text-[20px] font-[400]">
-        Stalk us
-      </section>
+      <section className=" mt-[38px] text-[20px] font-[400]">Stalk us</section>
 
-      <section className="mx-[80px] my-[32px] flex flex-row gap-[20px] text-[#EDF1F3]">
+      <section className="mb-[20px] mt-[32px] flex flex-row gap-[20px] text-[#EDF1F3]">
         <i className="fa-brands fa-xl fa-youtube" />
         <i className="fa-brands fa-xl fa-steam" />
         <i className="fa-brands fa-xl fa-reddit" />
