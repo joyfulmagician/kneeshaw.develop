@@ -29,14 +29,14 @@ export default function AboutUs() {
         </h3>
       </section>
 
-      <section className="mt-[160px] flex flex-row">
-        <div className="w-1/2">
+      <section className="mt-[160px] flex flex-col 2xl:flex-row">
+        <div className="w-full 2xl:w-1/2 ">
           <img src="/images/aboutus_lineimage_02.svg" className="w-[100px]" />
-          <h1 className="mt-[19px] text-[40px] font-bold">
+          <h1 className="mt-[19px] text-center text-[40px] font-bold 2xl:text-left">
             What we're <br />
             creating
           </h1>
-          <p className="text-[20px]">
+          <p className="text-center text-[20px] 2xl:text-left">
             Kneeshaw Game Development is a leading game development company that
             specializes in creating immersive and engaging gaming experiences
             for players around the world. Based in the United Kingdom, Kneeshaw
@@ -46,14 +46,17 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="flex-center flex w-1/2">
-          <img src="/images/aboutus_image_02.svg" className="ml-auto" />
+          <img
+            src="/images/aboutus_image_02.svg"
+            className="ml-auto hidden 2xl:block"
+          />
           <img
             src="/images/aboutus_image_04.svg"
-            className="mr-[-800px] mt-[-1000px]"
+            className="mr-[-800px] mt-[-1000px] hidden 2xl:block"
           />
           <img
             src="/images/aboutus_image_05.svg"
-            className="ml-auto mt-[-400px]"
+            className="ml-auto mt-[-400px] hidden 2xl:block"
           />
         </div>
       </section>
@@ -103,7 +106,7 @@ export default function AboutUs() {
           </p>
         </div>
       </section>
-      <section className="mt-[84px] flex h-[278px] justify-center gap-[50px]">
+      <section className="mt-[160px] flex h-[278px] justify-center gap-[50px] lg:mt-[84px]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
             src="/images/aboutus_icon_4.PNG"
@@ -127,22 +130,22 @@ export default function AboutUs() {
           </p>
         </div>
       </section>
-      <section className="mt-[126px] flex flex-row">
+      <section className="mt-[126px] flex flex-col lg:flex-row">
         <div className="w-1/2">
           <img
             src="/images/aboutus_image_03.svg"
-            className="ml-[-120px] w-[339px]"
+            className="ml-[-120px] hidden w-[339px] lg:block"
           />
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <img
             src="/images/aboutus_lineimage_03.svg"
             className="ml-auto object-right"
           />
-          <h1 className="mt-[21px] text-right text-[40px] font-bold">
+          <h1 className="mt-[21px] text-center text-[40px] font-bold lg:text-right">
             Our mission
           </h1>
-          <p className="mt-[50px] text-right text-[20px]">
+          <p className="mt-[50px] text-center text-[20px] lg:text-right">
             One of our main focuses is on creating games that are accessible to
             players of all skill levels. We believe that games should be fun and
             engaging for everyone, regardless of their experience with gaming,
@@ -167,11 +170,11 @@ export default function AboutUs() {
         />
       </section>
 
-      <section className="mt-[108px] w-1/2 text-center text-[40px] font-bold">
+      <section className="mt-[108px] w-full text-center text-[40px] font-bold xl:w-1/2">
         Kneeshaw Developments Team
       </section>
-      <section className="mt-[40px] flex flex-row text-center">
-        <div className="flex w-1/2 flex-col">
+      <section className="mt-[40px] flex flex-col text-center xl:flex-row">
+        <div className="flex w-full flex-col xl:w-1/2">
           <p className="text-[20px]">
             Kneeshaw Game Development is home to a team of experienced and
             dedicated professionals who are passionate about creating innovative
@@ -183,7 +186,7 @@ export default function AboutUs() {
             and visually stunning.
           </p>
         </div>
-        <div className="felx-row flex w-1/2 justify-center gap-[100px]">
+        <div className="mt-[20px] flex w-full flex-row justify-center gap-[100px] xl:mt-[0] xl:w-1/2">
           <div className="flex h-[208px] flex-col gap-[10px]">
             <img
               src="/images/avatar_01.png"
@@ -208,8 +211,8 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section className="mt-[180px] flex flex-row justify-center px-[30px]">
-        <div className="w-1/2">
+      <section className="mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
+        <div className="w-full xl:w-1/2">
           <img
             src="/images/aboutus_lineimage_02.svg"
             className="mt-[-30px] w-[100px]"
@@ -220,7 +223,7 @@ export default function AboutUs() {
             <br /> Fantasies Into Playable Games
           </p>
         </div>
-        <div className="flex w-1/2 flex-col gap-[20px] bg-[#292929] p-[35px]">
+        <div className=" flex w-full flex-col gap-[20px] bg-[#292929] p-[35px] xl:w-1/2">
           <p className="text-[20px]">Let us know about your project</p>
           <input
             className="h-[52px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px]"
