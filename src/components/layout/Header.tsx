@@ -10,9 +10,11 @@ import { IoMdClose } from "react-icons/io";
 import { useRole } from "@/contexts/RoleContext";
 import { ROLES } from "@/utils/constants";
 import Logo from "./Logo";
+import { useShop } from "@/contexts/ShopContext";
 
 export default function Header() {
   const { role } = useRole();
+  const { cartCount } = useShop();
 
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -27,7 +29,7 @@ export default function Header() {
 
         <div
           className={clsx(
-            "hidden flex-row items-center text-[18px] font-semibold lg:flex lg:gap-[35px] xl:gap-[70px]",
+            "hidden flex-row items-center text-[18px] font-semibold lg:flex lg:gap-[24px] xl:gap-[70px]",
             role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
           )}
         >
@@ -51,8 +53,8 @@ export default function Header() {
                 role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
               )}
             />
-            <div className="absolute bottom-[-5px] right-[-5px] h-[16px] w-[16px] rounded-[100%] bg-[#AFD275] text-center text-[12px] leading-[15px]">
-              0
+            <div className="absolute bottom-[-5px] right-[-5px] h-[16px] w-[16px] rounded-[100%] bg-[#AFD275] text-center text-[10px] leading-[15px]">
+              {cartCount}
             </div>
           </div>
 
@@ -87,7 +89,7 @@ export default function Header() {
 
             <div
               className={clsx(
-                "hidden flex-row items-center text-[18px] font-semibold lg:flex lg:gap-[35px] xl:gap-[70px]",
+                "hidden flex-row items-center text-[18px] font-semibold lg:flex lg:gap-[24px] xl:gap-[70px]",
                 role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
               )}
             >
@@ -111,8 +113,8 @@ export default function Header() {
                     role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
                   )}
                 />
-                <div className="absolute bottom-[-5px] right-[-5px] h-[16px] w-[16px] rounded-[100%] bg-[#AFD275] text-center text-[12px] leading-[15px]">
-                  0
+                <div className="absolute bottom-[-5px] right-[-5px] h-[16px] w-[16px] rounded-[100%] bg-[#AFD275] text-center text-[10px] leading-[15px]">
+                  {cartCount}
                 </div>
               </div>
 

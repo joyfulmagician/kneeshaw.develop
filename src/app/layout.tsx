@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import RoleProvider from "@/contexts/RoleContext";
+import ShopProvider from "@/contexts/ShopContext";
 
 const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -28,7 +29,9 @@ export default function RootLayout({
       </head>
 
       <body className={montserrat.className} style={{ minWidth: 400 }}>
-        <RoleProvider>{children}</RoleProvider>
+        <RoleProvider>
+          <ShopProvider>{children}</ShopProvider>
+        </RoleProvider>
       </body>
     </html>
   );
