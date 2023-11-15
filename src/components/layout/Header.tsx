@@ -5,6 +5,7 @@ import { useState } from "react";
 
 import clsx from "clsx";
 import { HiOutlineShoppingBag, HiBars3 } from "react-icons/hi2";
+import { IoMdClose } from "react-icons/io";
 
 import { useRole } from "@/contexts/RoleContext";
 import { ROLES } from "@/utils/constants";
@@ -129,13 +130,15 @@ export default function Header() {
                 Sign Up
               </Link>
 
-              <HiBars3
+              <div
                 className={clsx(
                   "block cursor-pointer text-[24px] lg:hidden",
                   role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
                 )}
                 onClick={handleMenuClick}
-              />
+              >
+                {openMenu ? <IoMdClose /> : <HiBars3 />}
+              </div>
             </div>
           </div>
 
