@@ -11,16 +11,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import OldSalt from "@/components/games/OldSalt";
+import TitanSaga from "@/components/games/TitanSaga";
+
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Games`,
   description: `${SITE_TITLE} - Games`,
 };
-import OldSalt from "@/components/games/OldSalt";
-import TitanSaga from "@/components/games/TitanSaga";
 
 export default function Games() {
-  const newLocal = "/images/aboutus_line_image_01.svg";
-
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
