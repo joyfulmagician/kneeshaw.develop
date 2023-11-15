@@ -103,7 +103,7 @@ export default function Home() {
           Enjoy our library of games
         </h2>
 
-        <div className="mx-[40px] flex flex-row gap-[40px] rounded-[14px] bg-[#24201C] p-[40px] md:max-h-[500px]">
+        <div className="mx-[40px] flex flex-row justify-between gap-[40px] rounded-[14px] bg-[#24201C] p-[40px] md:max-h-[500px] lg:pr-[50px] xl:pr-[80px]">
           <div className="flex w-[100%] flex-col gap-[40px] lg:w-[50%]">
             <h1 className="text-[56px] font-bold text-[#AFD275]">
               Titan Saga:
@@ -181,14 +181,13 @@ export default function Home() {
         </div>
 
         <div className="mt-[75px] flex flex-row justify-center gap-[20px] text-[#E7717D]">
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[28px] rounded-[10px] border border-[#E7717D] bg-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
         </div>
       </section>
 
