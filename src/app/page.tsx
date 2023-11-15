@@ -31,29 +31,28 @@ export default function Home() {
     >
       <Header />
 
-      <div className=" border border-[#EDF1F3]" />
+      <div className="border border-[#EDF1F3]" />
 
       <div className="m-[10px] flex flex-row-reverse font-light text-[#EDF1F3]">
-        <i className="fa-solid fa-magnifying-glass rounded-[9px] bg-[#4E3D38] p-[15px]"></i>
+        <i className="fa-solid fa-magnifying-glass cursor-pointer rounded-[9px] bg-[#4E3D38] p-[15px]"></i>
       </div>
 
       <section className="mt-[54px] flex flex-col gap-[40px] text-center">
-        <h3 className="text-[40px] font-light text-[#EDF1F3]">
+        <h3 className="text-[20px] font-light text-[#EDF1F3] sm:text-[30px] md:text-[40px]">
           Crafting innovation gameplay experiences through
         </h3>
 
-        {/* <div>
-          <h1 className="text-[56px] font-bold leading-[70px] tracking-[0.18em] text-[#AFD275]">
+        <div>
+          <h1 className="text-[40px] font-bold leading-[50px] tracking-[0.18em] text-[#AFD275] sm:leading-[60px] sm:text-[48] md:text-[56px] md:leading-[70px]">
             Kneeshaw
           </h1>
-
-          <h1 className="text-[56px] font-bold leading-[70px] tracking-[0.18em] text-[#AFD275]">
+          <h1 className="text-[40px] font-bold leading-[50px] tracking-[0.18em] text-[#AFD275] sm:leading-[60px] sm:text-[48] md:text-[56px] md:leading-[70px]">
             Developments
           </h1>
-        </div> */}
+        </div>
       </section>
 
-      {/* <section className="mt-[100px] flex justify-center rounded-[16px] px-[15px] py-[10px]">
+      <section className="mt-[100px] flex justify-center rounded-[16px] px-[15px] py-[10px]">
         <Tabs defaultValue="account">
           <TabsList className="flex h-[90px] w-[700px] flex-row gap-[10px] rounded-[16px] bg-[#39352F]">
             <TabsTrigger
@@ -70,7 +69,7 @@ export default function Home() {
             </TabsTrigger>
           </TabsList>
         </Tabs>
-      </section> */}
+      </section>
 
       <section className="mt-[97px] flex flex-col gap-[74px] text-[20px] font-light text-white">
         <div className="grid grid-cols-12">
@@ -88,15 +87,16 @@ export default function Home() {
         <div className="grid grid-cols-12">
           <div className="col-span-9 col-end-13 border-[1px] border-[#E7717D]" />
           <div className="col-span-9 col-end-13 my-[30px] mr-[40px] text-right">
-            Welcome to Kneeshaw Developments, the premier gaming development
-            website where you'll find the best games for gamers of all ages. Our
-            passion for gaming is evident in every game we create, and we are
-            dedicated to providing our players with immersive and engaging
-            experiences that will keep them coming back for more.
+            Our game library features a wide range of games, from action-packed
+            shooters and intense RPGs to casual puzzle games and family-friendly
+            adventures. We have games for every platform, including PC, mobile,
+            and console, and our developers are always working on new titles to
+            keep our players entertained.
           </div>
           <div className="col-span-5 col-end-13 border-[1px] border-[#E7717D]" />
         </div>
       </section>
+
       <section className="mt-[150px] flex flex-col items-center gap-[99px]">
         <h2 className="text-[40px] font-light text-[#EDF1F3]">
           Enjoy our library of games
@@ -180,15 +180,15 @@ export default function Home() {
         </div>
 
         <div className="mt-[75px] flex flex-row justify-center gap-[20px] text-[#E7717D]">
-          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
-          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
-          <div className="h-[14px] w-[28px] rounded-[10px] border border-[#E7717D] bg-[#E7717D]" />
-          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
-          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
-          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
-          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          {Array.from(Array(6).keys()).map((k) => (
+            <div
+              key={k}
+              className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]"
+            />
+          ))}
         </div>
       </section>
+
       <section className="mt-[200px]">
         <h2 className="mb-[100px] text-center text-[40px] font-light text-[#EDF1F3]">
           Stay up to date with the latest gaming news and updates
