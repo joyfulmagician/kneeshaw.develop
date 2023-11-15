@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: `${SITE_TITLE} - Games`,
 };
 
-export default function games() {
+export default function Games() {
   const newLocal = "/images/aboutus_lineimage_01.svg";
 
   return (
@@ -18,9 +18,7 @@ export default function games() {
       <Header />
 
       <section className="mt-[146px] flex flex-col items-center">
-        <h1 className="text-[40px] font-[700] font-bold text-[#EDF1F3]">
-          All Games
-        </h1>
+        <h1 className="text-[40px] font-bold text-[#EDF1F3]">All Games</h1>
         <img src={newLocal} className="mt-[56px] w-[100px]" />
       </section>
 

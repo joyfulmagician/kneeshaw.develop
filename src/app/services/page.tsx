@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Services() {
   return (
-    <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
+    <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
       <section className="mt-[146px] flex flex-col items-center text-[#EDF1F3]">
@@ -138,7 +138,7 @@ export default function Services() {
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
             <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
-              Daaps Game <br /> Development
+              Dapps Game <br /> Development
             </p>
             <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               We leverage our expertise to build secure and user-friendly dApps
@@ -241,7 +241,7 @@ export default function Services() {
         </div>
       </section>
       <section className=" mt-[38px] text-[20px]">Stalk us</section>
-      <section className="felx-row mb-[20px] mt-[32px] flex gap-[20px] font-[400] text-[#EDF1F3]">
+      <section className="mb-[20px] mt-[32px] flex flex-row gap-[20px] font-[400] text-[#EDF1F3]">
         <i className="fa-brands fa-xl fa-youtube" />
         <i className="fa-brands fa-xl fa-steam" />
         <i className="fa-brands fa-xl fa-reddit" />
