@@ -4,7 +4,13 @@ import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { SITE_TITLE } from "@/utils/constants";
-
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Games`,
   description: `${SITE_TITLE} - Games`,
@@ -32,28 +38,28 @@ export default function Games() {
 
       <section className="mx-[80px] mt-[99px] flex flex-col justify-center gap-[50px] text-center text-[#EDF1F3] lg:flex-row">
         <div>
-          <select
-            id="category"
-            name="category"
-            className="h-[44px] w-[317px] rounded-md border-[1px] border-[#EDF1F3] bg-transparent py-0  pl-2 pr-[20px]"
-          >
-            <option value="">All categories</option>
-            <option value="">First Category</option>
-            <option value="">Second Category</option>
-          </select>
+          <Select>
+            <SelectTrigger className="mt-[10px] h-[44px] w-[317px] bg-transparent text-white">
+              <SelectValue placeholder="All categories" />
+            </SelectTrigger>
+            <SelectContent className="w-[317px] bg-transparent text-white">
+              <SelectItem value="first_category">First Category</SelectItem>
+              <SelectItem value="second_category">Second Category</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
         <div>
-          <select
-            id="platform"
-            name="platform"
-            className="h-[44px] w-[317px] rounded-md border-[1px] border-[#EDF1F3] bg-transparent py-0  pl-2 pr-[20px]"
-          >
-            <option value="">All Platforms</option>
-            <option value="">First Platform</option>
-            <option value="">Second Platform</option>
-          </select>
+          <Select>
+            <SelectTrigger className="mt-[10px] h-[44px] w-[317px] bg-transparent text-white">
+              <SelectValue placeholder="All platforms" />
+            </SelectTrigger>
+            <SelectContent className="w-[317px] bg-transparent text-white">
+              <SelectItem value="first_platform">First Platform</SelectItem>
+              <SelectItem value="second_platform">Second Platform</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
-        <div>
+        <div className="mt-[10px]">
           <Link href="/games/apply">
             <button className="h-[44px] w-[210px] rounded-xl bg-[#AFD275] font-[600]">
               Apply
