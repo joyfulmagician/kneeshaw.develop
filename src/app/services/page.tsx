@@ -209,10 +209,11 @@ export default function Services() {
 
       <section className="mx-[80px] mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
-          <img
-            src="/images/aboutus_line_image_02.svg"
-            className="mt-[-30px] w-[100px]"
-          />
+          <div className="flex items-center">
+            <div className="w-[100px]  border border-[#AFD275]">
+              <div className="ml-0 w-[30px] border border-[#AFD275]" />
+            </div>
+          </div>
           <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
             Contact Us
           </h1>
