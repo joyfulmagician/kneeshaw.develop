@@ -63,8 +63,8 @@ export default function GameView() {
   ];
 
   return (
-    <div className="mx-[40px] flex w-full flex-col items-center">
-      <div className="grid grid-cols-1 gap-[40px] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="flex w-full flex-col items-center justify-between">
+      <div className="grid grid-cols-1 gap-[60px] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {cards.map(({ image, title, subtitle, paragraph }, index) => (
           <ImageCard
             key={index}
