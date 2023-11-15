@@ -16,10 +16,12 @@ export default function Page({ params }: { params: { slug: "more" } }) {
 
       <section className="mx-[80px] mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-bold">Titan Saga: Chains of Kronos</h1>
-        <img
-          src="/images/aboutus_line_image_01.svg"
-          className="mt-[56px] w-[100px]"
-        />
+      </section>
+
+      <section className="mx-[80px] mt-[56px] flex items-center justify-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        </div>
       </section>
 
       <section className="mx-[80px] mt-[123px] flex justify-center px-[80px] text-center">
@@ -31,7 +33,11 @@ export default function Page({ params }: { params: { slug: "more" } }) {
       </section>
 
       <section className="mx-[80px] mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
-        <img src="/images/aboutus_line_image_02.svg" className="w-[100px]" />
+        <div className="mt-[21px] flex items-center">
+          <div className="w-[100px]  border border-[#AFD275]">
+            <div className="ml-0 w-[30px] border border-[#AFD275]" />
+          </div>
+        </div>
         <h1 className="mt-[21px] text-[40px]">Build a Royal House</h1>
         <div className="text-[20px]">
           <p>
@@ -119,12 +125,12 @@ export default function Page({ params }: { params: { slug: "more" } }) {
         </div>
       </section>
 
-      <section className="mx-[80px] mt-[120px] text-[40px]">
-        Features
-        <img
-          src="/images/aboutus_line_image_02.svg"
-          className="mt-[21px] w-[100px]"
-        />
+      <section className="mx-[80px] mt-[120px] text-[40px]">Features</section>
+
+      <section className="mx-[80px] mt-[21px] flex items-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-0 w-[30px] border border-[#AFD275]" />
+        </div>
       </section>
 
       <section className="mx-[80px] mt-[65px] flex flex-wrap border-[1px]">
@@ -189,10 +195,12 @@ export default function Page({ params }: { params: { slug: "more" } }) {
 
       <section className="mx-[80px] mt-[120px] flex flex-col items-center text-[40px] font-bold">
         Act 1: Progress
-        <img
-          src="/images/aboutus_line_image_01.svg"
-          className="mt-[21px] w-[100px]"
-        />
+      </section>
+
+      <section className="mx-[80px] mt-[21px] flex items-center justify-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        </div>
       </section>
 
       <section className="mx-[80px] mt-[120px] flex flex-wrap justify-center gap-[70px] xl:gap-[205px]">
@@ -208,10 +216,12 @@ export default function Page({ params }: { params: { slug: "more" } }) {
 
       <section className="mx-[80px] mt-[160px] flex flex-col items-center text-[40px]">
         Explore Titan Saga’ Story
-        <img
-          src="/images/aboutus_line_image_01.svg"
-          className="mt-[21px] w-[100px]"
-        />
+      </section>
+
+      <section className="mx-[80px] mt-[21px] flex items-center justify-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        </div>
       </section>
 
       <section className="mx-[80px] mt-[86px] text-center text-[20px]">
