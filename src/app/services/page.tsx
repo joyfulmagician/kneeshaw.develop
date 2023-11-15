@@ -240,7 +240,9 @@ export default function Services() {
           </button>
         </div>
       </section>
+
       <section className=" mt-[38px] text-[20px] font-[400]">Stalk us</section>
+
       <section className="mb-[20px] mt-[32px] flex flex-row gap-[20px] text-[#EDF1F3]">
         <i className="fa-brands fa-xl fa-youtube" />
         <i className="fa-brands fa-xl fa-steam" />
@@ -250,6 +252,7 @@ export default function Services() {
         <i className="fa-brands fa-xl fa-twitch" />
         <i className="fa-brands fa-xl fa-twitter" />
       </section>
+
       <Footer />
     </main>
   );

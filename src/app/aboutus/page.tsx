@@ -72,6 +72,7 @@ export default function AboutUs() {
           className="mt-[21px] w-[100px]"
         />
       </section>
+
       <section className="mt-[120px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
@@ -106,6 +107,7 @@ export default function AboutUs() {
           </p>
         </div>
       </section>
+
       <section className="mt-[160px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3] lg:mt-[84px]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
@@ -130,6 +132,7 @@ export default function AboutUs() {
           </p>
         </div>
       </section>
+
       <section className="mt-[126px] flex flex-col lg:flex-row">
         <div className="w-1/2">
           <img
@@ -162,6 +165,7 @@ export default function AboutUs() {
           </p>
         </div>
       </section>
+
       <section className="mt-[150px] flex flex-col items-center text-[40px] font-[700] text-[#EDF1F3]">
         Our Team
         <img
@@ -173,6 +177,7 @@ export default function AboutUs() {
       <section className="mt-[108px] w-full text-center text-[40px] font-[400] text-[#EDF1F3] xl:w-1/2">
         Kneeshaw Developments Team
       </section>
+
       <section className="mt-[40px] flex flex-col text-center font-[400] text-[#EDF1F3] xl:flex-row">
         <div className="flex w-full flex-col xl:w-1/2">
           <p className="text-[20px]">
@@ -211,6 +216,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
+
       <section className="mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
           <img
@@ -246,7 +252,9 @@ export default function AboutUs() {
           </button>
         </div>
       </section>
+
       <section className=" mt-[38px] text-[20px] font-[400]">Stalk us</section>
+
       <section className="mb-[20px] mt-[32px] flex flex-row gap-[20px] text-[#EDF1F3]">
         <i className="fa-brands fa-xl fa-youtube" />
         <i className="fa-brands fa-xl fa-steam" />
@@ -256,6 +264,7 @@ export default function AboutUs() {
         <i className="fa-brands fa-xl fa-twitch" />
         <i className="fa-brands fa-xl fa-twitter" />
       </section>
+
       <Footer />
     </main>
   );

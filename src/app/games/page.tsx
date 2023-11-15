@@ -115,7 +115,6 @@ export default function Games() {
             src="/images/image03.png"
           />
         </div>
-
         <div className="flex justify-end text-[20px]">
           <p className="w-[700px] text-right text-[20px] font-[400]">
             The game is a survival adventure that requires the player to manage

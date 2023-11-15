@@ -111,6 +111,7 @@ export default function Game1_morePage() {
           </div>
         </div>
       </section>
+
       <section className="mt-[120px] text-[40px]">
         Features
         <img
@@ -118,6 +119,7 @@ export default function Game1_morePage() {
           className="mt-[21px] w-[100px]"
         />
       </section>
+
       <section className="mt-[56px] flex flex-wrap border-[1px] xl:flex-row">
         <div className="flex w-full flex-col gap-[30px] border-[white] p-[30px] xl:w-1/3">
           <img
@@ -165,6 +167,7 @@ export default function Game1_morePage() {
           </p>
         </div>
       </section>
+
       <section className="mt-[160px] flex flex-col items-center text-[40px]">
         Explore Old Salt’ Story
         <img
@@ -172,6 +175,7 @@ export default function Game1_morePage() {
           className="mt-[56px] w-[100px]"
         />
       </section>
+
       <section className="mt-[56px] text-center text-[20px]">
         Old Salt features various gameplay mechanics, including crafting,
         building, and hunting, as well as day and night cycles, and weather
@@ -183,6 +187,7 @@ export default function Game1_morePage() {
         for players who enjoy exploring and overcoming obstacles in a detailed
         and historically accurate environment.
       </section>
+
       <section className="mt-[80px]">
         <img src="/images/video_02.png" className="z-0" />
         {/* <i className="fa-solid fa-play fa-2xl color-[#ffffff] z-1 mt-[-562px] object-center" /> */}

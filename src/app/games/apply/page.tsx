@@ -65,7 +65,6 @@ export default function ApplyPage() {
             src="/images/image03.png"
           />
         </div>
-
         <div className="flex justify-end text-[20px]">
           <p className="w-[700px] text-right text-[20px]">
             The game is a survival adventure that requires the player to manage
