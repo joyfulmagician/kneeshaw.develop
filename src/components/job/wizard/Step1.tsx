@@ -9,7 +9,7 @@ export default function Step1({ onNext }: Props) {
     <>
       <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex"></div>
 
-      <div className="flex flex-[2] flex-col gap-[20px] bg-[#33302C] px-[40px] py-[50px] text-white">
+      <section className="flex flex-[2] flex-col gap-[20px] bg-[#33302C] px-[40px] py-[50px] text-white">
         <div className="flex flex-row justify-end gap-[2px]">
           <i className="fa-solid fa-ellipsis fa-2xl"></i>
           <i className="fa-solid fa-ellipsis fa-2xl"></i>
@@ -28,6 +28,7 @@ export default function Step1({ onNext }: Props) {
           <p className="text-[18px] font-light">
             Write a title for your job post
           </p>
+
           <input
             type="text"
             className="h-[52px] w-full rounded-[6px] border-[1px] border-[#EDF1F3] bg-transparent pl-[10px]"
@@ -40,6 +41,7 @@ export default function Step1({ onNext }: Props) {
             Here are some examples of work titles that freelancers commonly use
             on freelance websites:
           </div>
+
           <ul className="list-disc px-[20px]">
             <li>Web Developer</li>
             <li>Graphic Designer</li>
@@ -64,7 +66,7 @@ export default function Step1({ onNext }: Props) {
             Next
           </button>
         </div>
-      </div>
+      </section>
     </>
   );
 }

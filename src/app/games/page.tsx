@@ -10,16 +10,14 @@ export const metadata: Metadata = {
 };
 
 export default function games() {
+  const newLocal = "/images/aboutus_lineimage_01.svg";
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
       <Header />
 
       <section className="mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-bold">All Games</h1>
-        <img
-          src="/images/aboutus_lineimage_01.svg"
-          className="mt-[56px] w-[100px]"
-        />
+        <img src={newLocal} className="mt-[56px] w-[100px]" />
       </section>
 
       <section className="mt-[153px] flex justify-center text-center">
@@ -38,7 +36,7 @@ export default function games() {
       </section>
 
       <section className="mt-[56px] flex h-[623px] flex-row gap-[80px] rounded-xl bg-[#3F3046] p-[50px]">
-        <div className="flex w-1/2 w-full flex-col gap-[10px]">
+        <div className="flex w-1/2 flex-col gap-[10px]">
           <h5 className="text-[20px]">7K Players</h5>
           <img
             className="mb-[-70px] mt-[-70px] hidden object-scale-down lg:block"
