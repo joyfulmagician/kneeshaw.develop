@@ -14,7 +14,7 @@ export default function Services() {
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
-      <section className="mt-[146px] flex flex-col items-center text-[#EDF1F3]">
+      <section className="mx-[80px] mt-[146px] flex flex-col items-center text-[#EDF1F3]">
         <h1 className="text-[40px] font-[700]">Our Services</h1>
         <img
           src="/images/aboutus_lineimage_01.svg"
@@ -22,14 +22,14 @@ export default function Services() {
         />
       </section>
 
-      <section className="mt-[91px] flex justify-center text-center text-[#EDF1F3]">
+      <section className="mx-[80px] mt-[91px] flex justify-center text-center text-[#EDF1F3]">
         <h3 className="w-[966px] text-[20px] font-[400]">
           At Kneeshaw Development, we are passionate about delivering
           high-quality, innovative, and immersive gaming experiences.
         </h3>
       </section>
 
-      <section className="mt-[150px] flex flex-wrap justify-center gap-[40px] xl:gap-[90px]">
+      <section className="mx-[80px] mt-[150px] flex flex-wrap justify-center gap-[40px] xl:gap-[90px]">
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_01.svg"
@@ -205,7 +205,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
+      <section className="mx-[80px] mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
           <img
             src="/images/aboutus_lineimage_02.svg"
@@ -241,9 +241,11 @@ export default function Services() {
         </div>
       </section>
 
-      <section className=" mt-[38px] text-[20px] font-[400]">Stalk us</section>
+      <section className="mx-[80px] mt-[38px] text-[20px] font-[400]">
+        Stalk us
+      </section>
 
-      <section className="mb-[20px] mt-[32px] flex flex-row gap-[20px] text-[#EDF1F3]">
+      <section className="mx-[80px] my-[40px] flex flex-row gap-[20px] text-[#EDF1F3]">
         <i className="fa-brands fa-xl fa-youtube" />
         <i className="fa-brands fa-xl fa-steam" />
         <i className="fa-brands fa-xl fa-reddit" />
