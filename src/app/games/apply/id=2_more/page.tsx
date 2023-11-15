@@ -19,8 +19,10 @@ export default function Game1_morePage() {
       </section>
 
       <section className="mx-[80px] mt-[21px] flex items-center justify-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        <div className="flex w-[100px] flex-row">
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
         </div>
       </section>
 
@@ -32,8 +34,10 @@ export default function Game1_morePage() {
 
       <section className="mx-[80px] mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
         <div className="mt-[21px] flex items-center">
-          <div className="w-[100px]  border border-[#AFD275]">
-            <div className="ml-0 w-[30px] border border-[#AFD275]" />
+          <div className="flex w-[100px] flex-row">
+            <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
           </div>
         </div>
         <h1 className="mt-[21px] text-[40px]">Build a Royal House</h1>
@@ -121,8 +125,10 @@ export default function Game1_morePage() {
       <section className="mx-[80px] mt-[120px] text-[40px]">Features</section>
 
       <section className="mx-[80px] mt-[21px] flex items-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-0 w-[30px] border border-[#AFD275]" />
+        <div className="flex w-[100px] flex-row">
+          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
         </div>
       </section>
 
@@ -179,8 +185,10 @@ export default function Game1_morePage() {
       </section>
 
       <section className="mx-[80px] mt-[56px] flex items-center justify-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        <div className="flex w-[100px] flex-row">
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
         </div>
       </section>
 

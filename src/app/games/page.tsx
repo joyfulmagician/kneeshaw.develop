@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import OldSalt from "@/components/games/OldSalt";
+import TitanSaga from "@/components/games/TitanSaga";
 import { SITE_TITLE } from "@/utils/constants";
 import {
   Select,
@@ -11,8 +13,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import OldSalt from "@/components/games/OldSalt";
-import TitanSaga from "@/components/games/TitanSaga";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Games`,
@@ -44,8 +44,8 @@ export default function Games() {
         </h3>
       </section>
 
-      <section className="mx-[80px] mt-[99px] flex flex-col justify-center gap-[50px] text-center text-[#EDF1F3] lg:flex-row">
-        <div>
+      <section className="mx-[80px] mt-[99px] flex flex-col justify-center gap-[85px] text-center text-[#EDF1F3] lg:flex-row lg:gap-[60px]">
+        <div className="flex justify-center">
           <Select>
             <SelectTrigger className="mt-[10px] h-[44px] w-[317px] bg-transparent text-white">
               <SelectValue placeholder="All categories" />
@@ -56,7 +56,7 @@ export default function Games() {
             </SelectContent>
           </Select>
         </div>
-        <div>
+        <div className="flex justify-center">
           <Select>
             <SelectTrigger className="mt-[10px] h-[44px] w-[317px] bg-transparent text-white">
               <SelectValue placeholder="All platforms" />
@@ -77,8 +77,10 @@ export default function Games() {
       </section>
 
       <section className="mx-[80px] mt-[120px] flex items-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-0 w-[30px] border border-[#AFD275]" />
+        <div className="flex w-[100px] flex-row">
+          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
         </div>
       </section>
 

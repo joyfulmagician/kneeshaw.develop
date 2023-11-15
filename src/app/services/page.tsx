@@ -211,8 +211,10 @@ export default function Services() {
       <section className="mx-[80px] mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
           <div className="flex items-center">
-            <div className="w-[100px]  border border-[#AFD275]">
-              <div className="ml-0 w-[30px] border border-[#AFD275]" />
+            <div className="flex w-[100px] flex-row">
+              <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
+              <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+              <div className="h-[1px] w-1/3 border border-[#677746]"></div>
             </div>
           </div>
           <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
