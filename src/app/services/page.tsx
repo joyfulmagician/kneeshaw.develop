@@ -16,10 +16,12 @@ export default function Services() {
 
       <section className="mx-[80px] mt-[146px] flex flex-col items-center text-[#EDF1F3]">
         <h1 className="text-[40px] font-[700]">Our Services</h1>
-        <img
-          src="/images/aboutus_line_image_01.svg"
-          className="mt-[56px] w-[100px]"
-        />
+      </section>
+
+      <section className="mx-[80px] mt-[56px] flex items-center justify-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        </div>
       </section>
 
       <section className="mx-[80px] mt-[91px] flex justify-center text-center text-[#EDF1F3]">

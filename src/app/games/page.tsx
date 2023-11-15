@@ -25,7 +25,12 @@ export default function Games() {
 
       <section className="mx-[80px] mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-bold text-[#EDF1F3]">All Games</h1>
-        <img src={newLocal} className="mt-[56px] w-[100px]" />
+      </section>
+
+      <section className="mx-[80px] mt-[56px] flex items-center justify-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
+        </div>
       </section>
 
       <section className="mx-[80px] mt-[58px] flex justify-center text-center">
@@ -68,11 +73,14 @@ export default function Games() {
         </div>
       </section>
 
-      <section className="mx-[80px] mt-[120px]">
-        <img src="/images/aboutus_line_image_02.svg" className="w-[100px]" />
-        <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
-          Popular Games
-        </h1>
+      <section className="mx-[80px] mt-[120px] flex items-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-0 w-[30px] border border-[#AFD275]" />
+        </div>
+      </section>
+
+      <section className="mx-[80px] mt-[21px]">
+        <h1 className="text-[40px] font-[700] text-[#EDF1F3]">Popular Games</h1>
       </section>
 
       <section className="mx-[80px] mt-[56px] flex flex-col rounded-xl bg-[#3F3046] p-8 text-[#EDF1F3] xl:flex-row">
