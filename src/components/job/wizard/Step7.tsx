@@ -1,5 +1,12 @@
 "use client";
 
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 interface Props {
   onBack: () => void;
   onNext: () => void;
@@ -39,15 +46,19 @@ export default function Step2({ onBack, onNext }: Props) {
           <div className="text-[18px] font-light">
             Select region or country preferences (Optional)
           </div>
-          <select
-            id="currency"
-            name="currency"
-            className="h-[52px] w-full rounded-md border-[1px] border-[#EDF1F3] bg-transparent py-0  pl-2 pr-[20px] text-white"
-          >
-            <option value="">Select</option>
-            <option value="">Country1</option>
-            <option value="">Country1</option>
-          </select>
+
+          <Select>
+            <SelectTrigger className="h-[52px] w-full border-[1px] border-[#EDF1F3] bg-transparent text-[18px]">
+              <SelectValue placeholder="Select" />
+            </SelectTrigger>
+            <SelectContent className="bg-[#33302C] text-white">
+              <SelectItem value="country1">Country1</SelectItem>
+              <SelectItem value="country2">Country2</SelectItem>
+              <SelectItem value="country3">Country3</SelectItem>
+              <SelectItem value="country4">Country4</SelectItem>
+            </SelectContent>
+          </Select>
+
           <div className="text-[18px] font-light">
             These location preferences will be displayed to all candidates, but
             anyone can submit proposals.
