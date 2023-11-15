@@ -12,14 +12,14 @@ export const metadata: Metadata = {
 
 export default function ApplyPage() {
   return (
-    <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
+    <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
-      <section className="mt-[76px]">
+      <section className="mx-[80px] mt-[76px]">
         <h1 className="text-[40px] font-[700] text-[#EDF1F3]">Popular Games</h1>
       </section>
 
-      <section className="mt-[56px] flex flex-col rounded-xl bg-[#3F3046] p-8 text-[#EDF1F3] xl:flex-row">
+      <section className="mx-[80px] mt-[56px] flex flex-col rounded-xl bg-[#3F3046] p-8 text-[#EDF1F3] xl:flex-row">
         <div className="flex w-full flex-col gap-8 xl:w-1/2">
           <h5 className="flex justify-start text-[20px] font-[600]">
             7k Players
@@ -54,7 +54,7 @@ export default function ApplyPage() {
         />
       </section>
 
-      <section className="mt-[107px] flex flex-col gap-[40px] rounded-xl bg-[#2E2322] p-[50px] text-[#EDF1F3]">
+      <section className="mx-[80px] my-[107px] flex flex-col gap-[40px] rounded-xl bg-[#2E2322] p-[50px] text-[#EDF1F3]">
         <h5 className="flex justify-end text-[20px] font-[600]">
           7k Players
           <span className="inline-flex h-3 w-3 rounded-full bg-[#9F0808]"></span>
