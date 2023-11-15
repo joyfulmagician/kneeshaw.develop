@@ -12,18 +12,18 @@ export const metadata: Metadata = {
 
 export default function Marketplace() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-[#211D19] text-[#EDF1F3]">
+    <main className="flex min-h-screen flex-col bg-[#211D19] text-[#EDF1F3]">
       <Header />
 
-      <h2 className="mt-[146px] text-[40px] font-bold">Our Blog</h2>
+      <h2 className="mt-[146px] text-center text-[40px] font-bold">Our Blog</h2>
 
-      <section className="mt-[56px]">
-        <div className="w-[100px] border-[1px] border-[#AFD275]">
-          <div className="ml-[30px] w-[40px] border-[1px] border-[#AFD275]" />
+      <section className="mt-[56px] flex items-center justify-center">
+        <div className="w-[100px]  border border-[#AFD275]">
+          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
         </div>
       </section>
 
-      <section className="mt-[58px] text-[20px] font-light">
+      <section className="mt-[58px] text-center text-[20px] font-light">
         Insights, News, and Tips to Level Up Your Gaming Experience
       </section>
 
