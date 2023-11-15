@@ -29,8 +29,8 @@ export default function Services() {
         </h3>
       </section>
 
-      <section className="mt-[150px] flex h-[335px] justify-center gap-[30px]">
-        <div className="flex h-[335px] w-1/5 flex-col">
+      <section className="mt-[150px] flex flex-wrap justify-center gap-[40px] xl:gap-[90px]">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_01.svg"
             className="z-0 h-1/3 object-fill"
@@ -44,7 +44,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_02.svg"
             className="z-0 h-1/3 object-fill"
@@ -58,7 +58,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_03.svg"
             className="z-0 h-1/3 object-fill"
@@ -73,7 +73,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_04.svg"
             className="z-0 h-1/3 object-fill"
@@ -87,10 +87,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-      </section>
-
-      <section className="mt-[60px] flex h-[335px] justify-center gap-[30px]">
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_06.svg"
             className="z-0 h-1/3 object-fill"
@@ -105,7 +102,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_07.svg"
             className="z-0 h-1/3 object-fill"
@@ -120,7 +117,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_08.svg"
             className="z-0 h-1/3 object-fill"
@@ -134,7 +131,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_05.svg"
             className="z-0 h-1/3 object-fill"
@@ -148,10 +145,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-      </section>
-
-      <section className="mt-[60px] flex h-[335px] justify-center gap-[30px]">
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_09.svg"
             className="z-0 h-1/3 object-fill"
@@ -165,7 +159,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_10.svg"
             className="z-0 h-1/3 object-fill"
@@ -179,7 +173,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_11.svg"
             className="z-0 h-1/3 object-fill"
@@ -194,7 +188,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex h-[335px] w-1/5 flex-col">
+        <div className="flex h-[335px] w-[284px] flex-col">
           <img
             src="/images/service_image_12.svg"
             className="z-0 h-1/3 object-fill"
@@ -211,8 +205,8 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="mt-[180px] flex flex-row justify-center px-[30px]">
-        <div className="w-1/2">
+      <section className="mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
+        <div className="w-full xl:w-1/2">
           <img
             src="/images/aboutus_lineimage_02.svg"
             className="mt-[-30px] w-[100px]"
@@ -223,7 +217,7 @@ export default function Services() {
             <br /> Fantasies Into Playable Games
           </p>
         </div>
-        <div className="flex w-1/2 flex-col gap-[20px] bg-[#292929] p-[35px]">
+        <div className=" flex w-full flex-col gap-[20px] bg-[#292929] p-[35px] xl:w-1/2">
           <p className="text-[20px]">Let us know about your project</p>
           <input
             className="h-[52px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px]"
