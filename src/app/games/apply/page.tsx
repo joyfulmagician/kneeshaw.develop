@@ -19,20 +19,14 @@ export default function ApplyPage() {
         <h1 className="text-[40px]">Popular Games</h1>
       </section>
 
-<<<<<<< HEAD
-      <section className="mt-[56px] flex h-[623px] flex-row gap-[80px] rounded-xl bg-[#3F3046] p-[50px]">
-        <div className="flex w-1/2 flex-col gap-[10px]">
-          <h5 className="text-[20px]">7K Players</h5>
-=======
       <section className="mt-[56px] flex flex-col rounded-xl bg-[#3F3046] p-8 lg:flex-row">
-        <div className="flex w-full flex-col gap-8 2xl:w-1/2">
+        <div className="flex w-full flex-col gap-8 lg:w-1/2">
           <h5 className="flex justify-start text-[20px]">
             7k Players
             <span className="inline-flex h-3 w-3 rounded-full bg-[#B74AFF]"></span>
           </h5>
->>>>>>> a69aed16175933ea777d43c3412d6273af2b101b
           <img
-            className="mb-[-100px] mt-[-100px]  h-[369.8px] w-[562px] object-scale-down"
+            className="mb-[-100px] mt-[-100px] hidden h-[369.8px] w-[562px] object-scale-down lg:block"
             src="/images/image01.png"
           />
           <p className="text-[20px]">
@@ -56,7 +50,7 @@ export default function ApplyPage() {
         </div>
         <img
           src="/images/image02.png"
-          className="mt-[-150px] hidden h-[623px] w-1/2 w-[600px] object-scale-down 2xl:block"
+          className="mt-[-150px] hidden h-[623px] w-1/2 w-[600px] object-scale-down lg:block"
         />
       </section>
 
@@ -67,7 +61,7 @@ export default function ApplyPage() {
         </h5>
         <div className="mb-[-100px] ml-[-180px] mt-[-100px] hidden lg:block">
           <img
-            className="lg:h-[433px] 2xl:w-[1450px]"
+            className="lg:h-[433px] lg:w-[1450px]"
             src="/images/image03.png"
           />
         </div>
