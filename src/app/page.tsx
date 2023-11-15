@@ -139,6 +139,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="mt-[40px]">
         <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
           <img
@@ -389,6 +390,7 @@ export default function Home() {
           </Accordion>
         </div>
       </section>
+
       <Footer />
     </main>
   );
