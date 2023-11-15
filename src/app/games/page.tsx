@@ -21,7 +21,7 @@ export default function games() {
         <img src={newLocal} className="mt-[56px] w-[100px]" />
       </section>
 
-      <section className="mt-[153px] flex justify-center text-center">
+      <section className="mt-[58px] flex justify-center text-center">
         <h3 className="w-[966px] text-[20px]">
           Enjoy exploring the diverse collection of games on the Kneeshaw Games,
           and may you find exciting experiences that match your interests and
