@@ -17,7 +17,7 @@ export default function Terms() {
       <section className="mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-[700] text-[#EDF1F3]">About Us</h1>
         <img
-          src="/images/aboutus_lineimage_01.svg"
+          src="/images/aboutus_line_image_01.svg"
           className="mt-[56px] w-[100px]"
         />
       </section>
@@ -31,7 +31,7 @@ export default function Terms() {
 
       <section className="mt-[160px] flex flex-col 2xl:flex-row">
         <div className="w-full 2xl:w-1/2 ">
-          <img src="/images/aboutus_lineimage_02.svg" className="w-[100px]" />
+          <img src="/images/aboutus_line_image_02.svg" className="w-[100px]" />
           <h1 className="mt-[19px] text-center text-[40px] font-[700] text-[#EDF1F3] 2xl:text-left">
             What we're <br />
             creating
@@ -68,7 +68,7 @@ export default function Terms() {
           your game development?
         </h1>
         <img
-          src="/images/aboutus_lineimage_01.svg"
+          src="/images/aboutus_line_image_01.svg"
           className="mt-[21px] w-[100px]"
         />
       </section>
@@ -142,7 +142,7 @@ export default function Terms() {
         </div>
         <div className="w-full text-[#EDF1F3] lg:w-1/2">
           <img
-            src="/images/aboutus_lineimage_03.svg"
+            src="/images/aboutus_line_image_03.svg"
             className="ml-auto object-right"
           />
           <h1 className="mt-[21px] text-center text-[40px] font-[700] lg:text-right">
@@ -169,7 +169,7 @@ export default function Terms() {
       <section className="mt-[150px] flex flex-col items-center text-[40px] font-[700] text-[#EDF1F3]">
         Our Team
         <img
-          src="/images/aboutus_lineimage_01.svg"
+          src="/images/aboutus_line_image_01.svg"
           className="mt-[21px] w-[100px]"
         />
       </section>
@@ -220,7 +220,7 @@ export default function Terms() {
       <section className="mt-[180px] flex flex-col justify-center gap-[20px] px-[30px] xl:flex-row">
         <div className="w-full xl:w-1/2">
           <img
-            src="/images/aboutus_lineimage_02.svg"
+            src="/images/aboutus_line_image_02.svg"
             className="mt-[-30px] w-[100px]"
           />
           <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
