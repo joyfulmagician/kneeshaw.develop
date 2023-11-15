@@ -29,7 +29,7 @@ export default function Game2_getPage() {
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
-      <section className="mt-[101px] flex flex-col items-center gap-[80px] px-[80px] py-[50px] 2xl:flex-row">
+      <section className="mx-[80px] mt-[101px] flex flex-col items-center gap-[80px] px-[80px] py-[50px] 2xl:flex-row">
         <img
           className="hidden h-[601px] w-1/3 object-scale-down 2xl:block"
           src="/images/image05.png"
