@@ -66,8 +66,8 @@ export default function games() {
         <h1 className="mt-[21px] text-[40px]">Popular Games</h1>
       </section>
 
-      <section className="mt-[56px] flex flex-col rounded-xl bg-[#3F3046] p-8 lg:flex-row">
-        <div className="flex w-full flex-col gap-8 lg:w-1/2">
+      <section className="mt-[56px] flex flex-col rounded-xl bg-[#3F3046] p-8 xl:flex-row">
+        <div className="flex w-full flex-col gap-8 xl:w-1/2">
           <h5 className="flex justify-start text-[20px]">
             7k Players
             <span className="inline-flex h-3 w-3 rounded-full bg-[#B74AFF]"></span>
@@ -97,7 +97,7 @@ export default function games() {
         </div>
         <img
           src="/images/image02.png"
-          className="mt-[-150px] hidden h-[623px] w-1/2 w-[600px] object-scale-down lg:block"
+          className="mt-[-150px] hidden h-[623px] w-1/2 w-[600px] object-scale-down xl:block"
         />
       </section>
 
