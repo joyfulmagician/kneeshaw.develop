@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -24,7 +25,7 @@ export default function ApplyPage() {
           <img
             className="mb-[-70px] mt-[-70px] hidden object-scale-down lg:block"
             src="/images/image01.png"
-          ></img>
+          />
           <p>
             It is a turn-based RPG (role-playing game) that takes place in a
             fantasy world filled with magic and mythical creatures. The game
@@ -32,18 +33,22 @@ export default function ApplyPage() {
             of a hero tasked with saving the world from destruction.
           </p>
           <div className="flex gap-[20px]">
-            <button className=" rounded-xl bg-[#B74AFF] px-[24px] py-[12px] text-base">
-              Get it now
-            </button>
-            <button className="rounded-xl border border-white bg-transparent px-[24px] py-[12px]">
-              More
-            </button>
+            <Link href="/games/apply/id=1_get">
+              <button className=" rounded-xl bg-[#B74AFF] px-[24px] py-[12px] text-base">
+                Get it now
+              </button>
+            </Link>
+            <Link href="/games/apply/id=1_more">
+              <button className="rounded-xl border border-white bg-transparent px-[24px] py-[12px]">
+                More
+              </button>
+            </Link>
           </div>
         </div>
         <img
           className="mt-[-150px] hidden w-1/2 object-scale-down lg:block"
           src="/images/image02.png"
-        ></img>
+        />
       </section>
 
       <section className="static mt-[107px] flex h-[623px] flex-col gap-[10px] rounded-xl bg-[#2E2322] p-[50px]">
@@ -60,12 +65,16 @@ export default function ApplyPage() {
           </p>
         </div>
         <div className="flex justify-end gap-[20px]">
-          <button className=" rounded-xl bg-[#9F0808] px-[24px] py-[12px] text-base">
-            Get it now
-          </button>
-          <button className="rounded-xl border border-white bg-transparent px-[24px] py-[12px]">
-            More
-          </button>
+          <Link href="/games/apply/id=2_get">
+            <button className=" rounded-xl bg-[#9F0808] px-[24px] py-[12px] text-base">
+              Get it now
+            </button>
+          </Link>
+          <Link href="/games/apply/id=2_more">
+            <button className="rounded-xl border border-white bg-transparent px-[24px] py-[12px]">
+              More
+            </button>
+          </Link>
         </div>
       </section>
 

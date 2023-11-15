@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: `${SITE_TITLE} - Games`,
 };
 
-export default function Game1_getmorePage() {
+export default function Game1_getPage() {
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
       <Header />
@@ -18,7 +18,7 @@ export default function Game1_getmorePage() {
         <img
           className="hidden w-1/2 object-scale-down lg:block"
           src="/images/image04.png"
-        ></img>
+        />
         <div className="flex w-1/2 flex-col gap-[25px] p-[50px]">
           <p className="text-left text-[40px]">Titan Saga: Chains of Kronos</p>
           <p className="text-left text-[20px]">

@@ -14,8 +14,12 @@ export default function games() {
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
       <Header />
 
-      <section className="mt-[146px] flex justify-center">
-        <h1 className="text-[66px] font-bold">All Games</h1>
+      <section className="mt-[146px] flex flex-col items-center">
+        <h1 className="text-[40px] font-bold">All Games</h1>
+        <img
+          src="/images/aboutus_lineimage_01.svg"
+          className="mt-[56px] w-[100px]"
+        />
       </section>
 
       <section className="mt-[153px] flex justify-center text-center">
@@ -28,8 +32,9 @@ export default function games() {
 
       <section className="mt-[99px] flex flex-col justify-center text-center"></section>
 
-      <section className="mt-[150px]">
-        <h1 className="text-[40px]">Popular Games</h1>
+      <section className="mt-[120px]">
+        <img src="/images/aboutus_lineimage_02.svg" className="w-[100px]" />
+        <h1 className="mt-[21px] text-[40px]">Popular Games</h1>
       </section>
 
       <section className="mt-[56px] flex h-[623px] flex-row gap-[80px] rounded-xl bg-[#3F3046] p-[50px]">
@@ -38,7 +43,7 @@ export default function games() {
           <img
             className="mb-[-70px] mt-[-70px] hidden object-scale-down lg:block"
             src="/images/image01.png"
-          ></img>
+          />
           <p>
             It is a turn-based RPG (role-playing game) that takes place in a
             fantasy world filled with magic and mythical creatures. The game
@@ -46,7 +51,7 @@ export default function games() {
             of a hero tasked with saving the world from destruction.
           </p>
           <div className="flex gap-[20px]">
-            <button className=" rounded-xl bg-[#B74AFF] px-[24px] py-[12px] text-base">
+            <button className="rounded-xl bg-[#B74AFF] px-[24px] py-[12px] text-base">
               Get it now
             </button>
             <button className="rounded-xl border border-white bg-transparent px-[24px] py-[12px]">
@@ -57,7 +62,7 @@ export default function games() {
         <img
           className="mt-[-150px] hidden w-1/2 object-scale-down lg:block"
           src="/images/image02.png"
-        ></img>
+        />
       </section>
 
       <section className="static mt-[107px] flex h-[623px] flex-col gap-[10px] rounded-xl bg-[#2E2322] p-[50px]">
