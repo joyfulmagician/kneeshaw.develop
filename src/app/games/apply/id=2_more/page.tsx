@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 
 export default function Game1_morePage() {
   return (
-    <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
+    <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
-      <section className="mt-[146px] flex flex-col items-center">
+      <section className="mx-[80px] mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-bold">Old Salt</h1>
         <img
           src="/images/aboutus_lineimage_01.svg"
@@ -22,13 +22,13 @@ export default function Game1_morePage() {
         />
       </section>
 
-      <section className="mt-[93px] flex justify-center text-center">
+      <section className="mx-[80px] mt-[93px] flex justify-center text-center">
         <h3 className="w-[966px] text-[20px]">
           2-4 Multiplayer Naval Strategy With No Reinforcements On The Way
         </h3>
       </section>
 
-      <section className="mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
+      <section className="mx-[80px] mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
         <img src="/images/aboutus_lineimage_02.svg" className="w-[100px]" />
         <h1 className="mt-[21px] text-[40px]">Build a Royal House</h1>
         <div className="text-[20px]">
@@ -112,7 +112,7 @@ export default function Game1_morePage() {
         </div>
       </section>
 
-      <section className="mt-[120px] text-[40px]">
+      <section className="mx-[80px] mt-[120px] text-[40px]">
         Features
         <img
           src="/images/aboutus_lineimage_02.svg"
@@ -120,7 +120,7 @@ export default function Game1_morePage() {
         />
       </section>
 
-      <section className="mt-[56px] flex flex-wrap border-[1px] xl:flex-row">
+      <section className="mx-[80px] mt-[56px] flex flex-wrap border-[1px] xl:flex-row">
         <div className="flex w-full flex-col gap-[30px] border-[white] p-[30px] xl:w-1/3">
           <img
             src="/images/icon_01.png"
@@ -168,7 +168,7 @@ export default function Game1_morePage() {
         </div>
       </section>
 
-      <section className="mt-[160px] flex flex-col items-center text-[40px]">
+      <section className="mx-[80px] mt-[160px] flex flex-col items-center text-[40px]">
         Explore Old Salt’ Story
         <img
           src="/images/aboutus_lineimage_01.svg"
@@ -176,7 +176,7 @@ export default function Game1_morePage() {
         />
       </section>
 
-      <section className="mt-[56px] text-center text-[20px]">
+      <section className="mx-[80px] mt-[56px] text-center text-[20px]">
         Old Salt features various gameplay mechanics, including crafting,
         building, and hunting, as well as day and night cycles, and weather
         effects. The player must explore the island and solve various puzzles
@@ -188,11 +188,12 @@ export default function Game1_morePage() {
         and historically accurate environment.
       </section>
 
-      <section className="mt-[80px]">
+      <section className="mx-[80px] mt-[80px]">
         <img src="/images/video_02.png" className="z-0" />
         {/* <i className="fa-solid fa-play fa-2xl color-[#ffffff] z-1 mt-[-562px] object-center" /> */}
       </section>
-      <section className="mt-[120px] flex flex-col gap-[40px] bg-[#35322F] p-[50px] text-center">
+
+      <section className="mx-[80px] my-[120px] flex flex-col gap-[40px] bg-[#35322F] p-[50px] text-center">
         <h1 className="text-[40px]">Credits</h1>
         <p className="text-[20px]">
           We kindly request that you credit any assets used from the Press Kit
