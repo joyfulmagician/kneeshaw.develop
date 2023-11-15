@@ -118,6 +118,7 @@ export default function Game1_morePage() {
           </div>
         </div>
       </section>
+
       <section className="mt-[120px] text-[40px]">
         Features
         <img
@@ -125,6 +126,7 @@ export default function Game1_morePage() {
           className="mt-[21px] w-[100px]"
         />
       </section>
+
       <section className="mt-[65px] flex flex-wrap border-[1px]">
         <div className="flex w-full flex-col gap-[30px] border-b-[1px] border-r-[1px] p-[30px] md:w-1/2">
           <img
@@ -184,6 +186,7 @@ export default function Game1_morePage() {
           </p>
         </div>
       </section>
+
       <section className="mt-[120px] flex flex-col items-center text-[40px] font-bold">
         Act 1: Progress
         <img
@@ -191,6 +194,7 @@ export default function Game1_morePage() {
           className="mt-[21px] w-[100px]"
         />
       </section>
+
       <section className="mt-[120px] flex flex-wrap justify-center gap-[70px] px-[80px] xl:gap-[165px]">
         <img src="/images/chart01.png" />
         <img src="/images/chart02.png" />
@@ -201,7 +205,6 @@ export default function Game1_morePage() {
         <img src="/images/chart07.png" />
         <img src="/images/chart08.png" />
       </section>
-      <section className="mt-[100px]"></section>
 
       <section className="mt-[160px] flex flex-col items-center text-[40px]">
         Explore Titan Saga’ Story
@@ -210,6 +213,7 @@ export default function Game1_morePage() {
           className="mt-[21px] w-[100px]"
         />
       </section>
+
       <section className="mt-[86px] text-center text-[20px]">
         Unbeknownst to all, an ancient force has awakened. The elves have found
         their Titan. The very paragon of their race. He had crafted the first
@@ -223,10 +227,12 @@ export default function Game1_morePage() {
         <br />
         As magic begins a new, that will not last.
       </section>
+
       <section className="mt-[80px]">
         <img src="/images/video_01.png" className="z-0" />
         {/* <i className="fa-solid fa-play fa-2xl color-[#ffffff] z-1 mt-[-562px] object-center" /> */}
       </section>
+
       <section className="mt-[120px] flex flex-col gap-[40px] bg-[#35322F] p-[50px] text-center">
         <h1 className="text-[40px]">Credits</h1>
         <p className="text-[20px]">
