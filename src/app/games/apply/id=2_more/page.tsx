@@ -54,8 +54,8 @@ export default function Game1_morePage() {
             Rebuild a fallen house, choose the strongest warriors in the land.
           </p>
         </div>
-        <div className="flex flex-row gap-[32px]">
-          <div className="flex h-full w-1/3 flex-col">
+        <div className="flex flex-wrap justify-center gap-[32px] lg:flex-row">
+          <div className="flex h-[425px] w-[400px] flex-col">
             <img
               src="/images/flag_01.png"
               className="z-0 mb-[-150px] px-[36px]"
@@ -64,7 +64,7 @@ export default function Game1_morePage() {
               <p className="mt-[150px] text-[24px]">Forgotten</p>
             </div>
           </div>
-          <div className="flex h-full w-1/3 flex-col">
+          <div className="flex h-[425px] w-[400px] flex-col">
             <img
               src="/images/flag_02.png"
               className="z-0 mb-[-150px] px-[36px]"
@@ -73,7 +73,7 @@ export default function Game1_morePage() {
               <p className="mt-[150px] text-[24px]">Eternal</p>
             </div>
           </div>
-          <div className="flex h-full w-1/3 flex-col">
+          <div className="flex h-[425px] w-[400px] flex-col">
             <img
               src="/images/flag_03.png"
               className="z-0 mb-[-150px] px-[36px]"
@@ -82,9 +82,7 @@ export default function Game1_morePage() {
               <p className="mt-[150px] text-[24px]">Engineers</p>
             </div>
           </div>
-        </div>
-        <div className="flex flex-row gap-[32px]">
-          <div className="flex h-full w-1/3 flex-col">
+          <div className="flex h-[425px] w-[400px] flex-col">
             <img
               src="/images/flag_04.png"
               className="z-0 mb-[-150px] px-[36px]"
@@ -93,7 +91,7 @@ export default function Game1_morePage() {
               <p className="mt-[150px] text-[24px]">Bootleggers</p>
             </div>
           </div>
-          <div className="flex h-full w-1/3 flex-col">
+          <div className="flex h-[425px] w-[400px] flex-col">
             <img
               src="/images/flag_05.png"
               className="z-0 mb-[-150px] px-[36px]"
@@ -102,7 +100,7 @@ export default function Game1_morePage() {
               <p className="mt-[150px] text-[24px]">Barbari ans</p>
             </div>
           </div>
-          <div className="flex h-full w-1/3 flex-col">
+          <div className="flex h-[425px] w-[400px] flex-col">
             <img
               src="/images/flag_06.png"
               className="z-0 mb-[-150px] px-[36px]"
@@ -120,8 +118,8 @@ export default function Game1_morePage() {
           className="mt-[21px] w-[100px]"
         />
       </section>
-      <section className="mt-[56px] flex flex-row border-[1px]">
-        <div className="flex w-1/3 flex-col gap-[30px] border-[white] p-[30px]">
+      <section className="mt-[56px] flex flex-wrap border-[1px] xl:flex-row">
+        <div className="flex w-full flex-col gap-[30px] border-[white] p-[30px] xl:w-1/3">
           <img
             src="/images/icon_01.png"
             className="h-[70px] object-scale-down object-left"
@@ -136,7 +134,7 @@ export default function Game1_morePage() {
             skill level.
           </p>
         </div>
-        <div className="flex w-1/3 flex-col gap-[30px] border-x-[1px] border-[white] p-[30px]">
+        <div className="flex w-full flex-col gap-[30px] border-y-[1px] border-[white] p-[30px] xl:w-1/3 xl:border-x-[1px]">
           <img
             src="/images/icon_02.png"
             className="h-[70px] object-scale-down object-left"
@@ -151,7 +149,7 @@ export default function Game1_morePage() {
             multiplayer arena.
           </p>
         </div>
-        <div className="flex w-1/3 flex-col gap-[30px] border-[white] p-[30px]">
+        <div className="flex w-full flex-col gap-[30px] border-[white] p-[30px] xl:w-1/3">
           <img
             src="/images/icon_03.png"
             className="h-[70px] object-scale-down object-left"
