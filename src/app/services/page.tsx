@@ -14,16 +14,16 @@ export default function Services() {
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
       <Header />
 
-      <section className="mt-[146px] flex flex-col items-center">
-        <h1 className="text-[40px] font-bold">Our Services</h1>
+      <section className="mt-[146px] flex flex-col items-center text-[#EDF1F3]">
+        <h1 className="text-[40px] font-[700]">Our Services</h1>
         <img
           src="/images/aboutus_lineimage_01.svg"
           className="mt-[56px] w-[100px]"
         />
       </section>
 
-      <section className="mt-[91px] flex justify-center text-center">
-        <h3 className="w-[966px] text-[20px]">
+      <section className="mt-[91px] flex justify-center text-center text-[#EDF1F3]">
+        <h3 className="w-[966px] text-[20px] font-[400]">
           At Kneeshaw Development, we are passionate about delivering
           high-quality, innovative, and immersive gaming experiences.
         </h3>
@@ -36,10 +36,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Mobile Game <br /> Development
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Specialized in creating captivating and immersive games
             </p>
           </div>
@@ -50,10 +50,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Unity 2D <br /> Games
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Tailoring mechanics, graphics, and animations to suit your vision
             </p>
           </div>
@@ -64,10 +64,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Unity 3D <br /> Games
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Creating realistic environments, lifelike characters, and dynamic
               gameplay
             </p>
@@ -79,10 +79,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Unreal Game <br /> Development
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Transforming your ideas into a polished and thrilling game
             </p>
           </div>
@@ -93,10 +93,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Godot Game <br /> Development
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Developing high-quality games that run smoothly across various
               platforms
             </p>
@@ -108,10 +108,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               HTML5 Game <br /> Development
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Interactive games that are compatible with desktops, laptops, and
               mobile devices
             </p>
@@ -123,10 +123,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Web3 Game <br /> Development
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Creating innovative and immersive gaming experiences
             </p>
           </div>
@@ -137,10 +137,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Daaps Game <br /> Development
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               We leverage our expertise to build secure and user-friendly dApps
             </p>
           </div>
@@ -151,10 +151,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Blcokchain <br /> Integration
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Specialized in creating captivating and immersive games
             </p>
           </div>
@@ -165,10 +165,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               Bug <br /> Fixing
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Tailoring mechanics, graphics, and animations to suit your vision
             </p>
           </div>
@@ -179,10 +179,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               System <br /> Design
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Creating realistic environments, lifelike characters, and dynamic
               gameplay
             </p>
@@ -194,10 +194,10 @@ export default function Services() {
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
-            <p className="mt-[50px] text-[24px] font-bold">
+            <p className="mt-[50px] text-[24px] font-[400] text-[#FFFFFF]">
               API <br /> Creation
             </p>
-            <p className="mt-[15px] text-[18px]">
+            <p className="mt-[15px] text-[18px] font-[400] text-[#959595]">
               Creating realistic environments, lifelike characters, and dynamic
               gameplay
             </p>
@@ -211,31 +211,37 @@ export default function Services() {
             src="/images/aboutus_lineimage_02.svg"
             className="mt-[-30px] w-[100px]"
           />
-          <h1 className="mt-[21px] text-[40px] font-bold">Contact Us</h1>
-          <p className="mt-[80px] text-left text-[30px]">
+          <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
+            Contact Us
+          </h1>
+          <p className="mt-[80px] text-left text-[30px] font-[400] text-[#EDF1F3]">
             Turning Your Ideas and
             <br /> Fantasies Into Playable Games
           </p>
         </div>
         <div className=" flex w-full flex-col gap-[20px] bg-[#292929] p-[35px] xl:w-1/2">
-          <p className="text-[20px]">Let us know about your project</p>
+          <p className="text-[20px] font-[400] text-[#EDF1F3]">
+            Let us know about your project
+          </p>
           <input
-            className="h-[52px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px]"
+            className="h-[52px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px] font-[300] text-[#C2B9B0]"
             placeholder="Full name*"
           />
           <input
-            className="h-[52px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px]"
+            className="h-[52px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px] font-[300] text-[#C2B9B0]"
             placeholder="Email Address*"
           />
           <input
-            className="h-[165px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px]"
+            className="h-[165px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px] font-[300] text-[#C2B9B0]"
             placeholder="Write your message"
           />
-          <button className="h-[52px] bg-[#AFD275]">Send Message</button>
+          <button className="h-[52px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+            Send Message
+          </button>
         </div>
       </section>
-      <section className="mt-[38px] text-[20px]">Stalk us</section>
-      <section className="felx-row mb-[20px] mt-[32px] flex gap-[20px]">
+      <section className=" mt-[38px] text-[20px]">Stalk us</section>
+      <section className="felx-row mb-[20px] mt-[32px] flex gap-[20px] font-[400] text-[#EDF1F3]">
         <i className="fa-brands fa-xl fa-youtube" />
         <i className="fa-brands fa-xl fa-steam" />
         <i className="fa-brands fa-xl fa-reddit" />
