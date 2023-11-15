@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 
 export default function Game1_morePage() {
   return (
-    <main className="flex min-h-screen w-full flex-col bg-[#211D19] px-[80px] text-white">
+    <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
-      <section className="mt-[146px] flex flex-col items-center">
+      <section className="mx-[80px] mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-bold">Titan Saga: Chains of Kronos</h1>
         <img
           src="/images/aboutus_lineimage_01.svg"
@@ -22,7 +22,7 @@ export default function Game1_morePage() {
         />
       </section>
 
-      <section className="mt-[123px] flex justify-center text-center">
+      <section className="mx-[80px] mt-[123px] flex justify-center px-[80px] text-center">
         <h3 className="w-[966px] text-[20px]">
           Enjoy exploring the diverse collection of games on the Kneeshaw Games,
           and may you find exciting experiences that match your interests and
@@ -30,7 +30,7 @@ export default function Game1_morePage() {
         </h3>
       </section>
 
-      <section className="mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
+      <section className="mx-[80px] mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
         <img src="/images/aboutus_lineimage_02.svg" className="w-[100px]" />
         <h1 className="mt-[21px] text-[40px]">Build a Royal House</h1>
         <div className="text-[20px]">
@@ -119,7 +119,7 @@ export default function Game1_morePage() {
         </div>
       </section>
 
-      <section className="mt-[120px] text-[40px]">
+      <section className="mx-[80px] mt-[120px] text-[40px]">
         Features
         <img
           src="/images/aboutus_lineimage_02.svg"
@@ -127,7 +127,7 @@ export default function Game1_morePage() {
         />
       </section>
 
-      <section className="mt-[65px] flex flex-wrap border-[1px]">
+      <section className="mx-[80px] mt-[65px] flex flex-wrap border-[1px]">
         <div className="flex w-full flex-col gap-[30px] border-b-[1px] border-r-[1px] p-[30px] md:w-1/2">
           <img
             src="/images/lightening.png"
@@ -187,7 +187,7 @@ export default function Game1_morePage() {
         </div>
       </section>
 
-      <section className="mt-[120px] flex flex-col items-center text-[40px] font-bold">
+      <section className="mx-[80px] mt-[120px] flex flex-col items-center text-[40px] font-bold">
         Act 1: Progress
         <img
           src="/images/aboutus_lineimage_01.svg"
@@ -195,7 +195,7 @@ export default function Game1_morePage() {
         />
       </section>
 
-      <section className="mt-[120px] flex flex-wrap justify-center gap-[70px] px-[80px] xl:gap-[165px]">
+      <section className="mx-[80px] mt-[120px] flex flex-wrap justify-center gap-[70px] xl:gap-[205px]">
         <img src="/images/chart01.png" />
         <img src="/images/chart02.png" />
         <img src="/images/chart03.png" />
@@ -206,7 +206,7 @@ export default function Game1_morePage() {
         <img src="/images/chart08.png" />
       </section>
 
-      <section className="mt-[160px] flex flex-col items-center text-[40px]">
+      <section className="mx-[80px] mt-[160px] flex flex-col items-center text-[40px]">
         Explore Titan Saga’ Story
         <img
           src="/images/aboutus_lineimage_01.svg"
@@ -214,7 +214,7 @@ export default function Game1_morePage() {
         />
       </section>
 
-      <section className="mt-[86px] text-center text-[20px]">
+      <section className="mx-[80px] mt-[86px] text-center text-[20px]">
         Unbeknownst to all, an ancient force has awakened. The elves have found
         their Titan. The very paragon of their race. He had crafted the first
         Elves in the times of old. The magic they once had, is beginning to
@@ -228,12 +228,12 @@ export default function Game1_morePage() {
         As magic begins a new, that will not last.
       </section>
 
-      <section className="mt-[80px]">
+      <section className="mx-[80px] mt-[80px]">
         <img src="/images/video_01.png" className="z-0" />
         {/* <i className="fa-solid fa-play fa-2xl color-[#ffffff] z-1 mt-[-562px] object-center" /> */}
       </section>
 
-      <section className="mt-[120px] flex flex-col gap-[40px] bg-[#35322F] p-[50px] text-center">
+      <section className="mx-[80px] my-[120px] flex flex-col gap-[40px] bg-[#35322F] p-[50px] text-center">
         <h1 className="text-[40px]">Credits</h1>
         <p className="text-[20px]">
           We kindly request that you credit any assets used from the Press Kit
