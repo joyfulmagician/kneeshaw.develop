@@ -7,13 +7,6 @@ import GameView from "@/components/homepage/GameView";
 import { SITE_TITLE } from "@/utils/constants";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Landing`,
   description: `${SITE_TITLE} - Landing`,
@@ -21,7 +14,14 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#211D19]">
+    <main
+      className="flex min-h-screen flex-col bg-[#211D19]"
+      style={{
+        backgroundImage: "url('/images/homeback.png')",
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <Header />
       <div className="mt-[26px] border-[0.1px] border-[#C2B9B0]" />
       <div className="m-[10px] flex flex-row-reverse font-light text-[#EDF1F3]">
@@ -87,7 +87,7 @@ export default function Home() {
         <h2 className="text-[40px] font-light text-[#EDF1F3]">
           Enjoy our library of games
         </h2>
-        <div className="mx-[40px] flex min-h-[500px] flex-row gap-[40px] rounded-[14px] bg-[#24201C] p-[40px]">
+        <div className="mx-[40px] flex flex-row gap-[40px] rounded-[14px] bg-[#24201C] p-[40px] md:max-h-[500px]">
           <div className="flex w-[100%] flex-col gap-[40px] lg:w-[50%]">
             <h1 className="text-[56px] font-bold text-[#AFD275]">
               Titan Saga:
@@ -149,8 +149,15 @@ export default function Home() {
             className="hidden xl:flex"
           />
         </div>
-        <div className="mt-[40px] text-center text-white">
-          --------------------------------------------------------
+        <div className="mt-[75px] flex flex-row justify-center gap-[20px] text-[#E7717D]">
+          <i className="fa-regular fa-circle"></i>
+          <i className="fa-regular fa-circle"></i>
+          <i className="fa-regular fa-circle"></i>
+          <i className="fa-regular fa-circle"></i>
+          <i className="fa-regular fa-circle"></i>
+          <i className="fa-regular fa-circle"></i>
+          <i className="fa-regular fa-circle"></i>
+          <i className="fa-regular fa-circle"></i>
         </div>
       </section>
       <section className="mt-[200px]">
@@ -159,33 +166,31 @@ export default function Home() {
         </h2>
         <GameView />
       </section>
-      <section className="mt-[150px] flex flex-col items-center text-[#EDF1F3]">
-        <h2 className="mb-[80px] text-[40px] font-bold">
+      <section className="mb-[100px] mt-[150px] flex w-full flex-col text-[#EDF1F3]">
+        <h2 className="mb-[80px] text-center text-[40px] font-bold">
           Frequently Asked Questions
         </h2>
-        <div>
-          <Accordion type="single" collapsible className="bg-[#312C29]">
-            <AccordionItem value="item-1">
-              <AccordionTrigger>what is game development?</AccordionTrigger>
-              <AccordionContent>
-                Game development is the process of creating video games. It
-                involves designing the game concept, creating the graphics and
-                sound effects, programming the game mechanics, and testing the
-                game to ensure it is fun and playable.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-          <Accordion type="single" collapsible className="bg-[#312C29]">
-            <AccordionItem value="item-1">
-              <AccordionTrigger>what is game development?</AccordionTrigger>
-              <AccordionContent>
-                Game development is the process of creating video games. It
-                involves designing the game concept, creating the graphics and
-                sound effects, programming the game mechanics, and testing the
-                game to ensure it is fun and playable.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
+        <div className="mx-auto flex w-[880px] flex-col gap-[20px]">
+          <div className="flex h-[72px] w-full flex-row items-center rounded-[10px] bg-[#312C29]">
+            <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+            <p>What is game development</p>
+            <i className="fa-solid fa-sort-down"></i>
+          </div>
+          <div className="flex h-[72px] w-full flex-row items-center rounded-[10px] bg-[#312C29]">
+            <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+            <p>What is game development</p>
+            <i className="fa-solid fa-sort-down"></i>
+          </div>
+          <div className="flex h-[72px] w-full flex-row items-center rounded-[10px] bg-[#312C29]">
+            <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+            <p>What is game development</p>
+            <i className="fa-solid fa-sort-down"></i>
+          </div>
+          <div className="flex h-[72px] w-full flex-row items-center rounded-[10px] bg-[#312C29]">
+            <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+            <p>What is game development</p>
+            <i className="fa-solid fa-sort-down"></i>
+          </div>
         </div>
       </section>
       <Footer />
