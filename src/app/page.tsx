@@ -7,6 +7,13 @@ import GameView from "@/components/homepage/GameView";
 import { SITE_TITLE } from "@/utils/constants";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Landing`,
   description: `${SITE_TITLE} - Landing`,
@@ -92,7 +99,7 @@ export default function Home() {
           Enjoy our library of games
         </h2>
 
-        <div className="mx-[40px] flex flex-row gap-[40px] rounded-[14px] bg-[#24201C] p-[40px] md:max-h-[500px]">
+        <div className="mx-[40px] flex flex-row justify-between gap-[40px] rounded-[14px] bg-[#24201C] p-[40px] md:max-h-[500px] lg:pr-[50px] xl:pr-[80px]">
           <div className="flex w-[100%] flex-col gap-[40px] lg:w-[50%]">
             <h1 className="text-[56px] font-bold text-[#AFD275]">
               Titan Saga:
@@ -169,14 +176,13 @@ export default function Home() {
         </div>
 
         <div className="mt-[75px] flex flex-row justify-center gap-[20px] text-[#E7717D]">
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
-          <i className="fa-regular fa-circle"></i>
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[28px] rounded-[10px] border border-[#E7717D] bg-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
+          <div className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]" />
         </div>
       </section>
       <section className="mt-[200px]">
@@ -186,43 +192,198 @@ export default function Home() {
 
         <GameView />
       </section>
-      <section className="mb-[100px] mt-[150px] flex w-full flex-col text-[#EDF1F3]">
+
+      <section className="mb-[100px] mt-[150px] flex flex-col items-center text-[#EDF1F3]">
         <h2 className="mb-[80px] text-center text-[40px] font-bold">
           Frequently Asked Questions
         </h2>
 
-        <div className="mx-auto flex w-[880px] flex-col gap-[20px]">
-          <div className="flex h-[72px] w-full flex-row items-center justify-between rounded-[10px] bg-[#312C29] pr-[20px]">
-            <div className="flex flex-row items-center justify-center">
-              <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
-              <p>What is game development</p>
-            </div>
-            <i className="fa-solid fa-sort-down"></i>
-          </div>
+        <div className="flex w-[400px] flex-col gap-[20px] sm:w-[500px] md:w-[600px] lg:w-[880px] ">
+          <Accordion
+            type="single"
+            collapsible
+            className="rounded-[10px] bg-[#312C29]"
+          >
+            <AccordionItem
+              value="item-1"
+              className="rounded-[10px] border-[#312C29]"
+            >
+              <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
+                <div className="flex flex-row items-center justify-center">
+                  <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+                  <p className="text-[18px] font-semibold text-[#EDF1F3]">
+                    What is game development
+                  </p>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="ml-[17px] flex w-full flex-row items-center justify-between gap-[22px] rounded-[6px] px-[10px] py-[10px] pr-[50px]">
+                  <img src="/images/line.png" alt="line" />
+                  <div className="text-[15px] font-light text-[#EDF1F3]">
+                    Game development is the process of creating video games. It
+                    involves designing the game concept, creating the graphics
+                    and sound effects, programming the game mechanics, and
+                    testing the game to ensure it is fun and playable.
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
 
-          <div className="flex h-[72px] w-full flex-row items-center justify-between rounded-[10px] bg-[#312C29] pr-[20px]">
-            <div className="flex flex-row items-center justify-center">
-              <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
-              <p>What is game development</p>
-            </div>
-            <i className="fa-solid fa-sort-down"></i>
-          </div>
+          <Accordion
+            type="single"
+            collapsible
+            className="rounded-[10px] bg-[#312C29]"
+          >
+            <AccordionItem
+              value="item-1"
+              className="rounded-[10px]  border-[#312C29]"
+            >
+              <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
+                <div className="flex flex-row items-center justify-center">
+                  <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+                  <p className="text-[18px] font-semibold text-[#EDF1F3]">
+                    What is game development
+                  </p>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="ml-[17px] flex w-full flex-row items-center justify-between gap-[22px] rounded-[6px] px-[10px] py-[10px] pr-[50px]">
+                  <img src="/images/line.png" alt="line" />
+                  <div className="text-[15px] font-light text-[#EDF1F3]">
+                    Game development is the process of creating video games. It
+                    involves designing the game concept, creating the graphics
+                    and sound effects, programming the game mechanics, and
+                    testing the game to ensure it is fun and playable.
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
 
-          <div className="flex h-[72px] w-full flex-row items-center justify-between rounded-[10px] bg-[#312C29] pr-[20px]">
-            <div className="flex flex-row items-center justify-center">
-              <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
-              <p>What is game development</p>
-            </div>
-            <i className="fa-solid fa-sort-down"></i>
-          </div>
+          <Accordion
+            type="single"
+            collapsible
+            className="rounded-[10px] bg-[#312C29]"
+          >
+            <AccordionItem
+              value="item-1"
+              className="rounded-[10px]  border-[#312C29]"
+            >
+              <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
+                <div className="flex flex-row items-center justify-center">
+                  <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+                  <p className="text-[18px] font-semibold text-[#EDF1F3]">
+                    What is game development
+                  </p>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="ml-[17px] flex w-full flex-row items-center justify-between gap-[22px] rounded-[6px] px-[10px] py-[10px] pr-[50px]">
+                  <img src="/images/line.png" alt="line" />
+                  <div className="text-[15px] font-light text-[#EDF1F3]">
+                    Game development is the process of creating video games. It
+                    involves designing the game concept, creating the graphics
+                    and sound effects, programming the game mechanics, and
+                    testing the game to ensure it is fun and playable.
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
 
-          <div className="flex h-[72px] w-full flex-row items-center justify-between rounded-[10px] bg-[#312C29] pr-[20px]">
-            <div className="flex flex-row items-center justify-center">
-              <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
-              <p>What is game development</p>
-            </div>
-            <i className="fa-solid fa-sort-down"></i>
-          </div>
+          <Accordion
+            type="single"
+            collapsible
+            className="rounded-[10px] bg-[#312C29]"
+          >
+            <AccordionItem
+              value="item-1"
+              className="rounded-[10px]  border-[#312C29]"
+            >
+              <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
+                <div className="flex flex-row items-center justify-center">
+                  <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+                  <p className="text-[18px] font-semibold text-[#EDF1F3]">
+                    What is game development
+                  </p>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="ml-[17px] flex w-full flex-row items-center justify-between gap-[22px] rounded-[6px] px-[10px] py-[10px] pr-[50px]">
+                  <img src="/images/line.png" alt="line" />
+                  <div className="text-[15px] font-light text-[#EDF1F3]">
+                    Game development is the process of creating video games. It
+                    involves designing the game concept, creating the graphics
+                    and sound effects, programming the game mechanics, and
+                    testing the game to ensure it is fun and playable.
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+
+          <Accordion
+            type="single"
+            collapsible
+            className="rounded-[10px] bg-[#312C29]"
+          >
+            <AccordionItem
+              value="item-1"
+              className="rounded-[10px]  border-[#312C29]"
+            >
+              <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
+                <div className="flex flex-row items-center justify-center">
+                  <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+                  <p className="text-[18px] font-semibold text-[#EDF1F3]">
+                    What is game development
+                  </p>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="ml-[17px] flex w-full flex-row items-center justify-between gap-[22px] rounded-[6px] px-[10px] py-[10px] pr-[50px]">
+                  <img src="/images/line.png" alt="line" />
+                  <div className="text-[15px] font-light text-[#EDF1F3]">
+                    Game development is the process of creating video games. It
+                    involves designing the game concept, creating the graphics
+                    and sound effects, programming the game mechanics, and
+                    testing the game to ensure it is fun and playable.
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+
+          <Accordion
+            type="single"
+            collapsible
+            className="rounded-[10px] bg-[#312C29]"
+          >
+            <AccordionItem
+              value="item-1"
+              className="rounded-[10px]  border-[#312C29]"
+            >
+              <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
+                <div className="flex flex-row items-center justify-center">
+                  <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+                  <p className="text-[18px] font-semibold text-[#EDF1F3]">
+                    What is game development
+                  </p>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="ml-[17px] flex w-full flex-row items-center justify-between gap-[22px] rounded-[6px] px-[10px] py-[10px] pr-[50px]">
+                  <img src="/images/line.png" alt="line" />
+                  <div className="text-[15px] font-light text-[#EDF1F3]">
+                    Game development is the process of creating video games. It
+                    involves designing the game concept, creating the graphics
+                    and sound effects, programming the game mechanics, and
+                    testing the game to ensure it is fun and playable.
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </section>
       <Footer />
