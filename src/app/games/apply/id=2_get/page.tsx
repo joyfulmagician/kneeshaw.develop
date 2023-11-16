@@ -32,7 +32,7 @@ export default function Game2_getPage() {
       <section className="mx-[80px] mt-[101px] flex flex-col items-center gap-[80px] py-[50px] 2xl:flex-row">
         <img
           className="hidden h-[601px] w-1/3 object-scale-down 2xl:block"
-          src="/images/image05.png"
+          src="/images/games/image05.png"
         />
         <div className="flex w-2/3 flex-col items-center justify-between gap-[25px] 2xl:items-start 2xl:p-[50px]">
           <p className="text-center text-[40px] font-[700] text-[#EDF1F3] 2xl:text-left">
@@ -73,7 +73,7 @@ export default function Game2_getPage() {
                 </SheetTitle>
                 <SheetDescription>
                   <div className="flex flex-row items-center gap-[15px]">
-                    <img src="/images/card_image_02.svg" />
+                    <img src="/images/games/card_image_02.svg" />
                     <p className="w-1/2 text-[20px] font-[500] text-[#EDF1F3]">
                       Old Salt
                     </p>
@@ -99,9 +99,9 @@ export default function Game2_getPage() {
                       SECURE PAYMENTS PROVIDED BY
                     </p>
                     <div className="flex-start flex gap-[7px]">
-                      <img src="/images/bankcard_01.svg" />
-                      <img src="/images/bankcard_02.svg" />
-                      <img src="/images/bankcard_03.svg" />
+                      <img src="/images/games/bankcard_01.svg" />
+                      <img src="/images/games/bankcard_02.svg" />
+                      <img src="/images/games/bankcard_03.svg" />
                     </div>
                   </div>
                   <div className="mt-[20px] flex justify-center">

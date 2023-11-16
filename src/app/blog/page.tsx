@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { SITE_TITLE } from "@/utils/constants";
-import GameView from "@/components/homepage/GameView";
+import GameView from "@/components/home/GameView";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Blog`,

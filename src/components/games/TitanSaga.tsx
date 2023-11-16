@@ -12,7 +12,7 @@ export default function TitanSaga() {
         </h5>
         <img
           className="mb-[-100px] mt-[-100px] hidden h-[369.8px] w-[562px] object-scale-down lg:block"
-          src="/images/image01.png"
+          src="/images/games/image01.png"
         />
         <p className="text-[20px] font-[400]">
           It is a turn-based RPG (role-playing game) that takes place in a
