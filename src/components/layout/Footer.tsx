@@ -70,6 +70,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
         <div className="mb-[24px] flex w-full flex-col items-center gap-[24px] lg:w-[40%]">
           <h6
             className={clsx(

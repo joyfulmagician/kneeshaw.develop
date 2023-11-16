@@ -17,7 +17,7 @@ export default function SignUp() {
     <Container>
       <Header />
 
-      <section className="flex flex-col items-center justify-center">
+      <section className="flex items-center justify-center">
         <Demo />
       </section>
 

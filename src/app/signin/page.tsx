@@ -40,14 +40,14 @@ export default function Marketplace() {
               <Checkbox />
               Remember me
             </p>
-            <p className="w-1/2 text-right font-[500] text-[#E7717D]">
+            <p className="w-1/2 text-right font-[700] text-[#E7717D]">
               Forgot Password?
             </p>
           </div>
           <button className="h-[52px] w-[275px] rounded-lg bg-[#AFD275] md:w-[475px]">
             Sign In
           </button>
-          <button className="flex h-[52px] w-[275px] flex-row items-center justify-center rounded-lg border-[1px] bg-transparent md:w-[475px]">
+          <button className="flex h-[52px] w-[275px] flex-row items-center justify-center rounded-lg border bg-transparent md:w-[475px]">
             <img src="/images/google_icon.svg" />
             Sign In with Google
           </button>

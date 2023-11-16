@@ -11,7 +11,7 @@ export default function Demo() {
   return (
     <>
       {role === ROLES.PLAYER && (
-        <div className="mb-[70px] mt-[39px] flex max-h-[1089px] min-w-[500px] max-w-[880px] flex-col items-center rounded-[24px] bg-[#35322F] text-[#EDF1F3] md:w-[80%] lg:w-full">
+        <div className="mb-[70px] mt-[39px] flex w-[80%] min-w-[400px] max-w-[880px] flex-col items-center rounded-[24px] bg-[#35322F] text-[#EDF1F3] lg:max-h-[1089px] lg:w-full">
           <div className="mt-[60px] flex flex-col items-center gap-[10px]">
             <h1 className="text-center text-[52px] font-bold">
               Welcome to
@@ -97,13 +97,13 @@ export default function Demo() {
               </Link>
             </div>
 
-            <button className="h-[52px] w-full rounded-[18px] bg-[#AFD275] text-[18px] font-semibold text-white">
+            <button className="h-[52px] w-full rounded-[18px] bg-[#AFD275] text-[14px] font-semibold text-white sm:text-[18px]">
               Create your account
             </button>
 
             <button className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[#EDF1F3] ">
               <FcGoogle />
-              <span className="text-[18px] font-semibold">
+              <span className="text-[14px] font-semibold sm:text-[18px]">
                 Sign up with Google
               </span>
             </button>
@@ -119,7 +119,7 @@ export default function Demo() {
       )}
 
       {role === ROLES.CREATOR && (
-        <div className="mb-[70px] mt-[39px] flex max-h-[1089px] min-w-[500px] max-w-[880px] flex-col items-center rounded-[24px] bg-[#F8FAFC] text-[#090914] md:w-[80%] lg:w-full">
+        <div className="mb-[70px] mt-[39px] flex w-[80%] min-w-[400px] max-w-[880px] flex-col items-center rounded-[24px] bg-[#F8FAFC] text-[#090914] lg:max-h-[1089px] lg:w-full">
           <div className="mt-[60px] flex flex-col items-center gap-[10px]">
             <h1 className="text-center text-[52px] font-bold">
               Welcome to
@@ -205,13 +205,13 @@ export default function Demo() {
               </Link>
             </div>
 
-            <button className="h-[52px] w-full rounded-[18px] bg-[#AFD275] text-[18px] font-semibold text-white">
+            <button className="h-[52px] w-full rounded-[18px] bg-[#AFD275] text-[14px] font-semibold text-white sm:text-[18px]">
               Create your account
             </button>
 
             <button className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[#EDF1F3] ">
               <FcGoogle />
-              <span className="text-[18px] font-semibold">
+              <span className="text-[14px] font-semibold sm:text-[18px]">
                 Sign up with Google
               </span>
             </button>
