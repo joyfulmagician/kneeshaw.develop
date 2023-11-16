@@ -19,14 +19,14 @@ export default function OldSalt() {
           island for resources and materials to help them survive.
         </p>
       </div>
-      <div className="flex justify-end gap-[20px] font-[600]">
+      <div className="flex flex-col justify-center gap-[20px] font-[600] sm:flex-row sm:justify-end">
         <Link href="/games/apply/id=2_get">
-          <button className="flex h-[44px] w-[210px] items-center justify-center rounded-lg bg-[#9F0808] px-[44px] py-[12px] text-[16px] text-base">
+          <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg bg-[#9F0808] px-[44px] py-[12px] text-[16px] sm:w-[210px]">
             Get it now
           </button>
         </Link>
         <Link href="/games/apply/id=2_more">
-          <button className="flex h-[44px] w-[83px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px]">
+          <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] sm:w-[210px] sm:w-[83px]">
             More
           </button>
         </Link>
