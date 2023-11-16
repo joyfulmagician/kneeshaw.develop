@@ -1,8 +1,12 @@
 "use client";
 
+import { useRole } from "@/contexts/RoleContext";
 import SmallImage from "./SmallImage";
+import { ROLES } from "@/utils/constants";
 
 export default function SmallImageList() {
+  const { role } = useRole();
+
   const data = [
     {
       image: "/images/home/smallview01.png",
@@ -35,10 +39,14 @@ export default function SmallImageList() {
   ];
 
   return (
-    <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
-      {data.map(({ image, className }, index) => (
-        <SmallImage key={index} image={image} className={className} />
-      ))}
-    </div>
+    <>
+      {role === ROLES.PLAYER && (
+        <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
+          {data.map(({ image, className }, index) => (
+            <SmallImage key={index} image={image} className={className} />
+          ))}
+        </div>
+      )}
+    </>
   );
 }
