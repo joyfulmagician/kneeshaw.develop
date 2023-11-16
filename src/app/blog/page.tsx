@@ -18,7 +18,7 @@ export default function Marketplace() {
       <h2 className="mt-[146px] text-center text-[40px] font-bold">Our Blog</h2>
 
       <section className="mt-[56px] flex items-center justify-center">
-        <img src="/images/home/navigation.png" />
+        <img src="/images/blog/navigation.png" />
       </section>
 
       <section className="mt-[58px] text-center text-[20px] font-light">
