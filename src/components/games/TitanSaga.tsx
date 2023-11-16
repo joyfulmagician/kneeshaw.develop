@@ -34,7 +34,7 @@ export default function TitanSaga() {
         </div>
       </div>
       <img
-        src="/images/image02.png"
+        src="/images/games/image02.png"
         className="mt-[-150px] hidden h-[623px] w-[600px] object-scale-down xl:block"
       />
     </section>

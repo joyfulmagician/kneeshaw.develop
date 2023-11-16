@@ -51,10 +51,10 @@ export default function PageGet({ params }: { params: { slug: "get" } }) {
           <div className="text-center text-[18px] 2xl:text-left">
             <p className="font-[700] text-[#AFD275]">Quality</p>
             <Select>
-              <SelectTrigger className="mt-[10px] h-[44px] w-[74px] text-white">
+              <SelectTrigger className="mt-[10px] h-[44px] w-[74px] bg-transparent text-white">
                 <SelectValue placeholder="1" />
               </SelectTrigger>
-              <SelectContent className="w-[74px] text-white">
+              <SelectContent className="w-[74px]  bg-transparent text-white">
                 <SelectItem value="2">2</SelectItem>
                 <SelectItem value="3">3</SelectItem>
                 <SelectItem value="4">4</SelectItem>
@@ -74,7 +74,7 @@ export default function PageGet({ params }: { params: { slug: "get" } }) {
                 </SheetTitle>
                 <SheetDescription>
                   <div className="flex flex-row items-center gap-[15px]">
-                    <img src="/images/games/card_image_01.svg" />
+                    <img src="/images/games/sheet/card_image_01.svg" />
                     <p className="text-[20px] font-[500] text-[#EDF1F3]">
                       Titan Saga: Chains of Kronos
                     </p>
@@ -100,9 +100,9 @@ export default function PageGet({ params }: { params: { slug: "get" } }) {
                       SECURE PAYMENTS PROVIDED BY
                     </p>
                     <div className="flex-start flex gap-[7px]">
-                      <img src="/images/games/bankcard_01.svg" />
-                      <img src="/images/games/bankcard_02.svg" />
-                      <img src="/images/games/bankcard_03.svg" />
+                      <img src="/images/games/sheet/bankcard_01.svg" />
+                      <img src="/images/games/sheet/bankcard_02.svg" />
+                      <img src="/images/games/sheet/bankcard_03.svg" />
                     </div>
                   </div>
                   <div className="mt-[20px] flex justify-center">
