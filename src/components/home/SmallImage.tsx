@@ -2,9 +2,9 @@
 
 interface Props {
   image: string;
-  classNameName: string;
+  className: string;
 }
 
-export default function SmallImage({ image, classNameName }: Props) {
-  return <img src={image} className={classNameName} />;
+export default function SmallImage({ image, className }: Props) {
+  return <img src={image} className={className} />;
 }
