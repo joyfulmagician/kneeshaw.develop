@@ -11,15 +11,17 @@ import { IoMdClose } from "react-icons/io";
 import { useMediaQuery } from "react-responsive";
 
 import { useRole } from "@/contexts/RoleContext";
-import { ROLES } from "@/utils/constants";
+import { AUTH_STATUS, ROLES } from "@/utils/constants";
 import Logo from "./Logo";
 import { useShop } from "@/contexts/ShopContext";
+import { useAuth } from "@/contexts/AuthContext";
 
 export default function Header() {
   const pathName = usePathname();
 
   const { role } = useRole();
   const { cartCount } = useShop();
+  const { status, user } = useAuth();
 
   const isLg = useMediaQuery({
     query: "(min-width: 1024px)",
@@ -116,19 +118,23 @@ export default function Header() {
             </div>
           </div>
 
-          <Link
-            className="hidden text-[18px] font-semibold text-[#AFD275] sm:block"
-            href="/signin"
-          >
-            Sign In
-          </Link>
+          {status !== AUTH_STATUS.AUTHENTICATED && (
+            <>
+              <Link
+                className="hidden text-[18px] font-semibold text-[#AFD275] sm:block"
+                href="/signin"
+              >
+                Sign In
+              </Link>
 
-          <Link
-            className="hidden rounded-[18px] bg-[#AFD275] px-[24px] py-[8px] text-[18px] font-semibold text-[#EDF1F3] sm:block"
-            href="/signup"
-          >
-            Sign Up
-          </Link>
+              <Link
+                className="hidden rounded-[18px] bg-[#AFD275] px-[24px] py-[8px] text-[18px] font-semibold text-[#EDF1F3] sm:block"
+                href="/signup"
+              >
+                Sign Up
+              </Link>
+            </>
+          )}
 
           <HiBars3
             className={clsx(
@@ -221,19 +227,23 @@ export default function Header() {
                 </div>
               </div>
 
-              <Link
-                className="hidden text-[18px] font-semibold text-[#AFD275] sm:block"
-                href="/signin"
-              >
-                Sign In
-              </Link>
+              {status !== AUTH_STATUS.AUTHENTICATED && (
+                <>
+                  <Link
+                    className="hidden text-[18px] font-semibold text-[#AFD275] sm:block"
+                    href="/signin"
+                  >
+                    Sign In
+                  </Link>
 
-              <Link
-                className="hidden rounded-[18px] bg-[#AFD275] px-[24px] py-[8px] text-[18px] font-semibold text-[#EDF1F3] sm:block"
-                href="/signup"
-              >
-                Sign Up
-              </Link>
+                  <Link
+                    className="hidden rounded-[18px] bg-[#AFD275] px-[24px] py-[8px] text-[18px] font-semibold text-[#EDF1F3] sm:block"
+                    href="/signup"
+                  >
+                    Sign Up
+                  </Link>
+                </>
+              )}
 
               <div
                 className={clsx(
@@ -283,13 +293,19 @@ export default function Header() {
             >
               About Us
             </Link>
+
             <div className="block border sm:hidden"></div>
-            <Link className="block sm:hidden" href="/signin">
-              Sign In
-            </Link>
-            <Link className="block sm:hidden" href="/signup">
-              Sign Up
-            </Link>
+
+            {status !== AUTH_STATUS.AUTHENTICATED && (
+              <>
+                <Link className="block sm:hidden" href="/signin">
+                  Sign In
+                </Link>
+                <Link className="block sm:hidden" href="/signup">
+                  Sign Up
+                </Link>
+              </>
+            )}
           </div>
         </div>
       )}
