@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export default function AccordionList() {
+export default function FAQ() {
   const faqs = [
     {
       question: "What is game development",
@@ -54,36 +54,42 @@ export default function AccordionList() {
   ];
   return (
     <>
-      {faqs.map((f, index) => (
-        <Accordion
-          key={index}
-          type="single"
-          collapsible
-          className="rounded-[10px] bg-[#312C29]"
-        >
-          <AccordionItem
-            value="item-1"
-            className="rounded-[10px]  border-[#312C29]"
+      <h2 className="mb-[80px] text-center text-[40px] font-bold">
+        Frequently Asked Questions
+      </h2>
+
+      <div className="flex w-[400px] flex-col gap-[20px] sm:w-[500px] md:w-[600px] lg:w-[880px] ">
+        {faqs.map((f, index) => (
+          <Accordion
+            key={index}
+            type="single"
+            collapsible
+            className="rounded-[10px] bg-[#312C29]"
           >
-            <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
-              <div className="flex flex-row items-center justify-center">
-                <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
-                <p className="text-[18px] font-semibold text-[#EDF1F3]">
-                  {f.question}
-                </p>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent className="flex flex-col gap-[5px]">
-              <div className="ml-[17px] flex w-full flex-row items-center justify-between gap-[22px] rounded-[6px] px-[10px] py-[10px] pr-[50px]">
-                <img src="/images/home/line.png" alt="line" />
-                <div className="text-[15px] font-light text-[#EDF1F3]">
-                  {f.answer}
+            <AccordionItem
+              value="item-1"
+              className="rounded-[10px]  border-[#312C29]"
+            >
+              <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
+                <div className="flex flex-row items-center justify-center">
+                  <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+                  <p className="text-[18px] font-semibold text-[#EDF1F3]">
+                    {f.question}
+                  </p>
                 </div>
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-        </Accordion>
-      ))}
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-[5px]">
+                <div className="ml-[17px] flex w-full flex-row items-center justify-between gap-[22px] rounded-[6px] px-[10px] py-[10px] pr-[50px]">
+                  <img src="/images/home/line.png" alt="line" />
+                  <div className="text-[15px] font-light text-[#EDF1F3]">
+                    {f.answer}
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        ))}
+      </div>
     </>
   );
 }
