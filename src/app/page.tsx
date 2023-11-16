@@ -123,9 +123,9 @@ export default function Home() {
       </section>
 
       <section className="mt-[40px]">
-        {/* <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
+        <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
           <SmallImageList />
-        </div> */}
+        </div>
 
         <div className="mt-[75px] flex flex-row justify-center gap-[20px] text-[#E7717D]">
           {Array.from(Array(6).keys()).map((k) => (
@@ -151,11 +151,6 @@ export default function Home() {
         </h2>
 
         <div className="flex w-[400px] flex-col gap-[20px] sm:w-[500px] md:w-[600px] lg:w-[880px] ">
-          <AccordionList />
-          <AccordionList />
-          <AccordionList />
-          <AccordionList />
-          <AccordionList />
           <AccordionList />
         </div>
       </section>
