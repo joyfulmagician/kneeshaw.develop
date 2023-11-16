@@ -8,6 +8,7 @@ import { SITE_TITLE } from "@/utils/constants";
 import { CiSearch } from "react-icons/ci";
 import AccordionList from "@/components/home/AccordionList";
 import SmallImageList from "@/components/home/SmallImageList";
+import Container from "@/components/home/Container";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Landing`,
@@ -16,14 +17,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main
-      className="flex min-h-screen flex-col bg-[#211D19]"
-      style={{
-        backgroundImage: "url('/images/homeback.png')",
-        backgroundSize: "contain",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <Container>
       <Header />
 
       <div className="border border-[#EDF1F3]" />
@@ -161,6 +155,6 @@ export default function Home() {
       </section>
 
       <Footer />
-    </main>
+    </Container>
   );
 }
