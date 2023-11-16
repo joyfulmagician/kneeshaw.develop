@@ -35,7 +35,7 @@ export default function Services() {
       <section className="mx-[80px] mt-[150px] flex flex-wrap justify-center gap-[40px] xl:gap-[90px]">
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_01.svg"
+            src="/images/services/service_image_01.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -49,7 +49,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_02.svg"
+            src="/images/services/service_image_02.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -63,7 +63,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_03.svg"
+            src="/images/services/service_image_03.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -78,7 +78,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_04.svg"
+            src="/images/services/service_image_04.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -92,7 +92,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_06.svg"
+            src="/images/services/service_image_06.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -107,7 +107,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_07.svg"
+            src="/images/services/service_image_07.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -122,7 +122,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_08.svg"
+            src="/images/services/service_image_08.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -136,7 +136,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_05.svg"
+            src="/images/services/service_image_05.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -150,7 +150,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_09.svg"
+            src="/images/services/service_image_09.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -164,7 +164,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_10.svg"
+            src="/images/services/service_image_10.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -178,7 +178,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_11.svg"
+            src="/images/services/service_image_11.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">
@@ -193,7 +193,7 @@ export default function Services() {
         </div>
         <div className="flex h-[335px] w-[284px] flex-col">
           <img
-            src="/images/service_image_12.svg"
+            src="/images/services/service_image_12.svg"
             className="z-0 h-1/3 object-fill"
           />
           <div className="z-1 mt-[-50px] flex h-[275px] flex-col bg-[#292929] p-[25px] text-center">

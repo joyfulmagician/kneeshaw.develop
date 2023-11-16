@@ -55,15 +55,15 @@ export default function AboutUs() {
         </div>
         <div className="flex-center flex w-1/2">
           <img
-            src="/images/aboutus_image_02.svg"
+            src="/images/aboutus/aboutus_image_02.svg"
             className="ml-auto hidden 2xl:block"
           />
           <img
-            src="/images/aboutus_image_04.svg"
+            src="/images/aboutus/aboutus_image_04.svg"
             className="mr-[-800px] mt-[-1000px] hidden 2xl:block"
           />
           <img
-            src="/images/aboutus_image_05.svg"
+            src="/images/aboutus/aboutus_image_05.svg"
             className="ml-auto mt-[-400px] hidden 2xl:block"
           />
         </div>
@@ -88,7 +88,7 @@ export default function AboutUs() {
       <section className="mx-[80px] mt-[120px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus_icon_1.PNG"
+            src="/images/aboutus/aboutus_icon_1.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Innovation</h1>
@@ -99,7 +99,7 @@ export default function AboutUs() {
         </div>
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus_icon_2.PNG"
+            src="/images/aboutus/aboutus_icon_2.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Quality</h1>
@@ -110,7 +110,7 @@ export default function AboutUs() {
         </div>
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus_icon_3.PNG"
+            src="/images/aboutus/aboutus_icon_3.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Expertise</h1>
@@ -123,7 +123,7 @@ export default function AboutUs() {
       <section className="mx-[80px] mt-[160px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3] lg:mt-[84px]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus_icon_4.PNG"
+            src="/images/aboutus/aboutus_icon_4.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Support</h1>
@@ -134,7 +134,7 @@ export default function AboutUs() {
         </div>
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus_icon_5.PNG"
+            src="/images/aboutus/aboutus_icon_5.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Collaboration</h1>
@@ -148,7 +148,7 @@ export default function AboutUs() {
       <section className="mx-[80px] mt-[126px] flex flex-col lg:flex-row">
         <div className="w-1/2">
           <img
-            src="/images/aboutus_image_03.svg"
+            src="/images/aboutus/aboutus_image_03.svg"
             className="ml-[-120px] hidden w-[339px] lg:block"
           />
         </div>
@@ -213,7 +213,7 @@ export default function AboutUs() {
         <div className="mt-[20px] flex w-full flex-row justify-center gap-[100px] text-[#EDF1F3] xl:mt-[0] xl:w-1/2">
           <div className="flex h-[208px] flex-col gap-[10px]">
             <img
-              src="/images/avatar_01.png"
+              src="/images/aboutus/avatar_01.png"
               className="h-[120px] object-scale-down"
             />
             <p className="text-[20px] font-[700]">Michael Kneeshaw</p>
@@ -224,7 +224,7 @@ export default function AboutUs() {
           </div>
           <div className="flex h-[208px] flex-col gap-[10px]">
             <img
-              src="/images/avatar_02.png"
+              src="/images/aboutus/avatar_02.png"
               className="h-[120px] object-scale-down"
             />
             <p className="text-[20px] font-[700]">Aidan Abat</p>
