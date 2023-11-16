@@ -53,7 +53,7 @@ export default function Footer() {
           <div className="relative">
             <input
               type="text"
-              className="h-[54px] w-[415px] rounded-[16px] bg-[#39352F] pl-[12px] text-[14px] font-light"
+              className="h-[54px] w-[320px] rounded-[16px] bg-[#39352F] pl-[12px] pr-[160px] text-[14px] font-light text-white md:w-[415px]"
               placeholder="Your email"
             />
             <button className="absolute right-[7px] top-[7px] h-[40px] w-[134px] rounded-[11px] bg-[#AFD275] text-[16px] font-semibold text-[#EDF1F3]">

@@ -18,9 +18,7 @@ export default function Marketplace() {
       <h2 className="mt-[146px] text-center text-[40px] font-bold">Our Blog</h2>
 
       <section className="mt-[56px] flex items-center justify-center">
-        <div className="w-[100px]  border border-[#AFD275]">
-          <div className="ml-[30px] w-[40px] border border-[#AFD275]" />
-        </div>
+        <img src="/images/home/navigation.png" />
       </section>
 
       <section className="mt-[58px] text-center text-[20px] font-light">
@@ -31,16 +29,20 @@ export default function Marketplace() {
         <GameView />
 
         <div className="mb-[210px] mt-[60px] flex flex-row items-center justify-center gap-[40px]">
-          <i className="fa-solid fa-angle-left"></i>
+          <button>
+            <i className="fa-solid fa-angle-left" />
+          </button>
           <button className="h-[30px] w-[30px] rounded-[9px] bg-[#E7717D]">
             1
           </button>
           <button className="h-[30px] w-[30px] rounded-[9px]">2</button>
           <button className="h-[30px] w-[30px] rounded-[9px]">3</button>
-          <i className="fa-solid fa-ellipsis"></i>{" "}
+          <i className="fa-solid fa-ellipsis"></i>
           <button className="h-[30px] w-[30px] rounded-[9px]">13</button>
           <button className="h-[30px] w-[30px] rounded-[9px]">14</button>
-          <i className="fa-solid fa-angle-right"></i>
+          <button>
+            <i className="fa-solid fa-angle-right" />
+          </button>
         </div>
       </section>
 
