@@ -1,13 +1,9 @@
 import { Metadata } from "next";
 
+import Items from "@/components/profile/Items";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { SITE_TITLE } from "@/utils/constants";
-
-import { LuSettings } from "react-icons/lu";
-import { HiOutlineShoppingBag } from "react-icons/hi2";
-import { RiHome4Line } from "react-icons/ri";
-import { CgFileDocument } from "react-icons/cg";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Profile`,
@@ -20,24 +16,7 @@ export default function Profile() {
       <Header />
       <section className="my-[50px] flex flex-col justify-center gap-[20px] p-[10px] lg:flex-row">
         <div className="flex justify-start lg:w-1/3 lg:justify-center">
-          <div className="flex h-[203px] w-[282px] flex-col justify-between rounded-lg bg-[#35322F] p-[16px]">
-            <div className="flex flex-row items-center">
-              <RiHome4Line />
-              <span className="text-[18px] font-[500]">My Profile</span>
-            </div>
-            <div className="flex flex-row items-center">
-              <HiOutlineShoppingBag />
-              <span className="text-[18px] font-[500]">Shopping Card</span>
-            </div>
-            <div className="flex flex-row items-center">
-              <CgFileDocument />
-              <span className="text-[18px] font-[500]">Request Quote</span>
-            </div>
-            <div className="flex flex-row items-center">
-              <LuSettings />
-              <span className="text-[18px] font-[500]">Settings</span>
-            </div>
-          </div>
+          <Items />
         </div>
         <div className="flex justify-center lg:w-2/3 lg:justify-start">
           <div className="flex h-[581px] w-5/6 flex-col justify-between rounded-lg bg-[#35322F] px-[20px] py-[50px] sm:px-[40px] lg:h-[571px] lg:w-[622px]">
