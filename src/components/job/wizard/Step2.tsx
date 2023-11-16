@@ -138,6 +138,7 @@ export default function Step2({ onBack, onNext }: Props) {
               <AccordionTrigger className="text-[18px] font-light hover:no-underline">
                 Full Stack Development Skills
               </AccordionTrigger>
+
               <AccordionContent className="flex flex-col gap-[5px]">
                 <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] border-[#AFD275] px-[10px]">
                   <div className="text-[18px] font-light text-[#AFD275]">
@@ -170,6 +171,7 @@ export default function Step2({ onBack, onNext }: Props) {
               <AccordionTrigger className="text-[18px] font-light hover:no-underline">
                 Databases
               </AccordionTrigger>
+
               <AccordionContent className="flex flex-col gap-[5px]">
                 <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] border-[#AFD275] px-[10px]">
                   <div className="text-[18px] font-light text-[#AFD275]">
