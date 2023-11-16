@@ -3,11 +3,10 @@ import Link from "next/link";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import { SITE_TITLE } from "@/utils/constants";
-import { Checkbox } from "@/components/ui/checkbox";
-import { FcGoogle } from "react-icons/fc";
 import Demo from "@/components/signin/Demo";
 import Container from "@/components/signup/Container";
+
+import { SITE_TITLE } from "@/utils/constants";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Sign In`,

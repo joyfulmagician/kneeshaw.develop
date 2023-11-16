@@ -3,9 +3,10 @@ import { Metadata } from "next";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
-import { SITE_TITLE } from "@/utils/constants";
 import Demo from "@/components/signup/Demo";
 import Container from "@/components/signup/Container";
+
+import { SITE_TITLE } from "@/utils/constants";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Sign Up`,
