@@ -50,7 +50,7 @@ export default function Games() {
           <SelectTrigger className="h-[44px] w-[317px] bg-transparent text-white">
             <SelectValue placeholder="All categories" />
           </SelectTrigger>
-          <SelectContent className="w-[317px] bg-transparent text-white">
+          <SelectContent className="w-[317px] bg-[#211D19] text-white">
             <SelectItem value="first_category">First Category</SelectItem>
             <SelectItem value="second_category">Second Category</SelectItem>
           </SelectContent>
@@ -60,7 +60,7 @@ export default function Games() {
           <SelectTrigger className="h-[44px] w-[317px] bg-transparent text-white">
             <SelectValue placeholder="All platforms" />
           </SelectTrigger>
-          <SelectContent className="w-[317px] bg-transparent text-white">
+          <SelectContent className="w-[317px] bg-[#211D19] text-white">
             <SelectItem value="first_platform">First Platform</SelectItem>
             <SelectItem value="second_platform">Second Platform</SelectItem>
           </SelectContent>
