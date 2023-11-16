@@ -1,19 +1,6 @@
-import { Metadata } from "next";
-
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import { SITE_TITLE } from "@/utils/constants";
-
-export const metadata: Metadata = {
-  title: `${SITE_TITLE} - Games`,
-  description: `${SITE_TITLE} - Games`,
-};
-
-export default function Page({ params }: { params: { slug: "more" } }) {
+export default function TitanSagaMorePage() {
   return (
-    <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
-      <Header />
-
+    <div>
       <section className="mx-[80px] mt-[146px] flex flex-col items-center">
         <h1 className="text-[40px] font-bold">Titan Saga: Chains of Kronos</h1>
       </section>
@@ -271,8 +258,6 @@ export default function Page({ params }: { params: { slug: "more" } }) {
           </button>
         </div>
       </section>
-
-      <Footer />
-    </main>
+    </div>
   );
 }
