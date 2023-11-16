@@ -64,7 +64,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
         <div className="flex flex-wrap justify-center gap-[60px] 2xl:flex-row">
           <div className="flex h-[425px] w-[373px] flex-col">
             <img
-              src="/images/games/Axe_of_the_West.png"
+              src="/images/games/avatar/axe_of_the_west.png"
               className="z-0 mb-[-100px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -76,7 +76,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
           </div>
           <div className="flex h-[425px] w-[373px] flex-col">
             <img
-              src="/images/games/Titan-Bond.png"
+              src="/images/games/avatar/titan-bond.png"
               className="z-0 mb-[-100px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -89,7 +89,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
           </div>
           <div className="flex h-[425px] w-[373px] flex-col">
             <img
-              src="/images/games/Arrow_of_the_Lake.png"
+              src="/images/games/avatar/arrow_of_the_lake.png"
               className="z-0 mb-[-100px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -102,7 +102,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
           </div>
           <div className="flex h-[425px] w-[373px] flex-col">
             <img
-              src="/images/games/Sorcerer_of_Gems.png"
+              src="/images/games/avatar/sorcerer_of_gems.png"
               className="z-0 mb-[-100px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -115,7 +115,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
           </div>
           <div className="flex h-[425px] w-[373px] flex-col">
             <img
-              src="/images/games/Dragon_Paladin.png"
+              src="/images/games/avatar/dragon_paladin.png"
               className="z-0 mb-[-100px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -142,7 +142,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
       <section className="mx-[80px] mt-[65px] flex flex-wrap border-[1px]">
         <div className="flex w-full flex-col gap-[30px] border-b-[1px] border-r-[1px] p-[30px] md:w-1/2">
           <img
-            src="/images/games/lightening.png"
+            src="/images/games/icons/icon_04.png"
             className="h-[70px] object-scale-down object-left"
           />
           <h1 className="text-[30px]">Dynamic Lighting</h1>
@@ -156,7 +156,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
         </div>
         <div className="flex w-full flex-col gap-[30px] border-b-[1px] p-[30px] md:w-1/2">
           <img
-            src="/images/games/battle.png"
+            src="/images/games/icons/icon_05.png"
             className="h-[70px] object-scale-down object-left"
           />
           <h1 className="text-[30px]">Action Battle System</h1>
@@ -170,7 +170,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
         </div>
         <div className="flex w-full flex-col gap-[30px] border-r-[1px] p-[30px] md:w-1/2">
           <img
-            src="/images/games/custom.png"
+            src="/images/games/icons/icon_06.png"
             className="h-[70px] object-scale-down object-left"
           />
           <h1 className="text-[30px]">Customizable Equipments</h1>
@@ -185,7 +185,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
         </div>
         <div className="flex w-full flex-col gap-[30px] border-t-[1px] border-[white] p-[30px] md:w-1/2">
           <img
-            src="/images/games/monsters.png"
+            src="/images/games/icons/icon_07.png"
             className="h-[70px] object-scale-down object-left"
           />
           <h1 className="text-[30px]">Unique Enemies</h1>
@@ -212,14 +212,14 @@ export default function Page({ params }: { params: { slug: "more" } }) {
       </section>
 
       <section className="mx-[80px] mt-[120px] flex flex-wrap justify-center gap-[70px] xl:gap-[205px]">
-        <img src="/images/games/chart01.png" />
-        <img src="/images/games/chart02.png" />
-        <img src="/images/games/chart03.png" />
-        <img src="/images/games/chart04.png" />
-        <img src="/images/games/chart05.png" />
-        <img src="/images/games/chart06.png" />
-        <img src="/images/games/chart07.png" />
-        <img src="/images/games/chart08.png" />
+        <img src="/images/games/chart/chart01.png" />
+        <img src="/images/games/chart/chart02.png" />
+        <img src="/images/games/chart/chart03.png" />
+        <img src="/images/games/chart/chart04.png" />
+        <img src="/images/games/chart/chart05.png" />
+        <img src="/images/games/chart/chart06.png" />
+        <img src="/images/games/chart/chart07.png" />
+        <img src="/images/games/chart/chart08.png" />
       </section>
 
       <section className="mx-[80px] mt-[160px] flex flex-col items-center text-[40px]">
@@ -266,7 +266,7 @@ export default function Page({ params }: { params: { slug: "more" } }) {
           coverage of TitanSaga!
         </p>
         <div className="flex justify-center">
-          <button className="h-[52px] w-[200px] border-[1px] bg-[#AFD275]">
+          <button className="h-[52px] w-[200px] rounded-lg border-[1px] bg-[#AFD275]">
             Download Press Kit
           </button>
         </div>

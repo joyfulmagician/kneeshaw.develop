@@ -15,7 +15,7 @@ export default function Marketplace() {
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211d19]">
       <Header />
-      <section className="w-7/10 ml-auto mr-auto mt-[39px] flex flex flex-col items-center justify-center rounded-xl bg-[#35322F] px-[10px] py-[60px] text-[#EDF1F3] md:w-[695px] md:px-[80px]">
+      <section className="w-7/10 my-[39px] ml-auto mr-auto flex flex flex-col items-center justify-center rounded-xl bg-[#35322F] px-[10px] py-[60px] text-[#EDF1F3] md:w-[695px] md:px-[80px]">
         <div className="flex flex-col gap-[14px] px-[40px] py-[30px] text-center">
           <h1 className="text-[30px] font-[700] md:text-[52px]">
             Welcome back!
