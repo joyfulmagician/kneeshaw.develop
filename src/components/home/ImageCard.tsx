@@ -23,10 +23,12 @@ export default function ImageCard({
           {subtitle}
         </div>
       </div>
+
       <div className="flex flex-col items-center gap-[5px]">
         <div className="text-center text-[14px] font-light text-white">
           {paragraph}
         </div>
+
         <button className="h-[40px] rounded-[16px] border border-[#AFD276] px-[20px] text-[16px] font-bold leading-[20px] text-[#AFD276]">
           Read more
         </button>
