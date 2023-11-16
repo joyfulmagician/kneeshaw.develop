@@ -1,11 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import OldSalt from "@/components/games/OldSalt";
-import TitanSaga from "@/components/games/TitanSaga";
-import { SITE_TITLE } from "@/utils/constants";
 import {
   Select,
   SelectContent,
@@ -13,6 +8,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import OldSalt from "@/components/games/OldSalt";
+import TitanSaga from "@/components/games/TitanSaga";
+import { SITE_TITLE } from "@/utils/constants";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Games`,
@@ -44,36 +45,33 @@ export default function Games() {
         </h3>
       </section>
 
-      <section className="mx-[80px] mt-[99px] flex flex-col justify-center gap-[85px] text-center text-[#EDF1F3] lg:flex-row lg:gap-[60px]">
-        <div className="flex justify-center">
-          <Select>
-            <SelectTrigger className="mt-[10px] h-[44px] w-[317px] bg-transparent text-white">
-              <SelectValue placeholder="All categories" />
-            </SelectTrigger>
-            <SelectContent className="w-[317px] bg-transparent text-white">
-              <SelectItem value="first_category">First Category</SelectItem>
-              <SelectItem value="second_category">Second Category</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-        <div className="flex justify-center">
-          <Select>
-            <SelectTrigger className="mt-[10px] h-[44px] w-[317px] bg-transparent text-white">
-              <SelectValue placeholder="All platforms" />
-            </SelectTrigger>
-            <SelectContent className="w-[317px] bg-transparent text-white">
-              <SelectItem value="first_platform">First Platform</SelectItem>
-              <SelectItem value="second_platform">Second Platform</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-        <div className="mt-[10px]">
-          <Link href="/games/apply">
-            <button className="h-[44px] w-[210px] rounded-xl bg-[#AFD275] font-[600]">
-              Apply
-            </button>
-          </Link>
-        </div>
+      <section className="mx-[80px] mt-[99px] flex flex-col items-center justify-between gap-[24px] text-[#EDF1F3] lg:flex-row">
+        <Select>
+          <SelectTrigger className="h-[44px] w-[317px] bg-transparent text-white">
+            <SelectValue placeholder="All categories" />
+          </SelectTrigger>
+          <SelectContent className="w-[317px] bg-transparent text-white">
+            <SelectItem value="first_category">First Category</SelectItem>
+            <SelectItem value="second_category">Second Category</SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Select>
+          <SelectTrigger className="h-[44px] w-[317px] bg-transparent text-white">
+            <SelectValue placeholder="All platforms" />
+          </SelectTrigger>
+          <SelectContent className="w-[317px] bg-transparent text-white">
+            <SelectItem value="first_platform">First Platform</SelectItem>
+            <SelectItem value="second_platform">Second Platform</SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Link
+          className="rounded-xl bg-[#AFD275] px-[80px] py-[10px] text-[16px] font-semibold"
+          href="/games/apply"
+        >
+          Apply
+        </Link>
       </section>
 
       <section className="mx-[80px] mt-[120px] flex items-center">
