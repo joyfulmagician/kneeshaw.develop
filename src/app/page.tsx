@@ -10,6 +10,10 @@ import SmallImageList from "@/components/home/SmallImageList";
 import Container from "@/components/home/Container";
 import FAQ from "@/components/home/FAQ";
 import { SITE_TITLE } from "@/utils/constants";
+import Introduction1 from "@/components/home/Introduction1";
+import Introduction2 from "@/components/home/introduction2";
+import GameLibrary from "@/components/home/GameLibrary";
+import HorizonScroll from "@/components/home/horizonscroll";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Landing`,
@@ -49,87 +53,18 @@ export default function Home() {
       </section>
 
       <section className="mt-[97px] flex flex-col gap-[74px] text-[20px] font-light text-white">
-        <div className="grid grid-cols-12">
-          <div className="col-span-9 border-[1px] border-[#E7717D]" />
-          <div className="col-span-9 my-[30px] ml-[40px]">
-            Welcome to Kneeshaw Developments, the premier gaming development
-            website where you'll find the best games for gamers of all ages. Our
-            passion for gaming is evident in every game we create, and we are
-            dedicated to providing our players with immersive and engaging
-            experiences that will keep them coming back for more.
-          </div>
-          <div className="col-start-1 col-end-5 border-[1px] border-[#E7717D]" />
-        </div>
-
-        <div className="grid grid-cols-12">
-          <div className="col-span-9 col-end-13 border-[1px] border-[#E7717D]" />
-          <div className="col-span-9 col-end-13 my-[30px] mr-[40px] text-right">
-            Our game library features a wide range of games, from action-packed
-            shooters and intense RPGs to casual puzzle games and family-friendly
-            adventures. We have games for every platform, including PC, mobile,
-            and console, and our developers are always working on new titles to
-            keep our players entertained.
-          </div>
-          <div className="col-span-5 col-end-13 border-[1px] border-[#E7717D]" />
-        </div>
+        <Introduction1 />
+        <Introduction2 />
       </section>
 
       <section className="mt-[150px] flex flex-col items-center gap-[99px]">
-        <h2 className="text-[40px] font-light text-[#EDF1F3]">
-          Enjoy our library of games
-        </h2>
-
-        <div className="mx-[40px] flex flex-row gap-[40px] rounded-[14px] bg-[#24201C] p-[40px] lg:pr-[50px] xl:pr-[80px]">
-          <div className="flex w-[60%] max-w-[700px] flex-col gap-[24px]">
-            <h1 className="text-[56px] font-bold text-[#AFD275]">
-              Titan Saga:
-              <br />
-              Chanins of Kronos
-            </h1>
-
-            <p className="text-[18px] font-light text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
-            </p>
-
-            <button className="mt-[40px] h-[52px] w-[159px] rounded-[10px] bg-[#AFD275] font-bold text-white">
-              View More
-            </button>
-          </div>
-
-          <div className="gird-rows-2 grid grid-flow-col gap-[40px]">
-            <div className="col-span-2 row-span-2 hidden lg:flex">
-              <img
-                src="/images/home/library01.png"
-                alt="library1.png"
-                className="h-[420px] w-auto"
-              />
-            </div>
-
-            <div className="hidden h-[190px] w-auto xl:flex">
-              <img src="/images/home/library02.png" alt="library2.png" />
-            </div>
-
-            <div className="hidden h-[190px] w-auto xl:flex">
-              <img src="/images/home/library03.png" alt="library3.png" />
-            </div>
-          </div>
-        </div>
+        <GameLibrary />
       </section>
 
       <section className="mt-[40px]">
-        <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
-          <SmallImageList />
-        </div>
+        <SmallImageList />
 
-        <div className="mt-[75px] flex flex-row justify-center gap-[20px] text-[#E7717D]">
-          {Array.from(Array(6).keys()).map((k) => (
-            <div
-              key={k}
-              className="h-[14px] w-[14px] rounded-[10px] border border-[#E7717D]"
-            />
-          ))}
-        </div>
+        <HorizonScroll />
       </section>
 
       <section className="mt-[200px]">
