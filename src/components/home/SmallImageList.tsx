@@ -35,10 +35,10 @@ export default function SmallImageList() {
   ];
 
   return (
-    <>
+    <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
       {data.map(({ image, className }, index) => (
         <SmallImage key={index} image={image} className={className} />
       ))}
-    </>
+    </div>
   );
 }
