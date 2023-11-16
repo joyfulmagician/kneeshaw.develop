@@ -37,10 +37,10 @@ export default function OldSaltPage() {
         <div className="text-center text-[18px] 2xl:text-left">
           <p className="font-[700] text-[#AFD275]">Quality</p>
           <Select>
-            <SelectTrigger className="mt-[10px] h-[44px] w-[74px] bg-transparent text-white">
+            <SelectTrigger className="mt-[10px] h-[44px] w-[74px] bg-[#211D19] text-white">
               <SelectValue placeholder="1" />
             </SelectTrigger>
-            <SelectContent className="w-[74px] bg-transparent text-white">
+            <SelectContent className="w-[74px] bg-[#211D19] text-white">
               <SelectItem value="2">2</SelectItem>
               <SelectItem value="3">3</SelectItem>
               <SelectItem value="4">4</SelectItem>
