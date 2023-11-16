@@ -19,7 +19,7 @@ export default function Container({ children }: Props) {
         role === ROLES.PLAYER ? "bg-[#211D19]" : "bg-[#EDF1F3]",
       )}
       style={{
-        backgroundImage: "url('/images/homeback.png')",
+        backgroundImage: "url('/images/home/homeback.png')",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
       }}
