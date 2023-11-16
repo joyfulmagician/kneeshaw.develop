@@ -20,14 +20,14 @@ export default function TitanSaga() {
           features a deep and immersive story, with players taking on the role
           of a hero tasked with saving the world from destruction.
         </p>
-        <div className="flex gap-[20px]">
+        <div className="flex flex-col justify-center gap-[20px] sm:flex-row sm:justify-start">
           <Link href="/games/apply/id=1_get">
-            <button className="flex h-[44px] w-[210px] items-center justify-center rounded-lg bg-[#B74AFF] px-[44px] py-[12px] text-[16px] text-base font-[600]">
+            <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg bg-[#B74AFF] px-[44px] py-[12px] text-[16px] text-base font-[600] sm:w-[210px]">
               Get it now
             </button>
           </Link>
           <Link href="/games/apply/id=1_more">
-            <button className="flex h-[44px] w-[83px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] font-[600]">
+            <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] font-[600] sm:w-[210px] sm:w-[83px]">
               More
             </button>
           </Link>
@@ -35,7 +35,7 @@ export default function TitanSaga() {
       </div>
       <img
         src="/images/image02.png"
-        className="mt-[-150px] hidden h-[623px] w-1/2 w-[600px] object-scale-down xl:block"
+        className="mt-[-150px] hidden h-[623px] w-[600px] object-scale-down xl:block"
       />
     </section>
   );
