@@ -5,17 +5,17 @@ import Footer from "@/components/layout/Footer";
 import { SITE_TITLE } from "@/utils/constants";
 
 export const metadata: Metadata = {
-  title: `${SITE_TITLE} - Cookies`,
-  description: `${SITE_TITLE} - Cookies`,
+  title: `${SITE_TITLE} - Quote`,
+  description: `${SITE_TITLE} - Quote`,
 };
 
-export default function Cookies() {
+export default function Quote() {
   return (
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
 
       <section>
-        <h1>Cookies</h1>
+        <h1>Quote</h1>
       </section>
 
       <Footer />
