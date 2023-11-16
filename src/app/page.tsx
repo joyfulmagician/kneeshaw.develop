@@ -2,13 +2,13 @@ import { Metadata } from "next";
 
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
-import GameView from "@/components/homepage/GameView";
-
+import GameView from "@/components/home/GameView";
+import RoleSwitch from "@/components/home/RoleSwitch";
 import { SITE_TITLE } from "@/utils/constants";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CiSearch } from "react-icons/ci";
-import AccordionList from "@/components/homepage/AccordionList";
-import SmallImageList from "@/components/homepage/SmallImageList";
+import AccordionList from "@/components/home/AccordionList";
+import SmallImageList from "@/components/home/SmallImageList";
+import Container from "@/components/home/Container";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Landing`,
@@ -17,14 +17,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main
-      className="flex min-h-screen flex-col bg-[#211D19]"
-      style={{
-        backgroundImage: "url('/images/homeback.png')",
-        backgroundSize: "contain",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <Container>
       <Header />
 
       <div className="border border-[#EDF1F3]" />
@@ -51,22 +44,7 @@ export default function Home() {
       </section>
 
       <section className="mt-[100px] flex justify-center rounded-[16px] px-[15px] py-[10px]">
-        <Tabs defaultValue="account">
-          <TabsList className="flex h-[90px] w-[700px] flex-row gap-[10px] rounded-[16px] bg-[#39352F]">
-            <TabsTrigger
-              value="account"
-              className="h-[70px] w-[335px] rounded-[16px] text-[22px] font-bold text-[#EDF1F3]"
-            >
-              Play with Us
-            </TabsTrigger>
-            <TabsTrigger
-              value="password"
-              className="h-[70px] w-[335px] rounded-[16px] text-[22px] font-semibold text-[#EDF1F3B2]"
-            >
-              Create with Us
-            </TabsTrigger>
-          </TabsList>
-        </Tabs>
+        <RoleSwitch />
       </section>
 
       <section className="mt-[97px] flex flex-col gap-[74px] text-[20px] font-light text-white">
@@ -177,6 +155,6 @@ export default function Home() {
       </section>
 
       <Footer />
-    </main>
+    </Container>
   );
 }
