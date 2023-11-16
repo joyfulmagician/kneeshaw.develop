@@ -10,7 +10,10 @@ export default function OldSalt() {
         <span className="inline-flex h-3 w-3 rounded-full bg-[#9F0808]"></span>
       </h5>
       <div className="mb-[-100px] ml-[-180px] mt-[-100px] hidden lg:block">
-        <img className="lg:h-[433px] lg:w-[1450px]" src="/images/image03.png" />
+        <img
+          className="lg:h-[433px] lg:w-[1450px]"
+          src="/images/games/image03.png"
+        />
       </div>
       <div className="flex justify-end text-[20px]">
         <p className="w-[700px] text-right text-[20px] font-[400]">

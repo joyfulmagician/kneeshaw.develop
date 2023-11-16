@@ -67,7 +67,7 @@ export default function Game1_morePage() {
         <div className="flex flex-wrap justify-center gap-[32px] lg:flex-row">
           <div className="flex h-[425px] w-[400px] flex-col">
             <img
-              src="/images/games/flag_01.png"
+              src="/images/games/flag/flag_01.png"
               className="z-0 mb-[-150px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -76,7 +76,7 @@ export default function Game1_morePage() {
           </div>
           <div className="flex h-[425px] w-[400px] flex-col">
             <img
-              src="/images/games/flag_02.png"
+              src="/images/games/flag/flag_02.png"
               className="z-0 mb-[-150px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -85,7 +85,7 @@ export default function Game1_morePage() {
           </div>
           <div className="flex h-[425px] w-[400px] flex-col">
             <img
-              src="/images/games/flag_03.png"
+              src="/images/games/flag/flag_03.png"
               className="z-0 mb-[-150px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -94,7 +94,7 @@ export default function Game1_morePage() {
           </div>
           <div className="flex h-[425px] w-[400px] flex-col">
             <img
-              src="/images/games/flag_04.png"
+              src="/images/games/flag/flag_04.png"
               className="z-0 mb-[-150px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -103,7 +103,7 @@ export default function Game1_morePage() {
           </div>
           <div className="flex h-[425px] w-[400px] flex-col">
             <img
-              src="/images/games/flag_05.png"
+              src="/images/games/flag/flag_05.png"
               className="z-0 mb-[-150px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -112,7 +112,7 @@ export default function Game1_morePage() {
           </div>
           <div className="flex h-[425px] w-[400px] flex-col">
             <img
-              src="/images/games/flag_06.png"
+              src="/images/games/flag/flag_06.png"
               className="z-0 mb-[-150px] px-[36px]"
             />
             <div className="z-1 h-[300px] w-full justify-between bg-[#292929] px-[36px] text-center">
@@ -135,7 +135,7 @@ export default function Game1_morePage() {
       <section className="mx-[80px] mt-[56px] flex flex-wrap border-[1px] xl:flex-row">
         <div className="flex w-full flex-col gap-[30px] border-[white] p-[30px] xl:w-1/3">
           <img
-            src="/images/games/icon_01.png"
+            src="/images/games/icons/icon_01.png"
             className="h-[70px] object-scale-down object-left"
           />
           <h1 className="text-[30px]">Single Player Campaign</h1>
@@ -150,7 +150,7 @@ export default function Game1_morePage() {
         </div>
         <div className="flex w-full flex-col gap-[30px] border-y-[1px] border-[white] p-[30px] xl:w-1/3 xl:border-x-[1px]">
           <img
-            src="/images/games/icon_02.png"
+            src="/images/games/icons/icon_02.png"
             className="h-[70px] object-scale-down object-left"
           />
           <h1 className="text-[30px]">Map Maker</h1>
@@ -165,7 +165,7 @@ export default function Game1_morePage() {
         </div>
         <div className="flex w-full flex-col gap-[30px] border-[white] p-[30px] xl:w-1/3">
           <img
-            src="/images/games/icon_03.png"
+            src="/images/games/icons/icon_03.png"
             className="h-[70px] object-scale-down object-left"
           />
           <h1 className="text-[30px]">Multiplayer Matches</h1>
@@ -222,7 +222,7 @@ export default function Game1_morePage() {
           coverage of TitanSaga!
         </p>
         <div className="flex justify-center">
-          <button className="h-[52px] w-[200px] border-[1px] bg-[#AFD275]">
+          <button className="h-[52px] w-[200px] rounded-lg border-[1px] bg-[#AFD275]">
             Download Press Kit
           </button>
         </div>

@@ -45,7 +45,7 @@ export default function Games() {
         </h3>
       </section>
 
-      <section className="mx-[80px] mt-[99px] flex flex-col items-center justify-between gap-[24px] text-[#EDF1F3] lg:flex-row">
+      <section className="mx-[80px] mt-[99px] flex flex-col items-center justify-between gap-[24px] text-[#EDF1F3] lg:flex-row lg:justify-center">
         <Select>
           <SelectTrigger className="h-[44px] w-[317px] bg-transparent text-white">
             <SelectValue placeholder="All categories" />
