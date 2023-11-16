@@ -2,12 +2,13 @@ import { Metadata } from "next";
 
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
-import GameView from "@/components/homepage/GameView";
-import RoleSwitch from "@/components/homepage/RoleSwitch";
+import GameView from "@/components/home/GameView";
+import RoleSwitch from "@/components/home/RoleSwitch";
 import { SITE_TITLE } from "@/utils/constants";
 import { CiSearch } from "react-icons/ci";
-import AccordionList from "@/components/homepage/AccordionList";
-import SmallImageList from "@/components/homepage/SmallImageList";
+import AccordionList from "@/components/home/AccordionList";
+import SmallImageList from "@/components/home/SmallImageList";
+import Container from "@/components/home/Container";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Landing`,
@@ -16,14 +17,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main
-      className="flex min-h-screen flex-col bg-[#211D19]"
-      style={{
-        backgroundImage: "url('/images/homeback.png')",
-        backgroundSize: "contain",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <Container>
       <Header />
 
       <div className="border border-[#EDF1F3]" />
@@ -156,6 +150,6 @@ export default function Home() {
       </section>
 
       <Footer />
-    </main>
+    </Container>
   );
 }
