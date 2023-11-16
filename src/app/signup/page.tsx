@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
-import { ROLES, SITE_TITLE } from "@/utils/constants";
+import { SITE_TITLE } from "@/utils/constants";
 import Demo from "@/components/signup/Demo";
 import Container from "@/components/signup/Container";
 
