@@ -2,12 +2,12 @@ import { Metadata } from "next";
 
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
-import GameView from "@/components/homepage/GameView";
-import RoleSwitch from "@/components/homepage/RoleSwitch";
+import GameView from "@/components/home/GameView";
+import RoleSwitch from "@/components/home/RoleSwitch";
 import { SITE_TITLE } from "@/utils/constants";
 import { CiSearch } from "react-icons/ci";
-import AccordionList from "@/components/homepage/AccordionList";
-import SmallImageList from "@/components/homepage/SmallImageList";
+import AccordionList from "@/components/home/AccordionList";
+import SmallImageList from "@/components/home/SmallImageList";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Landing`,
