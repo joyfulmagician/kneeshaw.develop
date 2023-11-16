@@ -88,7 +88,7 @@ export default function AboutUs() {
       <section className="mx-[80px] mt-[120px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus/aboutus_icon_1.PNG"
+            src="/images/aboutus/aboutus_icon_01.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Innovation</h1>
@@ -99,7 +99,7 @@ export default function AboutUs() {
         </div>
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus/aboutus_icon_2.PNG"
+            src="/images/aboutus/aboutus_icon_02.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Quality</h1>
@@ -110,7 +110,7 @@ export default function AboutUs() {
         </div>
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus/aboutus_icon_3.PNG"
+            src="/images/aboutus/aboutus_icon_03.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Expertise</h1>
@@ -123,7 +123,7 @@ export default function AboutUs() {
       <section className="mx-[80px] mt-[160px] flex h-[278px] justify-center gap-[50px] font-[400] text-[#EDF1F3] lg:mt-[84px]">
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus/aboutus_icon_4.PNG"
+            src="/images/aboutus/aboutus_icon_04.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Support</h1>
@@ -134,7 +134,7 @@ export default function AboutUs() {
         </div>
         <div className="flex w-[400px] flex-col gap-[30px]">
           <img
-            src="/images/aboutus/aboutus_icon_5.PNG"
+            src="/images/aboutus/aboutus_icon_05.PNG"
             className="h-[68px] object-scale-down"
           />
           <h1 className="text-center text-[30px]">Collaboration</h1>

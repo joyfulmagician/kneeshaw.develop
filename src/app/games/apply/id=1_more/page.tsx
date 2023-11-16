@@ -212,14 +212,14 @@ export default function Page({ params }: { params: { slug: "more" } }) {
       </section>
 
       <section className="mx-[80px] mt-[120px] flex flex-wrap justify-center gap-[70px] xl:gap-[205px]">
-        <img src="/images/games/chart/chart01.png" />
-        <img src="/images/games/chart/chart02.png" />
-        <img src="/images/games/chart/chart03.png" />
-        <img src="/images/games/chart/chart04.png" />
-        <img src="/images/games/chart/chart05.png" />
-        <img src="/images/games/chart/chart06.png" />
-        <img src="/images/games/chart/chart07.png" />
-        <img src="/images/games/chart/chart08.png" />
+        <img src="/images/games/chart/chart_01.png" />
+        <img src="/images/games/chart/chart_02.png" />
+        <img src="/images/games/chart/chart_03.png" />
+        <img src="/images/games/chart/chart_04.png" />
+        <img src="/images/games/chart/chart_05.png" />
+        <img src="/images/games/chart/chart_06.png" />
+        <img src="/images/games/chart/chart_07.png" />
+        <img src="/images/games/chart/chart_08.png" />
       </section>
 
       <section className="mx-[80px] mt-[160px] flex flex-col items-center text-[40px]">
