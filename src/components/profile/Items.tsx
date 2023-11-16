@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
   Sheet,
   SheetContent,
@@ -64,9 +66,11 @@ export default function Items() {
                   </div>
                 </div>
                 <div className="mt-[20px] flex justify-center">
-                  <button className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
-                    Check Out
-                  </button>
+                  <Link href="/cart">
+                    <button className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+                      Check Out
+                    </button>
+                  </Link>
                 </div>
               </SheetDescription>
             </SheetHeader>
