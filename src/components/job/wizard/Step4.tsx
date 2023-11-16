@@ -20,6 +20,7 @@ export default function Step2({ onBack, onNext }: Props) {
           <div className="mt-[30px] text-[20px] font-light text-[#EDF1F3]">
             More Details
           </div>
+
           <h2 className="text-[40px] font-bold text-[#EDF1F3]">
             Estimate the scope of your work
           </h2>
@@ -31,32 +32,38 @@ export default function Step2({ onBack, onNext }: Props) {
               <i className="fa-solid fa-grip fa-2xl"></i>
               <div className="text-[18px] font-light">Small</div>
             </div>
+
             <div className="text-[14px] font-light">Quick Tasks</div>
           </div>
+
           <div className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3]">
             <div className="flex flex-col items-center gap-[20px]">
               <i className="fa-solid fa-grip fa-2xl"></i>
               <div className="text-[18px] font-light">Medium</div>
             </div>
+
             <div className="text-center text-[14px] font-light">
-              {" "}
               Well defined project
             </div>
           </div>
+
           <div className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3]">
             <div className="flex flex-col items-center gap-[20px]">
               <i className="fa-solid fa-grip fa-2xl"></i>
               <div className="text-[18px] font-light">Large</div>
             </div>
+
             <div className="text-center text-[14px] font-light">
               Long term, complex tasks
             </div>
           </div>
         </div>
+
         <div className="h-[213px]">
           <div className="py-[15px] text-[18px] font-normal">
             How long it will take?
           </div>
+
           <ul className="list-disc pl-[20px]">
             <li className="text-[18px] font-light">3 to 6 months</li>
             <li className="text-[18px] font-light">1 to 3 months</li>
