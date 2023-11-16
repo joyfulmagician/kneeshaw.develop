@@ -47,15 +47,15 @@ export default function Terms() {
         </div>
         <div className="flex-center flex w-1/2">
           <img
-            src="/images/aboutus_image_02.svg"
+            src="/images/aboutus/aboutus_image_02.svg"
             className="ml-auto hidden 2xl:block"
           />
           <img
-            src="/images/aboutus_image_04.svg"
+            src="/images/aboutus/aboutus_image_04.svg"
             className="mr-[-800px] mt-[-1000px] hidden 2xl:block"
           />
           <img
-            src="/images/aboutus_image_05.svg"
+            src="/images/aboutus/aboutus_image_05.svg"
             className="ml-auto mt-[-400px] hidden 2xl:block"
           />
         </div>
@@ -136,7 +136,7 @@ export default function Terms() {
       <section className="mt-[126px] flex flex-col lg:flex-row">
         <div className="w-1/2">
           <img
-            src="/images/aboutus_image_03.svg"
+            src="/images/aboutus/aboutus_image_03.svg"
             className="ml-[-120px] hidden w-[339px] lg:block"
           />
         </div>
