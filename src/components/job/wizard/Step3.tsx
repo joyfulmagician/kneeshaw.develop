@@ -27,16 +27,16 @@ export default function Step2({ onBack, onNext }: Props) {
         </div>
 
         <div className="mt-[10px] flex flex-col justify-between gap-[40px] md:flex-row">
-          <div className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3]">
+          <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
             <div className="flex flex-col items-center gap-[20px]">
               <i className="fa-solid fa-grip fa-2xl"></i>
               <div className="text-[18px] font-light">Small</div>
             </div>
 
             <div className="text-[14px] font-light">Quick Tasks</div>
-          </div>
+          </button>
 
-          <div className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3]">
+          <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
             <div className="flex flex-col items-center gap-[20px]">
               <i className="fa-solid fa-grip fa-2xl"></i>
               <div className="text-[18px] font-light">Medium</div>
@@ -45,8 +45,9 @@ export default function Step2({ onBack, onNext }: Props) {
             <div className="text-center text-[14px] font-light">
               Well defined project
             </div>
-          </div>
-          <div className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3]">
+          </button>
+
+          <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
             <div className="flex flex-col items-center gap-[20px]">
               <i className="fa-solid fa-grip fa-2xl"></i>
               <div className="text-[18px] font-light">Large</div>
@@ -55,7 +56,7 @@ export default function Step2({ onBack, onNext }: Props) {
             <div className="text-center text-[14px] font-light">
               Long term, complex tasks
             </div>
-          </div>
+          </button>
         </div>
         <div className="h-[208px]"></div>
 

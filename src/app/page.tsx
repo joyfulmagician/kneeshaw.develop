@@ -9,13 +9,13 @@ import FAQ from "@/components/home/FAQ";
 import GameLibrary from "@/components/home/GameLibrary";
 import HorizonScroll from "@/components/home/HorizonScroll";
 import NewGames from "@/components/home/NewGames";
-
-import { SITE_TITLE } from "@/utils/constants";
 import HomeSearch from "@/components/home/HomeSearch";
 import Introduction1 from "@/components/home/Introduction1";
 import Introduction2 from "@/components/home/Introduction2";
 import Title from "@/components/home/Title";
 import TopBorder from "@/components/home/TopBorder";
+
+import { SITE_TITLE } from "@/utils/constants";
 
 export const metadata: Metadata = {
   title: `${SITE_TITLE} - Landing`,
@@ -26,7 +26,9 @@ export default function Home() {
   return (
     <Container>
       <Header />
+
       <TopBorder />
+
       <div className="m-[15px] flex cursor-pointer  flex-row-reverse font-light text-[#EDF1F3]">
         <HomeSearch />
       </div>
@@ -50,7 +52,6 @@ export default function Home() {
 
       <section className="mt-[40px]">
         <SmallImageList />
-
         <HorizonScroll />
       </section>
 

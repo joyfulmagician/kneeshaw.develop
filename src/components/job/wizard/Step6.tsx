@@ -22,20 +22,20 @@ export default function Step2({ onBack, onNext }: Props) {
           </div>
 
           <h2 className="text-[40px] font-bold text-[#EDF1F3]">
-            Tell us about your bedget
+            Tell us about your budget
           </h2>
         </div>
 
         <div className="mt-[10px] flex flex-col justify-between gap-[40px] md:flex-row">
-          <div className="flex h-[108px] w-full flex-col items-center justify-center gap-[20px] rounded-[6px] border-[1px] border-[#EDF1F3] bg-[#474B35]">
+          <button className="flex h-[108px] w-full flex-col items-center justify-center gap-[20px] rounded-[6px] border-[1px] border-[#EDF1F3] bg-[#474B35]">
             <i className="fa-regular fa-clock fa-lg"></i>
             <div className="text-[18px] font-light">Hourly Rate</div>
-          </div>
+          </button>
 
-          <div className="flex h-[108px] w-full flex-col items-center justify-center gap-[20px] rounded-[6px] border-[1px] border-[#EDF1F3]">
+          <button className="flex h-[108px] w-full flex-col items-center justify-center gap-[20px] rounded-[6px] border-[1px] border-[#EDF1F3]">
             <i className="fa-solid fa-globe fa-lg"></i>
             <div className="text-[18px] font-light">Project Budget</div>
-          </div>
+          </button>
         </div>
 
         <div className="mt-[20px] flex flex-col gap-[30px] md:flex-row">

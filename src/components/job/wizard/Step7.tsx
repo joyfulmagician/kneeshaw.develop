@@ -34,15 +34,15 @@ export default function Step2({ onBack, onNext }: Props) {
         </div>
 
         <div className="mt-[10px] flex flex-col justify-between gap-[40px] md:flex-row">
-          <div className="flex h-[108px] w-full flex-col items-center justify-center gap-[20px] rounded-[6px] border-[1px] border-[#EDF1F3]">
+          <button className="flex h-[108px] w-full flex-col items-center justify-center gap-[20px] rounded-[6px] border-[1px] border-[#EDF1F3]">
             <i className="fa-solid fa-globe fa-lg"></i>
             <div className="text-[18px] font-light">Worldwide</div>
-          </div>
+          </button>
 
-          <div className="flex h-[108px] w-full flex-col items-center justify-center gap-[20px] rounded-[6px] border-[1px] border-[#EDF1F3] bg-[#474B35]">
+          <button className="flex h-[108px] w-full flex-col items-center justify-center gap-[20px] rounded-[6px] border-[1px] border-[#EDF1F3] bg-[#474B35]">
             <i className="fa-regular fa-clock fa-lg"></i>
             <div className="text-[18px] font-light">U.S. only</div>
-          </div>
+          </button>
         </div>
 
         <div className="mt-[10px] flex flex-col gap-[10px]">

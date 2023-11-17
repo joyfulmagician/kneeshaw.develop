@@ -65,9 +65,15 @@ export default function Step2({ onBack, onNext }: Props) {
           </div>
 
           <ul className="list-disc pl-[20px]">
-            <li className="text-[18px] font-light">3 to 6 months</li>
-            <li className="text-[18px] font-light">1 to 3 months</li>
-            <li className="text-[18px] font-light">Less than 1 months</li>
+            <li className="cursor-pointer text-[18px] font-light">
+              3 to 6 months
+            </li>
+            <li className="cursor-pointer text-[18px] font-light">
+              1 to 3 months
+            </li>
+            <li className="cursor-pointer text-[18px] font-light">
+              Less than 1 months
+            </li>
           </ul>
         </div>
 
