@@ -85,13 +85,13 @@ export default function Demo() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="h-[52px] w-[275px] rounded-[16px] border-[1px] bg-transparent pl-[10px] text-[#52525B] md:w-[475px]"
+              className="h-[52px] w-[275px] rounded-[16px] border-[1px] border-[#C2CAD0] bg-transparent pl-[10px] text-[#52525B] md:w-[475px]"
             />
             <div>
               <input
                 type="email"
                 placeholder="Enter your password"
-                className="h-[52px] w-[275px] rounded-[16px] border-[1px] bg-transparent pl-[10px] text-[#52525B] md:w-[475px]"
+                className="h-[52px] w-[275px] rounded-[16px] border-[1px] border-[#C2CAD0] bg-transparent pl-[10px] text-[#52525B] md:w-[475px]"
               />
 
               <div className="mt-[10px] flex flex-row text-[14px]">
@@ -110,7 +110,7 @@ export default function Demo() {
               Sign In
             </button>
 
-            <button className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[#EDF1F3] ">
+            <button className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[##C2CAD0] ">
               <FcGoogle />
               <span className="text-[14px] font-[600] text-[#52525B] sm:text-[18px]">
                 Sign In with Google
