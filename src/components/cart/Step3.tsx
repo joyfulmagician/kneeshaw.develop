@@ -6,7 +6,7 @@ interface Props {
   onNext: () => void;
 }
 
-export default function Step3({ onNext }: Props) {
+export default function Step3() {
   return (
     <>
       <div className="flex h-[86px] w-full items-center justify-center gap-[8px] bg-[#35322F]">
