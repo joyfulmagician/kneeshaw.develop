@@ -7,7 +7,7 @@ export default function OldSalt() {
     <div className="flex flex-col gap-[40px] rounded-xl bg-[#2E2322] p-[50px] text-[#EDF1F3]">
       <h5 className="flex justify-end text-[20px] font-[600]">
         7k Players
-        <span className="inline-flex h-3 w-3 rounded-full bg-[#9F0808]"></span>
+        <span className="inline-flex h-3 w-3 rounded-full bg-[#9F0808]" />
       </h5>
 
       <div className="mb-[-100px] ml-[-180px] mt-[-100px] hidden lg:block">
