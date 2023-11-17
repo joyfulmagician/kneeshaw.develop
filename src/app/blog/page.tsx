@@ -36,14 +36,20 @@ export default function Marketplace() {
           >
             1
           </button>
-          <button className="h-[30px] w-[30px] rounded-[9px]">2</button>
-          <button className="h-[30px] w-[30px] rounded-[9px]">3</button>
-          <i className="fa-solid fa-ellipsis"></i>
-          <button className="h-[30px] w-[30px] rounded-[9px]">13</button>
-          <button className="h-[30px] w-[30px] rounded-[9px]">14</button>
-          <button>
-            <i className="fa-solid fa-angle-right" />
+          <button type="button" className="h-[30px] w-[30px] rounded-[9px]">
+            2
           </button>
+          <button type="button" className="h-[30px] w-[30px] rounded-[9px]">
+            3
+          </button>
+          <i className="fa-solid fa-ellipsis cursor-pointer" />
+          <button type="button" className="h-[30px] w-[30px] rounded-[9px]">
+            13
+          </button>
+          <button type="button" className="h-[30px] w-[30px] rounded-[9px]">
+            14
+          </button>
+          <i className="fa-solid fa-angle-right" />
           <i className="fa-solid fa-angle-right cursor-pointer" />
         </div>
       </section>
