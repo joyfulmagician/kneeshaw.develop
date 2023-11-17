@@ -21,8 +21,10 @@ export default function RoleSwitch() {
     >
       <button
         className={clsx(
-          "rounded-[16px] px-[30px] py-[20px] text-[22px] font-bold text-[#EDF1F3] md:px-[90px]",
-          role === ROLES.PLAYER ? "bg-[#E7717D]" : "text-[#00000080]",
+          "rounded-[16px] px-[30px] py-[20px] text-[22px] font-bold md:px-[90px]",
+          role === ROLES.PLAYER
+            ? "bg-[#E7717D] text-[#EDF1F3]"
+            : "text-[#00000080]",
         )}
         onClick={handleSwitchRole(ROLES.PLAYER)}
       >
@@ -31,8 +33,10 @@ export default function RoleSwitch() {
 
       <button
         className={clsx(
-          "rounded-[16px] px-[30px] py-[20px] text-[22px] font-bold text-[#EDF1F3] md:px-[90px]",
-          role === ROLES.CREATOR && "bg-[#AFD275]",
+          "rounded-[16px] px-[30px] py-[20px] text-[22px] font-bold md:px-[90px]",
+          role === ROLES.CREATOR
+            ? "bg-[#AFD275] text-[#EDF1F3]"
+            : "text-[#EDF1F3B2]",
         )}
         onClick={handleSwitchRole(ROLES.CREATOR)}
       >
