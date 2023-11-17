@@ -20,7 +20,7 @@ export default function Step1({ onNext }: Props) {
             Unleashing Your Freelancing Potential
           </div>
           <h2 className="text-[40px] font-bold text-[#EDF1F3]">
-            Let's start with a title
+            Let&#x27;s start with a title
           </h2>
         </div>
 
@@ -53,13 +53,14 @@ export default function Step1({ onNext }: Props) {
 
         <div className="mb-[20px] text-[18px] font-light">
           Remember, there are just examples, and you can customize them based on
-          your specific skills and expertise. it's important to choose a title
-          that accurately represents your capabilities and attracts potential
-          clients in your desired field
+          your specific skills and expertise. it&#x27;s important to choose a
+          title that accurately represents your capabilities and attracts
+          potential clients in your desired field
         </div>
 
         <div className="flex items-center justify-end">
           <button
+            type="button"
             className="h-[44px] w-[210px] rounded-[6px] border-[1px] border-[#AFD275] text-[16px] font-semibold text-[#AFD275] hover:bg-[#AFD275] hover:text-[#EDF1F3] active:bg-[#AFD275]"
             onClick={() => onNext()}
           >

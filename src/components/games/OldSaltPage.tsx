@@ -27,7 +27,7 @@ export default function OldSaltPage() {
         </p>
         <p className="text-center text-[20px] font-[400] text-[#EDF1F3] 2xl:text-left">
           The game is a survival adventure that requires the player to manage
-          their character's hunger, thirst, and health while exploring the
+          their character&#x27;s hunger, thirst, and health while exploring the
           island for resources and materials to help them survive.
         </p>
         <div className="text-center text-[18px] font-[700] 2xl:text-left">
@@ -49,7 +49,10 @@ export default function OldSaltPage() {
         </div>
         <Sheet>
           <SheetTrigger>
-            <button className="flex h-[52px] w-[136px] items-center justify-center rounded-xl bg-[#B1CE75] font-[600] text-[#EDF1F3]">
+            <button
+              type="button"
+              className="flex h-[52px] w-[136px] items-center justify-center rounded-xl bg-[#B1CE75] font-[600] text-[#EDF1F3]"
+            >
               Add to Cart
             </button>
           </SheetTrigger>
@@ -92,7 +95,10 @@ export default function OldSaltPage() {
                   </div>
                 </div>
                 <div className="mt-[20px] flex justify-center">
-                  <button className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+                  <button
+                    type="button"
+                    className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]"
+                  >
                     Check Out
                   </button>
                 </div>

@@ -39,7 +39,10 @@ export default function Step3() {
           <p className="text-[14px] font-[400] text-[#EDF1F3]">TOTAL</p>
           <p className="text-[20px] font-[500] text-[#E7717D]">$123.00</p>
         </div>
-        <button className="ml-auto mr-auto h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+        <button
+          type="submit"
+          className="ml-auto mr-auto h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]"
+        >
           DONE
         </button>
       </div>

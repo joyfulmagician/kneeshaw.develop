@@ -43,12 +43,15 @@ export default function Introduction2() {
                 Look no further than Kneeshaw Developments! Our community is
                 made up of passionate gamers and developers who share the same
                 goal of creating the next big thing in gaming. With access to
-                the latest tools and resources, you'll have everything you need
-                to bring your game ideas to life. Join us today and let's work
-                together to make gaming history!
+                the latest tools and resources, you&#x27;ll have everything you
+                need to bring your game ideas to life. Join us today and
+                let&#x27;s work together to make gaming history!
               </div>
 
-              <button className="mt-[20px] h-[52px] w-[205px] rounded-[18px] border-[2px] border-[#AFD275] font-semibold text-[#AFD275]">
+              <button
+                type="button"
+                className="mt-[20px] h-[52px] w-[205px] rounded-[18px] border-[2px] border-[#AFD275] font-semibold text-[#AFD275]"
+              >
                 Read More
               </button>
             </div>

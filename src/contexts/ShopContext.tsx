@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useMemo, useState } from "react";
 
 interface ContextProps {
   cartCount: number;
@@ -25,8 +25,12 @@ interface ProviderProps {
 export default function ShopProvider({ children }: ProviderProps) {
   const [cartCount, setCartCount] = useState(99);
 
+  const memoizedValue = useMemo(
+    () => ({ cartCount, setCartCount }),
+    [cartCount],
+  );
   return (
-    <ShopContext.Provider value={{ cartCount, setCartCount }}>
+    <ShopContext.Provider value={memoizedValue}>
       {children}
     </ShopContext.Provider>
   );

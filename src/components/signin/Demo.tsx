@@ -1,9 +1,10 @@
 "use client";
 
-import { useRole } from "@/contexts/RoleContext";
-import { ROLES } from "@/utils/constants";
 import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
+import { useRole } from "@/contexts/RoleContext";
+import { ROLES } from "@/utils/constants";
+
 import { Checkbox } from "../ui/checkbox";
 
 export default function Demo() {
@@ -48,11 +49,17 @@ export default function Demo() {
               </div>
             </div>
 
-            <button className="h-[52px] w-[275px] rounded-[16px] bg-[#AFD275] text-[18px] font-[600] md:w-[475px]">
+            <button
+              type="button"
+              className="h-[52px] w-[275px] rounded-[16px] bg-[#AFD275] text-[18px] font-[600] md:w-[475px]"
+            >
               Sign In
             </button>
 
-            <button className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[#EDF1F3] ">
+            <button
+              type="button"
+              className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[#EDF1F3] "
+            >
               <FcGoogle />
               <span className="text-[14px] font-[600] sm:text-[18px]">
                 Sign In with Google
@@ -60,7 +67,7 @@ export default function Demo() {
             </button>
 
             <p className="mb-[30px] text-[14px] font-[400]">
-              Don't have an account?
+              Don&#x27;t have an account?
               <Link href="/signup">
                 <span className="font-[600] text-[#AFD275]"> Sign Up</span>
               </Link>
@@ -106,11 +113,17 @@ export default function Demo() {
               </div>
             </div>
 
-            <button className="h-[52px] w-[275px] rounded-[16px] bg-[#AFD275] text-[18px] font-[600] md:w-[475px]">
+            <button
+              type="button"
+              className="h-[52px] w-[275px] rounded-[16px] bg-[#AFD275] text-[18px] font-[600] md:w-[475px]"
+            >
               Sign In
             </button>
 
-            <button className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[##C2CAD0] ">
+            <button
+              type="button"
+              className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[##C2CAD0] "
+            >
               <FcGoogle />
               <span className="text-[14px] font-[600] text-[#52525B] sm:text-[18px]">
                 Sign In with Google
@@ -118,7 +131,7 @@ export default function Demo() {
             </button>
 
             <p className="mb-[30px] text-[14px] font-[400] text-[#52525B]">
-              Don't have an account?
+              Don&#x27;t have an account?
               <Link href="/signup">
                 <span className="font-[600] text-[#AFD275]"> Sign Up</span>
               </Link>

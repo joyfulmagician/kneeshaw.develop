@@ -13,10 +13,10 @@ export default function Introduction1() {
           <div className="col-span-9 border-[1px] border-[#E7717D]" />
           <div className="col-span-9 my-[30px] ml-[40px]">
             Welcome to Kneeshaw Developments, the premier gaming development
-            website where you'll find the best games for gamers of all ages. Our
-            passion for gaming is evident in every game we create, and we are
-            dedicated to providing our players with immersive and engaging
-            experiences that will keep them coming back for more.
+            website where you&#x27;ll find the best games for gamers of all
+            ages. Our passion for gaming is evident in every game we create, and
+            we are dedicated to providing our players with immersive and
+            engaging experiences that will keep them coming back for more.
           </div>
           <div className="col-start-1 col-end-5 border-[1px] border-[#E7717D]" />
         </div>
@@ -45,7 +45,10 @@ export default function Introduction1() {
             for players of all ages.
           </div>
 
-          <button className="h-[52px] w-[205px] rounded-[18px] border-[2px] border-[#AFD275] font-semibold text-[#AFD275]">
+          <button
+            type="button"
+            className="h-[52px] w-[205px] rounded-[18px] border-[2px] border-[#AFD275] font-semibold text-[#AFD275]"
+          >
             Read More
           </button>
         </div>

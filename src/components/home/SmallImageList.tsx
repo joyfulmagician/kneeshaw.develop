@@ -39,14 +39,16 @@ export default function SmallImageList() {
   ];
 
   return (
-    <>
-      {role === ROLES.PLAYER && (
-        <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
-          {data.map(({ image, className }, index) => (
-            <SmallImage key={index} image={image} className={className} />
-          ))}
-        </div>
-      )}
-    </>
+    role === ROLES.PLAYER && (
+      <div className="mx-[80px] flex flex-row items-center justify-between gap-[10px]">
+        {data.map((props) => (
+          <SmallImage
+            key={props.className}
+            image={props.image}
+            className={props.className}
+          />
+        ))}
+      </div>
+    )
   );
 }
