@@ -12,16 +12,16 @@ import { useMediaQuery } from "react-responsive";
 
 import { useRole } from "@/contexts/RoleContext";
 import { AUTH_STATUS, ROLES } from "@/utils/constants";
-import Logo from "./Logo";
 import { useShop } from "@/contexts/ShopContext";
 import { useAuth } from "@/contexts/AuthContext";
+import Logo from "./Logo";
 
 export default function Header() {
   const pathName = usePathname();
 
   const { role } = useRole();
   const { cartCount } = useShop();
-  const { status, user } = useAuth();
+  const { status } = useAuth();
 
   const isLg = useMediaQuery({
     query: "(min-width: 1024px)",
@@ -245,15 +245,16 @@ export default function Header() {
                 </>
               )}
 
-              <div
+              <button
+                type="button"
                 className={clsx(
                   "block cursor-pointer text-[24px] lg:hidden",
                   role === ROLES.PLAYER ? "text-[#EDF1F3]" : "text-[#000000]",
                 )}
-                onClick={handleMenuClick}
+                onClick={() => handleMenuClick}
               >
                 {openMenu ? <IoMdClose /> : <HiBars3 />}
-              </div>
+              </button>
             </div>
           </div>
 
@@ -294,7 +295,7 @@ export default function Header() {
               About Us
             </Link>
 
-            <div className="block border sm:hidden"></div>
+            <div className="block border sm:hidden" />
 
             {status !== AUTH_STATUS.AUTHENTICATED && (
               <>

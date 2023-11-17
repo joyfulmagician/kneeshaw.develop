@@ -6,11 +6,11 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Textarea } from "../ui/textarea";
+import { Textarea } from "@/components/ui/textarea";
+import { Input } from "@/components/ui/input";
 
 import { useRole } from "@/contexts/RoleContext";
 import { ROLES } from "@/utils/constants";
-import { Input } from "../ui/input";
 
 export default function FAQ() {
   const { role } = useRole();
@@ -68,9 +68,9 @@ export default function FAQ() {
           </h2>
 
           <div className="flex w-[400px] flex-col gap-[20px] sm:w-[500px] md:w-[600px] lg:w-[880px] ">
-            {faqs.map((f, index) => (
+            {faqs.map((f) => (
               <Accordion
-                key={index}
+                key={f.answer}
                 type="single"
                 collapsible
                 className="rounded-[10px] bg-[#312C29]"
@@ -81,7 +81,7 @@ export default function FAQ() {
                 >
                   <AccordionTrigger className="h-[72px] pr-[20px] text-[18px] font-light hover:no-underline">
                     <div className="flex flex-row items-center justify-center">
-                      <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]"></i>
+                      <i className="fa-regular fa-circle-dot px-[20px] text-[#E7717D]" />
                       <p className="text-[18px] font-semibold text-[#EDF1F3]">
                         {f.question}
                       </p>
@@ -106,7 +106,7 @@ export default function FAQ() {
         <div className="flex h-auto w-full justify-center">
           <div className="flex w-[60%] min-w-[350px] flex-col gap-[20px] rounded-[22px] bg-white p-[50px]">
             <h2 className="py-[20px] text-center text-[40px] font-bold text-[#211D19]">
-              Have a Questions? Let's talk!
+              Have a Questions? Let&#x27;s talk!
             </h2>
 
             <Input
@@ -126,7 +126,10 @@ export default function FAQ() {
               className="h-[242px] resize-none"
             />
 
-            <button className="h-[52px] w-full rounded-[6px] bg-[#AFD275] text-[18px] font-semibold text-[#EDF1F3]">
+            <button
+              type="button"
+              className="h-[52px] w-full rounded-[6px] bg-[#AFD275] text-[18px] font-semibold text-[#EDF1F3]"
+            >
               Send Message
             </button>
           </div>

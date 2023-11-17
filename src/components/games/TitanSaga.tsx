@@ -25,12 +25,18 @@ export default function TitanSaga() {
 
         <div className="flex flex-col justify-center gap-[20px] sm:flex-row sm:justify-start">
           <Link href="/games/apply/1">
-            <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg bg-[#AFD275] px-[44px] py-[12px] text-[16px] text-base font-[600] sm:w-[210px]">
+            <button
+              type="button"
+              className="flex h-[44px] w-[180px] items-center justify-center rounded-lg bg-[#AFD275] px-[44px] py-[12px] text-[16px] text-base font-[600] sm:w-[210px]"
+            >
               Get it now
             </button>
           </Link>
           <Link href="/games/apply/1/more">
-            <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] font-[600] sm:w-[83px]">
+            <button
+              type="button"
+              className="flex h-[44px] w-[180px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] font-[600] sm:w-[83px]"
+            >
               More
             </button>
           </Link>

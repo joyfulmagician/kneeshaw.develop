@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+
 interface Props {
   onNext: () => void;
 }
@@ -44,18 +45,23 @@ export default function Step1({ onNext }: Props) {
             </p>
             <div className="flex flex-row gap-[3px]">
               <button
+                type="button"
                 onClick={handleReduce}
                 className="h-[36px] w-[36px] bg-[#EDF1F3] text-[#AFD275]"
               >
                 -
               </button>
+
               <button
+                type="button"
                 className="h-[36px] w-[36px] bg-[#EDF1F3] text-[#AFD275]"
                 value={count}
               >
                 {count}
               </button>
+
               <button
+                type="button"
                 onClick={handleAdd}
                 className="h-[36px] w-[36px] bg-[#EDF1F3] text-[#AFD275]"
               >
@@ -81,6 +87,7 @@ export default function Step1({ onNext }: Props) {
             <p>$0.00</p>
           </div>
           <button
+            type="button"
             className="h-[52px] w-full rounded-[8px] bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]"
             onClick={() => onNext()}
           >

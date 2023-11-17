@@ -79,6 +79,7 @@ export default function Step2({ onBack, onNext }: Props) {
 
         <div className="flex flex-col items-center justify-between gap-[20px] md:flex-row">
           <button
+            type="button"
             className="h-[44px] w-[210px] rounded-[6px] border-[1px] border-[#AFD275] text-[16px] font-semibold text-[#AFD275] hover:bg-[#AFD275] hover:text-[#EDF1F3] active:bg-[#AFD275]"
             onClick={() => onBack()}
           >
@@ -86,6 +87,7 @@ export default function Step2({ onBack, onNext }: Props) {
           </button>
 
           <button
+            type="button"
             className="h-[44px] w-[210px] rounded-[6px] border-[1px] border-[#AFD275] text-[16px] font-semibold text-[#AFD275] hover:bg-[#AFD275] hover:text-[#EDF1F3] active:bg-[#AFD275]"
             onClick={() => onNext()}
           >

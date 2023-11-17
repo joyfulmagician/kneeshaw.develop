@@ -79,11 +79,11 @@ export default function NewGames() {
 
           <div className="my-[20px] flex w-full flex-col justify-between px-[40px]">
             <div className="grid grid-cols-1 gap-[60px] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {data.map(({ image, description }, index) => (
+              {data.map((props) => (
                 <LightServiceCard
-                  key={index}
-                  image={image}
-                  description={description}
+                  key={props.description}
+                  image={props.image}
+                  description={props.description}
                 />
               ))}
             </div>

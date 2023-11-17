@@ -65,13 +65,13 @@ export default function GameView() {
   return (
     <div className="flex w-full flex-col justify-between px-[40px]">
       <div className="grid grid-cols-1 gap-[60px] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {cards.map(({ image, title, subtitle, paragraph }, index) => (
+        {cards.map((props) => (
           <ImageCard
-            key={index}
-            image={image}
-            title={title}
-            subtitle={subtitle}
-            paragraph={paragraph}
+            key={props.title}
+            image={props.image}
+            title={props.title}
+            subtitle={props.subtitle}
+            paragraph={props.paragraph}
           />
         ))}
       </div>
