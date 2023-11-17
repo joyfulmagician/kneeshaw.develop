@@ -7,12 +7,12 @@ interface Props {
 export default function Step1({ onNext }: Props) {
   return (
     <>
-      <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex"></div>
+      <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex" />
 
       <section className="flex flex-[2] flex-col gap-[20px] bg-[#33302C] px-[40px] py-[50px] text-white">
         <div className="flex flex-row justify-end gap-[2px]">
-          <i className="fa-solid fa-ellipsis fa-2xl"></i>
-          <i className="fa-solid fa-ellipsis fa-2xl"></i>
+          <i className="fa-solid fa-ellipsis fa-2xl" />
+          <i className="fa-solid fa-ellipsis fa-2xl" />
         </div>
 
         <div>

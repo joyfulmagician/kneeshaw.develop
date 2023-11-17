@@ -15,12 +15,12 @@ interface Props {
 export default function Step2({ onBack, onNext }: Props) {
   return (
     <>
-      <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex"></div>
+      <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex" />
 
       <section className="flex flex-[2] flex-col gap-[20px] bg-[#33302C] px-[40px] py-[50px] text-white">
         <div className="flex flex-row justify-end gap-[2px]">
-          <i className="fa-solid fa-ellipsis fa-2xl"></i>
-          <i className="fa-solid fa-ellipsis fa-2xl"></i>
+          <i className="fa-solid fa-ellipsis fa-2xl" />
+          <i className="fa-solid fa-ellipsis fa-2xl" />
         </div>
 
         <div>
@@ -61,7 +61,7 @@ export default function Step2({ onBack, onNext }: Props) {
                 <i
                   className="fa-solid fa-plus fa-sm"
                   style={{ color: "#AFD275" }}
-                ></i>
+                />
               </div>
             </button>
 
@@ -74,7 +74,7 @@ export default function Step2({ onBack, onNext }: Props) {
                 <i
                   className="fa-solid fa-plus fa-sm"
                   style={{ color: "#AFD275" }}
-                ></i>
+                />
               </div>
             </button>
 
@@ -113,7 +113,7 @@ export default function Step2({ onBack, onNext }: Props) {
                 <i
                   className="fa-solid fa-plus fa-sm"
                   style={{ color: "#AFD275" }}
-                ></i>
+                />
               </div>
             </button>
 
@@ -126,7 +126,7 @@ export default function Step2({ onBack, onNext }: Props) {
                 <i
                   className="fa-solid fa-plus fa-sm"
                   style={{ color: "#AFD275" }}
-                ></i>
+                />
               </div>
             </button>
           </div>
@@ -144,7 +144,7 @@ export default function Step2({ onBack, onNext }: Props) {
                   <div className="text-[18px] font-light text-[#AFD275]">
                     2D
                   </div>
-                  <i className="fa-solid fa-check fa-lg text-[#AFD275]"></i>
+                  <i className="fa-solid fa-check fa-lg text-[#AFD275]" />
                 </div>
 
                 <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
@@ -177,7 +177,7 @@ export default function Step2({ onBack, onNext }: Props) {
                   <div className="text-[18px] font-light text-[#AFD275]">
                     2D
                   </div>
-                  <i className="fa-solid fa-check fa-lg text-[#AFD275]"></i>
+                  <i className="fa-solid fa-check fa-lg text-[#AFD275]" />
                 </div>
 
                 <div className="flex h-[52px] w-full flex-row items-center justify-between rounded-[6px] border-[1px] px-[10px]">
