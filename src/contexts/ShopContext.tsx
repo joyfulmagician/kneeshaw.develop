@@ -4,12 +4,12 @@ import React, { createContext, useContext, useState } from "react";
 
 interface ContextProps {
   cartCount: number;
-  setCartCount: (newCartCount: number) => void;
+  setCartCount: (_newCartCount: number) => void;
 }
 
 const defaultContextValue: ContextProps = {
   cartCount: 0,
-  setCartCount: (newCartCount: number) => {},
+  setCartCount: (_newCartCount: number) => {},
 };
 
 export const ShopContext = createContext<ContextProps>(defaultContextValue);

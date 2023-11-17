@@ -20,9 +20,9 @@ export default function AboutUs() {
 
       <section className="mx-[80px] mt-[56px] flex items-center justify-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 
@@ -36,12 +36,13 @@ export default function AboutUs() {
       <section className="mx-[80px] mt-[160px] flex flex-col 2xl:flex-row">
         <div className="w-full 2xl:w-1/2 ">
           <div className="flex w-[100px] flex-row">
-            <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+            <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+            <div className="h-[1px] w-1/3 border border-[#677746]" />
+            <div className="h-[1px] w-1/3 border border-[#677746]" />
           </div>
           <h1 className="mt-[19px] text-center text-[40px] font-[700] text-[#EDF1F3] 2xl:text-left">
-            What we're <br />
+            {"What we're "}
+            <br />
             creating
           </h1>
           <p className="text-center text-[20px] font-[400] text-[#EDF1F3] 2xl:text-left">
