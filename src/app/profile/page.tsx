@@ -36,7 +36,10 @@ export default function Profile() {
                 <p className="text-[18px] font-[400] text-[#808080]">
                   Max file size: 5 MB
                 </p>
-                <button className="w-[195px] rounded-lg border-[1px] bg-transparent p-[12px] text-[18px] font-[600]">
+                <button
+                  type="button"
+                  className="w-[195px] rounded-lg border-[1px] bg-transparent p-[12px] text-[18px] font-[600]"
+                >
                   Change Photo
                 </button>
               </div>
@@ -61,7 +64,10 @@ export default function Profile() {
                 />
               </div>
             </div>
-            <button className="ml-auto h-[52px] w-[210px] items-center rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+            <button
+              type="submit"
+              className="ml-auto h-[52px] w-[210px] items-center rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]"
+            >
               Save Changes
             </button>
           </div>

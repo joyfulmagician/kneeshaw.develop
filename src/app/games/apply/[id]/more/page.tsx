@@ -16,7 +16,7 @@ export default function PageGet({ params }: { params: { id: string } }) {
     <main className="flex min-h-screen w-full flex-col bg-[#211D19] text-white">
       <Header />
       <section>
-        {params.id == "1" && <TitanSagaMorePage />}
+        {params.id === "1" && <TitanSagaMorePage />}
         {params.id === "2" && <OldSaltMorePage />}
       </section>
       <Footer />

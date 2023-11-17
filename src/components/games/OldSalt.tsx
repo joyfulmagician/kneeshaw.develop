@@ -20,19 +20,25 @@ export default function OldSalt() {
       <div className="flex justify-end text-[20px]">
         <p className="w-[700px] text-right text-[20px] font-[400]">
           The game is a survival adventure that requires the player to manage
-          their character's hunger, thirst, and health while exploring the
+          their character&#x27;s hunger, thirst, and health while exploring the
           island for resources and materials to help them survive.
         </p>
       </div>
 
       <div className="flex flex-col justify-center gap-[20px] font-[600] sm:flex-row sm:justify-end">
         <Link href="/games/apply/2">
-          <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg bg-[#AFD275] px-[44px] py-[12px] text-[16px] sm:w-[210px]">
+          <button
+            type="button"
+            className="flex h-[44px] w-[180px] items-center justify-center rounded-lg bg-[#AFD275] px-[44px] py-[12px] text-[16px] sm:w-[210px]"
+          >
             Get it now
           </button>
         </Link>
         <Link href="/games/apply/2/more">
-          <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] sm:w-[83px]">
+          <button
+            type="button"
+            className="flex h-[44px] w-[180px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] sm:w-[83px]"
+          >
             More
           </button>
         </Link>

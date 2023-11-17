@@ -29,20 +29,27 @@ export default function Marketplace() {
         <GameView />
 
         <div className="mb-[210px] mt-[60px] flex flex-row items-center justify-center gap-[40px]">
-          <button>
-            <i className="fa-solid fa-angle-left" />
-          </button>
-          <button className="h-[30px] w-[30px] rounded-[9px] bg-[#E7717D]">
+          <i className="fa-solid fa-angle-left cursor-pointer" />
+          <button
+            type="button"
+            className="h-[30px] w-[30px] rounded-[9px] bg-[#E7717D]"
+          >
             1
           </button>
-          <button className="h-[30px] w-[30px] rounded-[9px]">2</button>
-          <button className="h-[30px] w-[30px] rounded-[9px]">3</button>
-          <i className="fa-solid fa-ellipsis"></i>
-          <button className="h-[30px] w-[30px] rounded-[9px]">13</button>
-          <button className="h-[30px] w-[30px] rounded-[9px]">14</button>
-          <button>
-            <i className="fa-solid fa-angle-right" />
+          <button type="button" className="h-[30px] w-[30px] rounded-[9px]">
+            2
           </button>
+          <button type="button" className="h-[30px] w-[30px] rounded-[9px]">
+            3
+          </button>
+          <i className="fa-solid fa-ellipsis" />
+          <button type="button" className="h-[30px] w-[30px] rounded-[9px]">
+            13
+          </button>
+          <button type="button" className="h-[30px] w-[30px] rounded-[9px]">
+            14
+          </button>
+          <i className="fa-solid fa-angle-right cursor-pointer" />
         </div>
       </section>
 

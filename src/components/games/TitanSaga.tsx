@@ -8,7 +8,7 @@ export default function TitanSaga() {
       <div className="flex w-full flex-col gap-8 xl:w-1/2">
         <h5 className="flex justify-start text-[20px] font-[600]">
           7k Players
-          <span className="inline-flex h-3 w-3 rounded-full bg-[#B74AFF]"></span>
+          <span className="inline-flex h-3 w-3 rounded-full bg-[#B74AFF]" />
         </h5>
 
         <img
@@ -25,12 +25,18 @@ export default function TitanSaga() {
 
         <div className="flex flex-col justify-center gap-[20px] sm:flex-row sm:justify-start">
           <Link href="/games/apply/1">
-            <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg bg-[#AFD275] px-[44px] py-[12px] text-[16px] text-base font-[600] sm:w-[210px]">
+            <button
+              type="button"
+              className="flex h-[44px] w-[180px] items-center justify-center rounded-lg bg-[#AFD275] px-[44px] py-[12px] text-[16px] text-base font-[600] sm:w-[210px]"
+            >
               Get it now
             </button>
           </Link>
           <Link href="/games/apply/1/more">
-            <button className="flex h-[44px] w-[180px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] font-[600] sm:w-[83px]">
+            <button
+              type="button"
+              className="flex h-[44px] w-[180px] items-center justify-center rounded-lg border border-white bg-transparent px-[24px] py-[12px] text-[16px] font-[600] sm:w-[83px]"
+            >
               More
             </button>
           </Link>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useMemo, useState } from "react";
 
 import { AUTH_STATUS } from "@/utils/constants";
 import { IUser } from "@/utils/types";
@@ -14,9 +14,9 @@ interface ContextProps {
 
 const defaultContextValue: ContextProps = {
   status: AUTH_STATUS.NO_AUTHENTICATED,
-  setStatus: (newStatus: string) => {},
+  setStatus: (_newStatus: string) => {},
   user: null,
-  setUser: (newUser: IUser) => {},
+  setUser: (_newUser: IUser) => {},
 };
 
 export const AuthContext = createContext<ContextProps>(defaultContextValue);
@@ -42,8 +42,13 @@ export default function AuthProvider({ children }: ProviderProps) {
   //   email: "emerystanton@gmail.com",
   // });
 
+  const memoizedValue = useMemo(
+    () => ({ status, setStatus, user, setUser }),
+    [status, user],
+  );
+
   return (
-    <AuthContext.Provider value={{ status, setStatus, user, setUser }}>
+    <AuthContext.Provider value={memoizedValue}>
       {children}
     </AuthContext.Provider>
   );
