@@ -8,12 +8,12 @@ interface Props {
 export default function Step2({ onBack, onNext }: Props) {
   return (
     <>
-      <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex"></div>
+      <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex" />
 
       <div className="flex flex-[2] flex-col gap-[20px] bg-[#33302C] px-[40px] py-[50px] text-white">
         <div className="flex flex-row justify-end gap-[2px]">
-          <i className="fa-solid fa-ellipsis fa-2xl"></i>
-          <i className="fa-solid fa-ellipsis fa-2xl"></i>
+          <i className="fa-solid fa-ellipsis fa-2xl" />
+          <i className="fa-solid fa-ellipsis fa-2xl" />
         </div>
 
         <div>
@@ -29,7 +29,7 @@ export default function Step2({ onBack, onNext }: Props) {
         <div className="mt-[10px] flex flex-col justify-between gap-[40px] md:flex-row">
           <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
             <div className="flex flex-col items-center gap-[20px]">
-              <i className="fa-solid fa-grip fa-2xl"></i>
+              <i className="fa-solid fa-grip fa-2xl" />
               <div className="text-[18px] font-light">Small</div>
             </div>
 
@@ -38,7 +38,7 @@ export default function Step2({ onBack, onNext }: Props) {
 
           <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
             <div className="flex flex-col items-center gap-[20px]">
-              <i className="fa-solid fa-grip fa-2xl"></i>
+              <i className="fa-solid fa-grip fa-2xl" />
               <div className="text-[18px] font-light">Medium</div>
             </div>
 
@@ -49,7 +49,7 @@ export default function Step2({ onBack, onNext }: Props) {
 
           <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
             <div className="flex flex-col items-center gap-[20px]">
-              <i className="fa-solid fa-grip fa-2xl"></i>
+              <i className="fa-solid fa-grip fa-2xl" />
               <div className="text-[18px] font-light">Large</div>
             </div>
 
@@ -76,6 +76,6 @@ export default function Step2({ onBack, onNext }: Props) {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
