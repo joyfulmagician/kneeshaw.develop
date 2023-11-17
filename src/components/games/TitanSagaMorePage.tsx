@@ -7,9 +7,9 @@ export default function TitanSagaMorePage() {
 
       <section className="mx-[80px] mt-[56px] flex items-center justify-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 
@@ -24,9 +24,9 @@ export default function TitanSagaMorePage() {
       <section className="mx-[80px] mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
         <div className="mt-[21px] flex items-center">
           <div className="flex w-[100px] flex-row">
-            <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+            <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+            <div className="h-[1px] w-1/3 border border-[#677746]" />
+            <div className="h-[1px] w-1/3 border border-[#677746]" />
           </div>
         </div>
         <h1 className="mt-[21px] text-[40px]">Build a Royal House</h1>
@@ -120,9 +120,9 @@ export default function TitanSagaMorePage() {
 
       <section className="mx-[80px] mt-[21px] flex items-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 
@@ -135,7 +135,7 @@ export default function TitanSagaMorePage() {
           <h1 className="text-[30px]">Dynamic Lighting</h1>
           <p className="text-[20px]">
             As players venture through the intricate environments, they will
-            witness the dynamic lighting system in action. Whether it's
+            witness the dynamic lighting system in action. Whether it&#x27;s
             exploring ancient dungeons, wandering through dense forests, or
             traversing bustling cities, the lighting dynamically adjusts to
             create a truly atmospheric experience.
@@ -150,7 +150,7 @@ export default function TitanSagaMorePage() {
           <p className="text-[20px]">
             Visually stunning and immersive battlegrounds. Engage in dynamic,
             high-octane battles with dazzling animations and explosive special
-            effects. Whether you're facing off against colossal bosses or
+            effects. Whether you&#x27;re facing off against colossal bosses or
             engaging in intense skirmishes with hordes of enemies, every fight
             feels like an epic showdown.
           </p>
@@ -192,9 +192,9 @@ export default function TitanSagaMorePage() {
 
       <section className="mx-[80px] mt-[21px] flex items-center justify-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 
@@ -215,9 +215,9 @@ export default function TitanSagaMorePage() {
 
       <section className="mx-[80px] mt-[21px] flex items-center justify-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 
@@ -247,13 +247,16 @@ export default function TitanSagaMorePage() {
           to Kneeshaw Games and provide a link back to our official website.
           <br />
           Should you require any additional information or have specific media
-          requests, please don't hesitate to reach out to our dedicated press
-          contact listed in the Press Kit. <br />
+          requests, please don&#x27;t hesitate to reach out to our dedicated
+          press contact listed in the Press Kit. <br />
           Thank you for your support, and we look forward to seeing your
           coverage of TitanSaga!
         </p>
         <div className="flex justify-center">
-          <button className="h-[52px] w-[200px] rounded-lg border-[1px] bg-[#AFD275]">
+          <button
+            type="button"
+            className="h-[52px] w-[200px] rounded-lg border-[1px] bg-[#AFD275]"
+          >
             Download Press Kit
           </button>
         </div>

@@ -122,6 +122,7 @@ export default function Step2({ onNext }: Props) {
           </div>
 
           <button
+            type="button"
             className="h-[52px] w-full rounded-[8px] bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]"
             onClick={() => onNext()}
           >

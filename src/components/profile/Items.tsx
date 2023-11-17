@@ -70,7 +70,10 @@ export default function Items() {
                 </div>
                 <div className="mt-[20px] flex justify-center">
                   <Link href="/cart">
-                    <button className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+                    <button
+                      type="button"
+                      className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]"
+                    >
                       Check Out
                     </button>
                   </Link>

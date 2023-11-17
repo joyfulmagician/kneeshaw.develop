@@ -8,12 +8,12 @@ interface Props {
 export default function Step2({ onBack, onNext }: Props) {
   return (
     <>
-      <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex"></div>
+      <div className="hidden h-auto flex-1 bg-[#A0BF6C] xl:flex" />
 
       <div className="flex flex-[2] flex-col gap-[20px] bg-[#33302C] px-[40px] py-[50px] text-white">
         <div className="flex flex-row justify-end gap-[2px]">
-          <i className="fa-solid fa-ellipsis fa-2xl"></i>
-          <i className="fa-solid fa-ellipsis fa-2xl"></i>
+          <i className="fa-solid fa-ellipsis fa-2xl" />
+          <i className="fa-solid fa-ellipsis fa-2xl" />
         </div>
 
         <div>
@@ -27,18 +27,24 @@ export default function Step2({ onBack, onNext }: Props) {
         </div>
 
         <div className="mt-[10px] flex flex-col justify-between gap-[40px] md:flex-row">
-          <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
+          <button
+            type="button"
+            className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]"
+          >
             <div className="flex flex-col items-center gap-[20px]">
-              <i className="fa-solid fa-grip fa-2xl"></i>
+              <i className="fa-solid fa-grip fa-2xl" />
               <div className="text-[18px] font-light">Small</div>
             </div>
 
             <div className="text-[14px] font-light">Quick Tasks</div>
           </button>
 
-          <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
+          <button
+            type="button"
+            className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]"
+          >
             <div className="flex flex-col items-center gap-[20px]">
-              <i className="fa-solid fa-grip fa-2xl"></i>
+              <i className="fa-solid fa-grip fa-2xl" />
               <div className="text-[18px] font-light">Medium</div>
             </div>
 
@@ -47,9 +53,12 @@ export default function Step2({ onBack, onNext }: Props) {
             </div>
           </button>
 
-          <button className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]">
+          <button
+            type="button"
+            className="flex h-[142px] w-full flex-col items-center justify-center gap-[5px] rounded-[6px] border-[1px] border-[#EDF1F3] hover:bg-[#474B35]"
+          >
             <div className="flex flex-col items-center gap-[20px]">
-              <i className="fa-solid fa-grip fa-2xl"></i>
+              <i className="fa-solid fa-grip fa-2xl" />
               <div className="text-[18px] font-light">Large</div>
             </div>
 
@@ -58,10 +67,11 @@ export default function Step2({ onBack, onNext }: Props) {
             </div>
           </button>
         </div>
-        <div className="h-[208px]"></div>
+        <div className="h-[208px]" />
 
         <div className="flex flex-col items-center justify-between gap-[20px] md:flex-row">
           <button
+            type="button"
             className="h-[44px] w-[210px] rounded-[6px] border-[1px] border-[#AFD275] text-[16px] font-semibold text-[#AFD275] hover:bg-[#AFD275] hover:text-[#EDF1F3] active:bg-[#AFD275]"
             onClick={() => onBack()}
           >
@@ -69,6 +79,7 @@ export default function Step2({ onBack, onNext }: Props) {
           </button>
 
           <button
+            type="button"
             className="h-[44px] w-[210px] rounded-[6px] border-[1px] border-[#AFD275] text-[16px] font-semibold text-[#AFD275] hover:bg-[#AFD275] hover:text-[#EDF1F3] active:bg-[#AFD275]"
             onClick={() => onNext()}
           >

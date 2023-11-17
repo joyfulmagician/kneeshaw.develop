@@ -22,9 +22,9 @@ export default function OldSaltMorePage() {
       <section className="mx-[80px] mt-[100px] flex flex-col gap-[32px] bg-[#35322F] p-[48px]">
         <div className="mt-[21px] flex items-center">
           <div className="flex w-[100px] flex-row">
-            <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-            <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+            <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+            <div className="h-[1px] w-1/3 border border-[#677746]" />
+            <div className="h-[1px] w-1/3 border border-[#677746]" />
           </div>
         </div>
         <h1 className="mt-[21px] text-[40px]">Build a Royal House</h1>
@@ -36,11 +36,12 @@ export default function OldSaltMorePage() {
             <br />
             Engross yourself in a narrative that unfolds through journal entries
             and evocative flashbacks, providing a deeper connection to your
-            character's plight. <br /> Embark on a memorable journey of
-            survival, exploration, and self-discovery in "Old Salt" – the game
-            that challenges your resilience and captivates your imagination.
-            Choose your allegiance from a diverse lineup of six unique factions,
-            each with its distinct play style, units, and abilities.
+            character&#x27;s plight. <br /> Embark on a memorable journey of
+            survival, exploration, and self-discovery in &quot;Old Salt&quot; –
+            the game that challenges your resilience and captivates your
+            imagination. Choose your allegiance from a diverse lineup of six
+            unique factions, each with its distinct play style, units, and
+            abilities.
           </p>
           <p>
             Overall, Titan Saga aims to offer an engaging and immersive RPG
@@ -113,9 +114,9 @@ export default function OldSaltMorePage() {
 
       <section className="mx-[80px] mt-[21px] flex items-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 
@@ -130,7 +131,7 @@ export default function OldSaltMorePage() {
             Immerse yourself on an epic journey through a richly crafted world.
             Experience a thrilling storyline, engaging characters, and
             challenging missions as you uncover the secrets of this immersive
-            game. Whether you're a seasoned player or new to the genre, the
+            game. Whether you&#x27;re a seasoned player or new to the genre, the
             single-player campaign offers an exciting adventure tailored to your
             skill level.
           </p>
@@ -173,9 +174,9 @@ export default function OldSaltMorePage() {
 
       <section className="mx-[80px] mt-[56px] flex items-center justify-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 
@@ -185,10 +186,10 @@ export default function OldSaltMorePage() {
         effects. The player must explore the island and solve various puzzles
         and obstacles to progress further in the game. The story is told through
         various means, such as journal entries and flashbacks, which provide
-        insight into the character's background and motivations. <br /> Old Salt
-        is designed to provide a challenging and immersive survival experience
-        for players who enjoy exploring and overcoming obstacles in a detailed
-        and historically accurate environment.
+        insight into the character&#x27;s background and motivations. <br /> Old
+        Salt is designed to provide a challenging and immersive survival
+        experience for players who enjoy exploring and overcoming obstacles in a
+        detailed and historically accurate environment.
       </section>
 
       <section className="mx-[80px] mt-[80px]">
@@ -203,13 +204,16 @@ export default function OldSaltMorePage() {
           to Kneeshaw Games and provide a link back to our official website.
           <br />
           Should you require any additional information or have specific media
-          requests, please don't hesitate to reach out to our dedicated press
-          contact listed in the Press Kit. <br />
+          requests, please don&#x27;t hesitate to reach out to our dedicated
+          press contact listed in the Press Kit. <br />
           Thank you for your support, and we look forward to seeing your
           coverage of TitanSaga!
         </p>
         <div className="flex justify-center">
-          <button className="h-[52px] w-[200px] rounded-lg border-[1px] bg-[#AFD275]">
+          <button
+            type="submit"
+            className="h-[52px] w-[200px] rounded-lg border-[1px] bg-[#AFD275]"
+          >
             Download Press Kit
           </button>
         </div>

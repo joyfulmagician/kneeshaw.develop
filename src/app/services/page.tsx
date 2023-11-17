@@ -212,9 +212,9 @@ export default function Services() {
         <div className="w-full xl:w-1/2">
           <div className="flex items-center">
             <div className="flex w-[100px] flex-row">
-              <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-              <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-              <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+              <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+              <div className="h-[1px] w-1/3 border border-[#677746]" />
+              <div className="h-[1px] w-1/3 border border-[#677746]" />
             </div>
           </div>
           <h1 className="mt-[21px] text-[40px] font-[700] text-[#EDF1F3]">
@@ -241,7 +241,10 @@ export default function Services() {
             className="h-[165px] w-full rounded-sm border-[1px] bg-[#292929] p-[5px] font-[300] text-[#C2B9B0]"
             placeholder="Write your message"
           />
-          <button className="h-[52px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+          <button
+            type="submit"
+            className="h-[52px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]"
+          >
             Send Message
           </button>
         </div>

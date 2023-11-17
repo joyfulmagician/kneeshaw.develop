@@ -50,7 +50,10 @@ export default function TitanSagaPage() {
         </div>
         <Sheet>
           <SheetTrigger>
-            <button className="flex h-[52px] w-[136px] items-center justify-center rounded-xl bg-[#B1CE75] font-[600] text-[#EDF1F3]">
+            <button
+              type="button"
+              className="flex h-[52px] w-[136px] items-center justify-center rounded-xl bg-[#B1CE75] font-[600] text-[#EDF1F3]"
+            >
               Add to Cart
             </button>
           </SheetTrigger>
@@ -93,7 +96,10 @@ export default function TitanSagaPage() {
                   </div>
                 </div>
                 <div className="mt-[20px] flex justify-center">
-                  <button className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+                  <button
+                    type="button"
+                    className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]"
+                  >
                     Check Out
                   </button>
                 </div>
