@@ -31,9 +31,9 @@ export default function Games() {
 
       <section className="mx-[80px] mt-[56px] flex items-center justify-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 
@@ -76,9 +76,9 @@ export default function Games() {
 
       <section className="mx-[80px] mt-[120px] flex items-center">
         <div className="flex w-[100px] flex-row">
-          <div className="h-[1px] w-1/3 border border-[#AFD275]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
-          <div className="h-[1px] w-1/3 border border-[#677746]"></div>
+          <div className="h-[1px] w-1/3 border border-[#AFD275]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
+          <div className="h-[1px] w-1/3 border border-[#677746]" />
         </div>
       </section>
 

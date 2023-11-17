@@ -15,7 +15,7 @@ export default function CartWizard() {
 
       {step === 2 && <Step2 onNext={() => setStep((prev) => prev + 1)} />}
 
-      {step === 3 && <Step3 onNext={() => setStep((prev) => prev + 1)} />}
+      {step === 3 && <Step3 />}
     </section>
   );
 }
