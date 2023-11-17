@@ -11,7 +11,7 @@ export default function Demo() {
   return (
     <>
       {role === ROLES.PLAYER && (
-        <div className="mb-[70px] mt-[39px] flex w-[80%] min-w-[400px] max-w-[880px] flex-col items-center rounded-[24px] bg-[#35322F] text-[#EDF1F3] lg:max-h-[1089px] lg:w-full">
+        <div className="mb-[70px] mt-[39px] flex w-[80%] min-w-[400px] max-w-[880px] flex-col items-center rounded-[24px] bg-[#35322F] text-[#C2CAD0] lg:max-h-[1089px] lg:w-full">
           <div className="mt-[60px] flex flex-col items-center gap-[10px]">
             <h1 className="text-center text-[52px] font-bold">
               Welcome to
@@ -23,11 +23,11 @@ export default function Demo() {
           </div>
 
           <div className="mt-[30px] flex h-[64px] w-[350px] flex-row items-center justify-between gap-[10px] rounded-[20px] bg-[#211D19]">
-            <button className="h-full w-[163px] text-[#AFD275]">
+            <button className="h-full w-[163px] font-[600] text-[#AFD275]">
               Developer
             </button>
 
-            <button className="h-full w-[163px] rounded-[18px] border bg-[#AFD275]">
+            <button className="h-full w-[163px] rounded-[18px] border bg-[#AFD275] font-[600]">
               Gamer
             </button>
           </div>
@@ -37,13 +37,13 @@ export default function Demo() {
               <input
                 type="text"
                 placeholder="First name"
-                className="h-[52px] w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
 
               <input
                 type="text"
                 placeholder="Last name"
-                className="h-[52px] w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
             </div>
 
@@ -51,7 +51,7 @@ export default function Demo() {
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
               <span className="text-[14px] font-normal">
                 Never shown to the public
@@ -62,7 +62,7 @@ export default function Demo() {
               <input
                 type="text"
                 placeholder="Create username"
-                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
               <span className="text-[14px] font-normal">
                 Ideal username is short, unique with no spaces
@@ -131,11 +131,11 @@ export default function Demo() {
           </div>
 
           <div className="mt-[30px] flex h-[64px] w-[350px] flex-row items-center justify-between gap-[10px] rounded-[20px] bg-[#211D19]">
-            <button className="h-full w-[163px] text-[#AFD275]">
+            <button className="h-full w-[163px] font-[600] text-[#AFD275]">
               Developer
             </button>
 
-            <button className="h-full w-[163px] rounded-[18px] border bg-[#AFD275]">
+            <button className="h-full w-[163px] rounded-[18px] border bg-[#AFD275] font-[600]">
               Gamer
             </button>
           </div>
@@ -145,13 +145,13 @@ export default function Demo() {
               <input
                 type="text"
                 placeholder="First name"
-                className="h-[52px] w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
 
               <input
                 type="text"
                 placeholder="Last name"
-                className="h-[52px] w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
             </div>
 
@@ -159,7 +159,7 @@ export default function Demo() {
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
               <span className="text-[14px] font-normal">
                 Never shown to the public
@@ -170,7 +170,7 @@ export default function Demo() {
               <input
                 type="text"
                 placeholder="Create username"
-                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
               <span className="text-[14px] font-normal">
                 Ideal username is short, unique with no spaces
@@ -181,7 +181,7 @@ export default function Demo() {
               <input
                 type="text"
                 placeholder="Create password"
-                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#EDF1F3] bg-transparent pl-[10px] text-[16px] font-normal text-white"
+                className="h-[52px] w-[72%] min-w-[219px] rounded-[16px] border border-[#C2CAD0] bg-transparent pl-[10px] text-[16px] font-normal text-white"
               />
               <div className="flex w-[72%] min-w-[219px] flex-row items-center justify-between">
                 <span className="text-[14px] font-normal">
@@ -209,7 +209,7 @@ export default function Demo() {
               Create your account
             </button>
 
-            <button className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[#EDF1F3] ">
+            <button className="flex h-[52px] w-full flex-row items-center justify-center gap-[10px] rounded-[18px] border border-[#C2CAD0] ">
               <FcGoogle />
               <span className="text-[14px] font-semibold sm:text-[18px]">
                 Sign up with Google
