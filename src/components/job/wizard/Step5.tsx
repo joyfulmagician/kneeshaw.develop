@@ -64,11 +64,15 @@ export default function Step2({ onBack, onNext }: Props) {
           </div>
 
           <ul className="list-disc pl-[20px]">
-            <li className="text-[18px] font-light">3 to 6 months</li>
-            <li className="text-[18px] font-light text-[#AFD275]">
+            <li className="cursor-pointer text-[18px] font-light">
+              3 to 6 months
+            </li>
+            <li className="cursor-pointer text-[18px] font-light text-[#AFD275]">
               1 to 3 months
             </li>
-            <li className="text-[18px] font-light">Less than 1 months</li>
+            <li className="cursor-pointer text-[18px] font-light">
+              Less than 1 months
+            </li>
           </ul>
         </div>
 
@@ -78,17 +82,21 @@ export default function Step2({ onBack, onNext }: Props) {
           </div>
 
           <ul className="list-disc pl-[20px]">
-            <li className="text-[18px] font-light">Entry</li>
+            <li className="cursor-pointer text-[18px] font-light">Entry</li>
             <span className="text-[14px] font-light text-[#808080]">
               Looking for someone relatively new to this field
             </span>
 
-            <li className="mt-[10px] text-[18px] font-light">Intermediate</li>
+            <li className="mt-[10px] cursor-pointer text-[18px] font-light">
+              Intermediate
+            </li>
             <span className="text-[14px] font-light text-[#808080]">
               Looking for someone relatively new to this field
             </span>
 
-            <li className="mt-[10px] text-[18px] font-light">Expert</li>
+            <li className="mt-[10px] cursor-pointer text-[18px] font-light">
+              Expert
+            </li>
             <span className="text-[14px] font-light text-[#808080]">
               Looking for someone relatively new to this field
             </span>
