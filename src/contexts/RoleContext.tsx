@@ -6,12 +6,12 @@ import { ROLES } from "@/utils/constants";
 
 interface ContextProps {
   role: string;
-  setRole: (newRole: string) => void;
+  setRole: (_newRole: string) => void;
 }
 
 const defaultContextValue: ContextProps = {
   role: ROLES.PLAYER,
-  setRole: (newRole: string) => {},
+  setRole: (_newRole: string) => {},
 };
 
 export const RoleContext = createContext<ContextProps>(defaultContextValue);
