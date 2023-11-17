@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
   Sheet,
   SheetContent,
@@ -16,7 +18,10 @@ export default function Items() {
     <div className="flex h-[203px] w-[282px] flex-col justify-between rounded-lg bg-[#35322F] p-[16px]">
       <div className="flex flex-row items-center">
         <RiHome4Line />
-        <span className="text-[18px] font-[500]">My Profile</span>
+
+        <Link href="/profile">
+          <span className="text-[18px] font-[500]">My Profile</span>
+        </Link>
       </div>
 
       <div className="flex flex-row items-center">
@@ -64,9 +69,11 @@ export default function Items() {
                   </div>
                 </div>
                 <div className="mt-[20px] flex justify-center">
-                  <button className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
-                    Check Out
-                  </button>
+                  <Link href="/cart">
+                    <button className="h-[52px] w-[210px] rounded-lg bg-[#AFD275] text-[18px] font-[600] text-[#EDF1F3]">
+                      Check Out
+                    </button>
+                  </Link>
                 </div>
               </SheetDescription>
             </SheetHeader>
@@ -79,12 +86,16 @@ export default function Items() {
 
       <div className="flex flex-row items-center">
         <CgFileDocument />
-        <span className="text-[18px] font-[500]">Request Quote</span>
+        <Link href="/quote">
+          <span className="text-[18px] font-[500]">Request Quote</span>
+        </Link>
       </div>
 
       <div className="flex flex-row items-center">
         <LuSettings />
-        <span className="text-[18px] font-[500]">Settings</span>
+        <Link href="/settings">
+          <span className="text-[18px] font-[500]">Settings</span>
+        </Link>
       </div>
     </div>
   );
