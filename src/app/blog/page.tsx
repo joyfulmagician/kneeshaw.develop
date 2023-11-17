@@ -37,7 +37,7 @@ export default function Marketplace() {
           </button>
           <button className="h-[30px] w-[30px] rounded-[9px]">2</button>
           <button className="h-[30px] w-[30px] rounded-[9px]">3</button>
-          <i className="fa-solid fa-ellipsis"></i>
+          <i className="fa-solid fa-ellipsis" />
           <button className="h-[30px] w-[30px] rounded-[9px]">13</button>
           <button className="h-[30px] w-[30px] rounded-[9px]">14</button>
           <button>

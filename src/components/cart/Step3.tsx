@@ -2,10 +2,6 @@
 
 import { IoIosCheckmarkCircle } from "react-icons/io";
 
-interface Props {
-  onNext: () => void;
-}
-
 export default function Step3() {
   return (
     <>
